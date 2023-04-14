@@ -201,6 +201,20 @@ releases_bproj |>
         quantile(delay_abs, 0.5),
         ecdf(delay_abs)(1))
 
+releases_bproj |>
+    group_by(cycle_type) |>
+    summarize(
+        m = median(delay_abs),
+        q1 = quantile(delay_abs, 0.25),
+        q2 = quantile(delay_abs, 0.5),
+        q3 = quantile(delay_abs, 0.75),
+        iqr = q3 - q1,
+        min = q1 - 1.5 * iqr,
+        max = q3 + 1.5 * iqr,
+        1 - ecdf(delay_abs)(1),
+        ecdf(delay_abs)(0),
+    ) |> t()
+
 ```
 ```{r}
 plot <- releases_bproj |>
