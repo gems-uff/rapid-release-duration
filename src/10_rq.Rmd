@@ -1,0 +1,280 @@
+---
+title: RQ1 - Collaboration
+author: Felipe Curty
+output: html_notebook
+---
+
+# Setup
+```{r setup}
+library(tidyverse)
+library(lubridate)
+library(effsize)
+library(patchwork)
+library(reticulate)
+# require(cowplot)
+# library(plotly)
+
+# use_virtualenv('/home/felipecrp/.local/share/virtualenvs/paper_exp2022colab-BDsA1oWT')
+
+ROOT_PATH <- rprojroot::find_root(rprojroot::has_file("README.md"))
+DATA_PATH <- file.path(ROOT_PATH, "data")
+FIG_PATH <- file.path(ROOT_PATH, "paper", "fig")
+```
+
+# Data
+
+## Handle Data
+```{r}
+releases <- read.csv(
+    file.path(DATA_PATH, "20_releases.csv")
+)
+
+releases <- releases |>
+    filter(rapid_release == "True" | trad_release == "True") |>
+    mutate(
+        cycle_type = ifelse(rapid_release == "True", "rapid", "trad"),
+        cycle_type = factor(cycle_type, levels = c("trad", "rapid")))
+
+```
+
+## Process data
+```{r}
+releases_bproj <- releases |>
+    group_by(project, cycle_type) |>
+    summarize(
+        n_releases = n(),
+
+        duration_abs = mean(development_rdays),
+        duration_nrm = mean(development_rdays / cycle_rdays),
+
+        delay_abs = mean(delay_rdays),
+        delay_nrm = mean(delay_rdays / cycle_rdays)
+
+        
+        # Rework
+        #rework_rel = mean((churn_total - churn_release) / churn_release)
+    )
+```
+
+## Summary
+```{r}
+releases_bproj |>
+    group_by(cycle_type) |>
+    select(-project) |>
+    summarise_all(list(mean)) |>
+    t()
+
+```
+
+## Correlation
+
+```{r}
+releases |>
+    select(cycle_rdays, development_rdays, delay_rdays) |>
+    cor(method = "spearman")
+```
+
+# Development days
+```{r}
+releases_bproj |>
+    group_by(cycle_type) %>%
+    summarize(
+        shapiro.test(duration_abs)$p.value,
+        shapiro.test(duration_nrm)$p.value)
+```
+## Absolute
+
+```{r}
+wilcox.test(
+    duration_abs ~ cycle_type, data = releases_bproj,
+    paired = TRUE)
+cliff.delta(
+    duration_abs ~ cycle_type, data = releases_bproj)
+
+plot <- releases_bproj |>
+    ggplot(aes(
+        duration_abs,
+        cycle_type)) +
+    geom_boxplot() +
+    coord_cartesian(
+        xlim = c(0, quantile(releases_bproj$duration_abs, 0.95))) +
+    scale_x_continuous(n.breaks = 10) + # breaks = seq(0, 12, 1)) +
+    scale_y_discrete(
+        labels = c(
+            "rapid" = "rapid",
+            "trad" = "traditional"
+        )
+    ) +
+    labs(
+        title = "Development time in days",
+        x = "days",
+        y = NULL
+    ) +
+    theme_bw() +
+    theme(
+        text = element_text(size = 20),
+        plot.title = element_text(size = 20),
+        axis.text.y = element_text(angle = 90, hjust = 0.5),
+    )
+plot
+ggsave("duration_abs.png", path = FIG_PATH,
+    height = 80, unit = "mm", dpi = 300)
+
+```
+
+## Normalized
+```{r}
+wilcox.test(
+    duration_nrm ~ cycle_type, data = releases_bproj,
+    paired = TRUE)
+cliff.delta(
+    duration_nrm ~ cycle_type, data = releases_bproj)
+
+releases_bproj |>
+    group_by(cycle_type) |>
+    summarize(
+        m = median(duration_nrm),
+        q1 = quantile(duration_nrm, 0.25),
+        q2 = quantile(duration_nrm, 0.5),
+        q3 = quantile(duration_nrm, 0.75),
+        iqr = q3 - q1,
+        min = q1 - 1.5 * iqr,
+        max = q3 + 1.5 * iqr,
+        dev_in_own_cycle = ecdf(duration_nrm)(1),
+        ecdf(duration_nrm)(1.97),
+        ecdf(duration_nrm)(2),
+    ) |> t()
+```
+
+```{r}
+plot <- releases_bproj |>
+    ggplot(aes(
+        duration_nrm,
+        cycle_type)) +
+    geom_boxplot() +
+    coord_cartesian(
+        xlim = c(0, 5)) +
+        # xlim = c(0, quantile(releases_bproj$duration_nrm, 0.95))) +
+    scale_x_continuous(n.breaks = 10) + # breaks = seq(0, 12, 1)) +
+    scale_y_discrete(
+        labels = c(
+            "rapid" = "rapid",
+            "trad" = "traditional"
+        )
+    ) +
+    labs(
+        title = "Development duration per cycle",
+        x = "cycles",
+        y = NULL
+    ) +
+    theme_bw() +
+    theme(
+        text = element_text(size = 20),
+        title = element_text(size = 18),
+        axis.text.y = element_text(angle = 90, hjust = 0.5),
+    )
+plot
+ggsave("duration_nrm.png", path = FIG_PATH,
+    height = 80, unit = "mm", dpi = 300)
+
+```
+
+# Delay
+
+releases_bproj |>
+    group_by(cycle_type) %>%
+    summarize(
+        shapiro.test(delay_abs)$p.value,
+        shapiro.test(delay_nrm)$p.value)
+
+## Absolute
+```{r}
+wilcox.test(
+    delay_abs ~ cycle_type, data = releases_bproj,
+    paired = TRUE)
+cliff.delta(
+    delay_abs ~ cycle_type, data = releases_bproj)
+
+releases_bproj |>
+    group_by(cycle_type) |>
+    summarize(
+        quantile(delay_abs, 0.5),
+        ecdf(delay_abs)(1))
+
+```
+```{r}
+plot <- releases_bproj |>
+    ggplot(aes(
+        delay_abs,
+        cycle_type)) +
+    geom_boxplot() +
+    coord_cartesian(
+        xlim = c(-200, 300)) +
+        # xlim = c(
+        #     quantile(releases_bproj$delay_abs, 0.025),
+        #     quantile(releases_bproj$delay_abs, 0.975))) +
+    scale_x_continuous(n.breaks = 10) + # breaks = seq(0, 12, 1)) +
+    scale_y_discrete(
+        labels = c(
+            "rapid" = "rapid",
+            "trad" = "traditional"
+        )
+    ) +
+    labs(
+        title = "Development delay",
+        x = "days",
+        y = NULL
+    ) +
+    theme_bw() +
+    theme(
+        text = element_text(size = 20),
+        title = element_text(size = 18),
+        axis.text.y = element_text(angle = 90, hjust = 0.5),
+    )
+plot
+ggsave("delay_abs.png", path = FIG_PATH,
+    height = 80, unit = "mm", dpi = 300)
+```
+
+## Normalized
+
+```{r}
+
+wilcox.test(
+    delay_nrm ~ cycle_type, data = releases_bproj,
+    paired = TRUE)
+
+cliff.delta(
+    delay_nrm ~ cycle_type, data = releases_bproj)
+
+plot <- releases_bproj |>
+    ggplot(aes(
+        delay_nrm,
+        cycle_type)) +
+    geom_boxplot() +
+    coord_cartesian(
+        xlim = c(
+            quantile(releases_bproj$delay_nrm, 0.025),
+            quantile(releases_bproj$delay_nrm, 0.975))) +
+    scale_x_continuous(n.breaks = 10) + # breaks = seq(0, 12, 1)) +
+    scale_y_discrete(
+        labels = c(
+            "rapid" = "rapid",
+            "trad" = "traditional"
+        )
+    ) +
+    labs(
+        title = "Development time",
+        x = "days",
+        y = NULL
+    ) +
+    theme_bw() +
+    theme(
+        text = element_text(size = 20),
+        plot.title = element_text(size = 20),
+        axis.text.y = element_text(angle = 90, hjust = 0.5),
+    )
+plot
+ggsave("delay_nrm.png", path = FIG_PATH,
+    height = 80, unit = "mm", dpi = 300)
+```
