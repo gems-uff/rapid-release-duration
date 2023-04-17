@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+jupyterlab = "*"
+altair = "*"
+matplotlib = "*"
+numpy = "*"
+pygit2 = "*"
+ipympl = "*"
+radian = "*"
+altair-saver = "*"
+seaborn = "*"
+scipy = "*"
+releasy-lib = {editable = true, path = "./../../dev/releasy"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
