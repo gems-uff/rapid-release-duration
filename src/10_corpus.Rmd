@@ -1,0 +1,53 @@
+---
+title: Project Corpus
+author: Felipe Curty
+output: html_notebook
+---
+
+# Setup
+```{r setup}
+library(tidyverse)
+library(lubridate)
+library(effsize)
+library(patchwork)
+library(reticulate)
+# require(cowplot)
+# library(plotly)
+
+# use_virtualenv('/home/felipecrp/.local/share/virtualenvs/paper_exp2022colab-BDsA1oWT')
+
+ROOT_PATH <- rprojroot::find_root(rprojroot::has_file("README.md"))
+DATA_PATH <- file.path(ROOT_PATH, "data")
+FIG_PATH <- file.path(ROOT_PATH, "paper", "fig")
+```
+
+# Data
+
+## Handle Data
+```{r}
+releases <- read.csv(
+    file.path(DATA_PATH, "20_releases.csv")
+)
+
+releases <- releases %>%
+    mutate(
+        cycle_type = case_when(
+            rapid_release == "True" ~ "rapid",
+            trad_release == "True" ~ "trad",
+            TRUE ~ "other"))
+```
+
+## Summary
+```{r}
+releases %>% count()
+
+releases %>%
+    summarize(sum(commits))
+
+releases %>%
+    group_by(cycle_type) %>%
+    summarise(
+        releases = n(),
+        commits = sum(commits))
+
+```
