@@ -42,12 +42,18 @@ releases <- releases %>%
 releases %>% count()
 
 releases %>%
-    summarize(sum(commits))
+    summarize(
+        n(),
+        sum(commits))
+        
 
 releases %>%
     group_by(cycle_type) %>%
     summarise(
         releases = n(),
-        commits = sum(commits))
+        commits = sum(commits),
+        commits_per_release = sum(commits/releases),
+        patches = sum(patches),
+        patches_per_release = sum(patches/releases))
 
 ```
