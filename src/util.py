@@ -24,26 +24,26 @@ class CycleType(Enum):
 def delta2days(td):
     return td.total_seconds() / datetime.timedelta(days=1).total_seconds()
 
-def is_rapid_release(release):    
-    if not release.commits:
-        return False
-    if not release.prev_main_release:
-        return False
-    days = delta2days(release.cycle)
-    if days == 0:
-        return False
-    if days > RAPID_RELEASE_LIM:
-        return False
-    return True
+# def is_rapid_release(release):    
+#     if not release.commits:
+#         return False
+#     if not release.prev_main_release:
+#         return False
+#     days = delta2days(release.cycle)
+#     if days == 0:
+#         return False
+#     if days > RAPID_RELEASE_LIM:
+#         return False
+#     return True
 
-def is_trad_release(release):
-    if not release.commits:
-        return False
-    if not release.prev_main_release:
-        return False
-    days = delta2days(release.cycle)
-    if days == 0:
-        return False
-    if days < TRAD_RELEASE_LIM:
-        return False
-    return True
+# def is_trad_release(release):
+#     if not release.commits:
+#         return False
+#     if not release.prev_main_release:
+#         return False
+#     days = delta2days(release.cycle)
+#     if days == 0:
+#         return False
+#     if days < TRAD_RELEASE_LIM:
+#         return False
+#     return True
