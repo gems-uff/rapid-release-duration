@@ -29,11 +29,30 @@ releases <- read.csv(
     file.path(DATA_PATH, "20_releases.csv")
 )
 
+# releases <- releases |>
+#     group_by(project) |>
+#     summarize(s=sum(commits)) |>
+#     filter(s>=1000) |>
+#     select(project) |>
+#     inner_join(releases)
+
 releases <- releases |>
     filter(rapid_release == "True" | trad_release == "True") |>
+    # filter(cycle_days >= 1) |>
     mutate(
         cycle_type = ifelse(rapid_release == "True", "rapid", "trad"),
         cycle_type = factor(cycle_type, levels = c("trad", "rapid")))
+
+releases <- releases |>
+    filter(commits >= 2) |>
+    group_by(project, cycle_type) |>
+    summarise(n_releases = n()) |>
+    pivot_wider(names_from = cycle_type, values_from = n_releases) |>
+    replace_na(list(n_release = 0)) |>
+    filter(trad >= 2 & rapid >= 2) |>
+    select(project) |>
+    inner_join(releases) |>
+    filter(commits >= 2)
 
 ```
 
@@ -43,16 +62,16 @@ releases_bproj <- releases |>
     group_by(project, cycle_type) |>
     summarize(
         n_releases = n(),
+        cycle_abs = mean(cycle_days),
 
-        duration_abs = mean(development_rdays),
-        duration_nrm = mean(development_rdays / cycle_rdays),
-
-        delay_abs = mean(delay_rdays),
-        delay_nrm = mean(delay_rdays / cycle_rdays)
-
+        duration_abs = mean(duration),
+        # duration_nrm = mean(duration / cycle_days),
+        duration_nrm = mean(duration) / mean(cycle_days),
         
-        # Rework
-        #rework_rel = mean((churn_total - churn_release) / churn_release)
+        delay_abs = mean(start_delay),
+        delay_nrm = mean(start_delay / cycle_days),
+
+        commits_in_advance = mean(commits_in_advance / commits)
     )
 ```
 
@@ -61,16 +80,21 @@ releases_bproj <- releases |>
 releases_bproj |>
     group_by(cycle_type) |>
     select(-project) |>
-    summarise_all(list(mean)) |>
+    summarise_all(list(median)) |>
     t()
 
+releases_bproj |>
+    group_by(cycle_type) |>
+    select(-project) |>
+    summarise_all(list(mean)) |>
+    t()
 ```
 
 ## Correlation
 
 ```{r}
 releases |>
-    select(cycle_rdays, development_rdays, delay_rdays) |>
+    select(cycle_days, commits, duration, start_delay) |>
     cor(method = "spearman")
 ```
 
@@ -106,7 +130,7 @@ plot <- releases_bproj |>
         )
     ) +
     labs(
-        title = "Development time in days",
+        title = "",
         x = "days",
         y = NULL
     ) +
@@ -163,7 +187,7 @@ plot <- releases_bproj |>
         )
     ) +
     labs(
-        title = "Development duration per cycle",
+        title = "",
         x = "cycles",
         y = NULL
     ) +
@@ -181,11 +205,13 @@ ggsave("duration_nrm.png", path = FIG_PATH,
 
 # Delay
 
+```{r}
 releases_bproj |>
     group_by(cycle_type) %>%
     summarize(
         shapiro.test(delay_abs)$p.value,
         shapiro.test(delay_nrm)$p.value)
+```
 
 ## Absolute
 ```{r}
@@ -290,5 +316,78 @@ plot <- releases_bproj |>
     )
 plot
 ggsave("delay_nrm.png", path = FIG_PATH,
+    height = 80, unit = "mm", dpi = 300)
+```
+
+# Commits in Advance
+
+```{r}
+releases_bproj |>
+    group_by(cycle_type) %>%
+    summarize(
+        shapiro.test(commits_in_advance)$p.value,
+        shapiro.test(commits_in_advance)$p.value)
+```
+
+```{r}
+wilcox.test(
+    commits_in_advance ~ cycle_type, data = releases_bproj,
+    paired = TRUE)
+cliff.delta(
+    commits_in_advance ~ cycle_type, data = releases_bproj)
+
+releases_bproj |>
+    group_by(cycle_type) |>
+    summarize(
+        quantile(commits_in_advance, 0.5),
+        ecdf(commits_in_advance)(1))
+
+releases_bproj |>
+    group_by(cycle_type) |>
+    summarize(
+        m = median(commits_in_advance),
+        q1 = quantile(commits_in_advance, 0.25),
+        q2 = quantile(commits_in_advance, 0.5),
+        q3 = quantile(commits_in_advance, 0.75),
+        iqr = q3 - q1,
+        min = q1 - 1.5 * iqr,
+        max = q3 + 1.5 * iqr,
+        1 - ecdf(commits_in_advance)(1),
+        ecdf(commits_in_advance)(0),
+    ) |> t()
+
+```
+
+```{r}
+plot <- releases_bproj |>
+    ggplot(aes(
+        commits_in_advance,
+        cycle_type)) +
+    geom_boxplot() +
+    coord_cartesian(
+        xlim = c(0, 0.16)) +
+        # xlim = c(
+        #     quantile(releases_bproj$delay_abs, 0.025),
+        #     quantile(releases_bproj$delay_abs, 0.975))) +
+    scale_x_continuous(n.breaks = 10, labels = scales::percent) + # breaks = seq(0, 12, 1)) +
+    scale_y_discrete(
+        labels = c(
+            "rapid" = "rapid",
+            "trad" = "traditional"
+        )
+    ) +
+    labs(
+        title = "",
+        x = "percent of commits",
+        y = NULL
+    ) +
+    theme_bw() +
+    theme(
+        text = element_text(size = 20),
+        title = element_text(size = 18),
+        axis.text.y = element_text(angle = 90, hjust = 0.5),
+    )
+plot
+ggsave("commits_in_advance.png", path = FIG_PATH,
     height = 80, unit = "mm", dpi = 300)
 ```
