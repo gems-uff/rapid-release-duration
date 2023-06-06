@@ -44,7 +44,7 @@ releases <- releases |>
         cycle_type = factor(cycle_type, levels = c("trad", "rapid")))
 
 releases <- releases |>
-    filter(commits >= 2) |>
+    filter(commits >= 10) |>
     group_by(project, cycle_type) |>
     summarise(n_releases = n()) |>
     pivot_wider(names_from = cycle_type, values_from = n_releases) |>
@@ -52,7 +52,7 @@ releases <- releases |>
     filter(trad >= 2 & rapid >= 2) |>
     select(project) |>
     inner_join(releases) |>
-    filter(commits >= 2)
+    filter(commits >= 10)
 
 ```
 
@@ -63,16 +63,17 @@ releases_bproj <- releases |>
     summarize(
         n_releases = n(),
         cycle_abs = mean(cycle_days),
+        commits_abs = mean(commits),
 
         duration_abs = mean(duration),
-        # duration_nrm = mean(duration / cycle_days),
         duration_nrm = mean(duration) / mean(cycle_days),
         
         delay_abs = mean(start_delay),
         delay_nrm = mean(start_delay / cycle_days),
 
         commits_in_advance = mean(commits_in_advance / commits)
-    )
+    ) |> ungroup() |>
+    mutate(duration_nrm3 = mean(duration_abs) / mean(cycle_abs))
 ```
 
 ## Summary
@@ -88,13 +89,20 @@ releases_bproj |>
     select(-project) |>
     summarise_all(list(mean)) |>
     t()
+
+# releases_bproj |>
+#     group_by(cycle_type) |>
+#     select(-project) |>
+#     summarise_all(list(max)) |>
+#     t()
 ```
 
 ## Correlation
 
 ```{r}
 releases |>
-    select(cycle_days, commits, duration, start_delay) |>
+    ungroup() |>
+    select(cycle_days, commits, duration, start_delay, patches) |>
     cor(method = "spearman")
 ```
 
