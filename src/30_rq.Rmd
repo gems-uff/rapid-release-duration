@@ -11,6 +11,8 @@ library(lubridate)
 library(effsize)
 library(patchwork)
 library(reticulate)
+library(httpgd)
+# httpgd::hgd()
 # require(cowplot)
 # library(plotly)
 
@@ -151,6 +153,110 @@ plot <- releases_bproj |>
 plot
 ggsave("duration_abs.png", path = FIG_PATH,
     height = 80, unit = "mm", dpi = 300)
+
+```
+
+## Distribution
+```{r}
+duration_abs_mean <- releases_bproj |>
+    group_by(cycle_type) |>
+    summarise(mean = mean(duration_abs))
+
+g1 <- releases_bproj |>
+    ggplot(aes(
+        x = cycle_abs,
+        y = duration_abs,
+        color = cycle_type,
+        alpha = 0.5)) +
+    geom_point() +
+    geom_hline(
+        data = duration_abs_mean,
+        aes(yintercept = mean, color = cycle_type)
+    ) +
+    scale_x_continuous(n.breaks = 10) +
+    scale_y_continuous(n.breaks = 10) +
+    scale_color_discrete(
+        labels = c(
+            "rapid" = "rapid",
+            "trad" = "traditional"),
+        name = "Release type") +
+    labs(
+        title = NULL,
+        x = "release cycle (days)",
+        y = "development duration (days)"
+    ) +
+    theme_bw() +
+    theme(
+        legend.position = c(0.85, 0.85)) +
+    guides(alpha = "none")
+
+g2 <- releases_bproj |>
+    ggplot(aes(
+        x = duration_abs,
+        color = cycle_type)) +
+    # geom_histogram() +
+    geom_density() +
+    coord_flip() +
+    theme_void() + 
+    theme(legend.position = "none")
+
+plot <- g1 + g2 + 
+    plot_layout(ncol = 2, nrow = 1, widths = c(4, 1), heights = c(1, 1))
+plot
+ggsave("duration_dist.png", path = FIG_PATH,
+    height = 120, unit = "mm", dpi = 300)
+
+```
+```{r}
+duration_nrm_mean <- releases_bproj |>
+    group_by(cycle_type) |>
+    summarise(mean = mean(duration_nrm))
+
+g1 <- releases_bproj |>
+    ggplot(aes(
+        x = cycle_abs,
+        y = duration_nrm,
+        color = cycle_type,
+        alpha = 0.5)) +
+    geom_point() +
+    geom_hline(
+        data = duration_nrm_mean,
+        aes(yintercept = mean, color = cycle_type)
+    ) +
+    scale_x_continuous(n.breaks = 10) +
+    scale_y_continuous(n.breaks = 10) +
+    scale_color_discrete(
+        labels = c(
+            "rapid" = "rapid",
+            "trad" = "traditional"),
+        name = "Release type") +
+    labs(
+        title = NULL,
+        x = "release cycle",
+        y = "development duration"
+    ) +
+    ylim(c(0,100)) +
+    theme_bw() +
+    theme(
+        legend.position = c(0.85, 0.85)) +
+    guides(alpha = "none")
+
+g2 <- releases_bproj |>
+    ggplot(aes(
+        x = duration_nrm,
+        color = cycle_type)) +
+    # geom_histogram() +
+    geom_density() +
+    xlim(c(0,100)) +
+    coord_flip() +
+    theme_void() + 
+    theme(legend.position = "none")
+
+plot <- g1 + g2 + 
+    plot_layout(ncol = 2, nrow = 1, widths = c(4, 1), heights = c(1, 1))
+plot
+ggsave("duration_nrm_dist.png", path = FIG_PATH,
+    height = 120, unit = "mm", dpi = 300)
 
 ```
 
