@@ -279,6 +279,7 @@ releases_bproj |>
         min = q1 - 1.5 * iqr,
         max = q3 + 1.5 * iqr,
         dev_in_own_cycle = ecdf(duration_nrm)(1),
+        dev_in_parallel = 1 - dev_in_own_cycle,
         ecdf(duration_nrm)(1.97),
         ecdf(duration_nrm)(2),
     ) |> t()
@@ -289,7 +290,8 @@ plot <- releases_bproj |>
     ggplot(aes(
         duration_nrm,
         cycle_type)) +
-    geom_boxplot() +
+    geom_boxplot(outlier.shape = NA) +
+    geom_vline(aes(xintercept=1)) +
     coord_cartesian(
         xlim = c(0, 5)) +
         # xlim = c(0, quantile(releases_bproj$duration_nrm, 0.95))) +
@@ -301,8 +303,8 @@ plot <- releases_bproj |>
         )
     ) +
     labs(
-        title = "",
-        x = "cycles",
+        title = NULL,
+        x = "development duration per release cycle",
         y = NULL
     ) +
     theme_bw() +
