@@ -10,8 +10,9 @@ library(tidyverse)
 library(lubridate)
 library(effsize)
 library(patchwork)
-library(reticulate)
+# library(reticulate)
 library(httpgd)
+# library(ggspatial)
 # httpgd::hgd()
 # require(cowplot)
 # library(plotly)
@@ -73,6 +74,7 @@ releases_bproj <- releases |>
         delay_abs = mean(start_delay),
         delay_nrm = mean(start_delay / cycle_days),
 
+        commits_in_cycle = 1 - mean(commits_in_advance) / mean(commits),
         commits_in_advance = mean(commits_in_advance / commits)
     ) |> ungroup() |>
     mutate(duration_nrm3 = mean(duration_abs) / mean(cycle_abs))
@@ -92,11 +94,6 @@ releases_bproj |>
     summarise_all(list(mean)) |>
     t()
 
-# releases_bproj |>
-#     group_by(cycle_type) |>
-#     select(-project) |>
-#     summarise_all(list(max)) |>
-#     t()
 ```
 
 ## Correlation
@@ -280,6 +277,7 @@ releases_bproj |>
         max = q3 + 1.5 * iqr,
         dev_in_own_cycle = ecdf(duration_nrm)(1),
         dev_in_parallel = 1 - dev_in_own_cycle,
+        1-ecdf(duration_nrm)(2.018274),
         ecdf(duration_nrm)(1.97),
         ecdf(duration_nrm)(2),
     ) |> t()
@@ -311,8 +309,9 @@ plot <- releases_bproj |>
     theme(
         text = element_text(size = 20),
         title = element_text(size = 18),
-        axis.text.y = element_text(angle = 90, hjust = 0.5),
+        axis.text.y = element_text(angle = 90, hjust = 0.5)
     )
+    # aspectfixed_plot_aspect()
 plot
 ggsave("duration_nrm.png", path = FIG_PATH,
     height = 80, unit = "mm", dpi = 300)
@@ -346,6 +345,7 @@ releases_bproj |>
 releases_bproj |>
     group_by(cycle_type) |>
     summarize(
+        mean = mean(delay_abs),
         m = median(delay_abs),
         q1 = quantile(delay_abs, 0.25),
         q2 = quantile(delay_abs, 0.5),
@@ -353,7 +353,7 @@ releases_bproj |>
         iqr = q3 - q1,
         min = q1 - 1.5 * iqr,
         max = q3 + 1.5 * iqr,
-        1 - ecdf(delay_abs)(1),
+        1 - ecdf(delay_abs)(0),
         ecdf(delay_abs)(0),
     ) |> t()
 
@@ -363,7 +363,7 @@ plot <- releases_bproj |>
     ggplot(aes(
         delay_abs,
         cycle_type)) +
-    geom_boxplot() +
+    geom_boxplot(outlier.shape = NA) +
     coord_cartesian(
         xlim = c(-200, 300)) +
         # xlim = c(
@@ -377,7 +377,7 @@ plot <- releases_bproj |>
         )
     ) +
     labs(
-        title = "Development delay",
+        title = NULL,
         x = "days",
         y = NULL
     ) +
@@ -441,47 +441,50 @@ ggsave("delay_nrm.png", path = FIG_PATH,
 releases_bproj |>
     group_by(cycle_type) %>%
     summarize(
-        shapiro.test(commits_in_advance)$p.value,
-        shapiro.test(commits_in_advance)$p.value)
+        shapiro.test(commits_in_cycle)$p.value,
+        shapiro.test(commits_in_cycle)$p.value)
 ```
 
 ```{r}
 wilcox.test(
-    commits_in_advance ~ cycle_type, data = releases_bproj,
+    commits_in_cycle ~ cycle_type, data = releases_bproj,
     paired = TRUE)
 cliff.delta(
-    commits_in_advance ~ cycle_type, data = releases_bproj)
+    commits_in_cycle ~ cycle_type, data = releases_bproj)
 
 releases_bproj |>
     group_by(cycle_type) |>
     summarize(
-        quantile(commits_in_advance, 0.5),
-        ecdf(commits_in_advance)(1))
+        quantile(commits_in_cycle, 0.5),
+        ecdf(commits_in_cycle)(1))
 
 releases_bproj |>
+    filter(delay_abs < 0) |>
     group_by(cycle_type) |>
     summarize(
-        m = median(commits_in_advance),
-        q1 = quantile(commits_in_advance, 0.25),
-        q2 = quantile(commits_in_advance, 0.5),
-        q3 = quantile(commits_in_advance, 0.75),
+        m = median(commits_in_cycle),
+        q1 = quantile(commits_in_cycle, 0.25),
+        q2 = quantile(commits_in_cycle, 0.5),
+        q3 = quantile(commits_in_cycle, 0.75),
+        q4 = quantile(commits_in_cycle, 1.00),
         iqr = q3 - q1,
         min = q1 - 1.5 * iqr,
         max = q3 + 1.5 * iqr,
-        1 - ecdf(commits_in_advance)(1),
-        ecdf(commits_in_advance)(0),
+        1 - ecdf(commits_in_cycle)(1),
+        ecdf(commits_in_cycle)(0),
     ) |> t()
 
 ```
 
 ```{r}
 plot <- releases_bproj |>
+    filter(delay_abs < 0) |>
     ggplot(aes(
-        commits_in_advance,
+        commits_in_cycle,
         cycle_type)) +
-    geom_boxplot() +
+    geom_boxplot(outlier.shape = NA) +
     coord_cartesian(
-        xlim = c(0, 0.16)) +
+        xlim = c(0.4, 1)) +
         # xlim = c(
         #     quantile(releases_bproj$delay_abs, 0.025),
         #     quantile(releases_bproj$delay_abs, 0.975))) +
@@ -493,7 +496,7 @@ plot <- releases_bproj |>
         )
     ) +
     labs(
-        title = "",
+        title = NULL,
         x = "percent of commits",
         y = NULL
     ) +
@@ -504,6 +507,6 @@ plot <- releases_bproj |>
         axis.text.y = element_text(angle = 90, hjust = 0.5),
     )
 plot
-ggsave("commits_in_advance.png", path = FIG_PATH,
+ggsave("commits_in_cycle.png", path = FIG_PATH,
     height = 80, unit = "mm", dpi = 300)
 ```
