@@ -57,6 +57,9 @@ releases <- releases |>
     inner_join(releases) |>
     filter(commits >= 10)
 
+releases <- releases |>
+    mutate(commits_in_cycle = commits - commits_in_advance)
+
 ```
 
 ## Process data
@@ -74,7 +77,7 @@ releases_bproj <- releases |>
         delay_abs = mean(start_delay),
         delay_nrm = mean(start_delay / cycle_days),
 
-        commits_in_cycle = 1 - mean(commits_in_advance) / mean(commits),
+        commits_in_cycle = mean(commits_in_cycle) / mean(commits),
         commits_in_advance = mean(commits_in_advance / commits)
     ) |> ungroup() |>
     mutate(duration_nrm3 = mean(duration_abs) / mean(cycle_abs))
@@ -101,7 +104,7 @@ releases_bproj |>
 ```{r}
 releases |>
     ungroup() |>
-    select(cycle_days, commits, duration, start_delay, patches) |>
+    select(cycle_days, commits, duration, start_delay, commits_in_cycle, patches) |>
     cor(method = "spearman")
 ```
 
@@ -164,12 +167,13 @@ g1 <- releases_bproj |>
         x = cycle_abs,
         y = duration_abs,
         color = cycle_type,
-        alpha = 0.5)) +
+        alpha = 0.25)) +
     geom_point() +
     geom_hline(
         data = duration_abs_mean,
         aes(yintercept = mean, color = cycle_type)
     ) +
+    geom_vline(xintercept = 7*9, linetype = "dashed") +
     scale_x_continuous(n.breaks = 10) +
     scale_y_continuous(n.breaks = 10) +
     scale_color_discrete(
@@ -184,7 +188,11 @@ g1 <- releases_bproj |>
     ) +
     theme_bw() +
     theme(
-        legend.position = c(0.85, 0.85)) +
+        legend.position = c(0.85, 0.85),
+        text = element_text(size = 20),
+        title = element_text(size = 18),
+        axis.text.y = element_text(angle = 90, hjust = 0.5)
+    ) +
     guides(alpha = "none")
 
 g2 <- releases_bproj |>
@@ -200,8 +208,8 @@ g2 <- releases_bproj |>
 plot <- g1 + g2 + 
     plot_layout(ncol = 2, nrow = 1, widths = c(4, 1), heights = c(1, 1))
 plot
-ggsave("duration_dist.png", path = FIG_PATH,
-    height = 120, unit = "mm", dpi = 300)
+ggsave("duration_dist.png", plot = g1, path = FIG_PATH,
+    height = 160, unit = "mm", dpi = 300)
 
 ```
 ```{r}
@@ -235,7 +243,11 @@ g1 <- releases_bproj |>
     ylim(c(0,100)) +
     theme_bw() +
     theme(
-        legend.position = c(0.85, 0.85)) +
+        legend.position = c(0.85, 0.85),
+        text = element_text(size = 20),
+        title = element_text(size = 18),
+        axis.text.y = element_text(angle = 90, hjust = 0.5)
+    ) +
     guides(alpha = "none")
 
 g2 <- releases_bproj |>
@@ -268,19 +280,22 @@ cliff.delta(
 releases_bproj |>
     group_by(cycle_type) |>
     summarize(
-        m = median(duration_nrm),
+        median = median(duration_nrm),
+        mean = mean(duration_nrm),
+        min = min(duration_nrm),
+        max = max(duration_nrm),
         q1 = quantile(duration_nrm, 0.25),
         q2 = quantile(duration_nrm, 0.5),
         q3 = quantile(duration_nrm, 0.75),
         iqr = q3 - q1,
-        min = q1 - 1.5 * iqr,
-        max = q3 + 1.5 * iqr,
+        min_outliers = q1 - 1.5 * iqr,
+        max_outlier = q3 + 1.5 * iqr,
         dev_in_own_cycle = ecdf(duration_nrm)(1),
         dev_in_parallel = 1 - dev_in_own_cycle,
         1-ecdf(duration_nrm)(2.018274),
         ecdf(duration_nrm)(1.97),
         ecdf(duration_nrm)(2),
-    ) |> t()
+    ) |> mutate(across(where(is.numeric), round, 3)) |> t()
 ```
 
 ```{r}
@@ -435,10 +450,24 @@ ggsave("delay_nrm.png", path = FIG_PATH,
     height = 80, unit = "mm", dpi = 300)
 ```
 
-# Commits in Advance
+# Commits in cycle
 
 ```{r}
-releases_bproj |>
+releases_bproj_ipal <- releases_bproj |>
+    filter(delay_abs < 0) |>
+    select(project, cycle_type, commits_in_cycle) |>
+    pivot_wider(values_from = commits_in_cycle, names_from = cycle_type) |>
+    drop_na() |>
+    pivot_longer(
+        !project,
+        names_to = "cycle_type",
+        values_to = "commits_in_cycle") |>
+    mutate(
+        cycle_type = factor(cycle_type, levels = c("trad", "rapid")))
+```
+
+```{r}
+releases_bproj_ipal |>
     group_by(cycle_type) %>%
     summarize(
         shapiro.test(commits_in_cycle)$p.value,
@@ -447,20 +476,14 @@ releases_bproj |>
 
 ```{r}
 wilcox.test(
-    commits_in_cycle ~ cycle_type, data = releases_bproj,
+    commits_in_cycle ~ cycle_type,
+    data = releases_bproj_ipal,
     paired = TRUE)
 cliff.delta(
-    commits_in_cycle ~ cycle_type, data = releases_bproj)
+    commits_in_cycle ~ cycle_type, 
+    data = releases_bproj_ipal)
 
-releases_bproj |>
-    group_by(cycle_type) |>
-    summarize(
-        quantile(commits_in_cycle, 0.5),
-        ecdf(commits_in_cycle)(1))
-
-releases_bproj |>
-    filter(delay_abs < 0) |>
-    group_by(cycle_type) |>
+releases_bproj_ipal |>
     summarize(
         m = median(commits_in_cycle),
         q1 = quantile(commits_in_cycle, 0.25),
@@ -469,22 +492,22 @@ releases_bproj |>
         q4 = quantile(commits_in_cycle, 1.00),
         iqr = q3 - q1,
         min = q1 - 1.5 * iqr,
+        min_abs = min(commits_in_cycle),
         max = q3 + 1.5 * iqr,
-        1 - ecdf(commits_in_cycle)(1),
-        ecdf(commits_in_cycle)(0),
+        ecdf(commits_in_cycle)(0.5),
     ) |> t()
 
 ```
 
 ```{r}
-plot <- releases_bproj |>
-    filter(delay_abs < 0) |>
+plot <- releases_bproj_ipal |>
     ggplot(aes(
         commits_in_cycle,
         cycle_type)) +
     geom_boxplot(outlier.shape = NA) +
+    geom_boxplot() +
     coord_cartesian(
-        xlim = c(0.4, 1)) +
+        xlim = c(0.35, 1)) +
         # xlim = c(
         #     quantile(releases_bproj$delay_abs, 0.025),
         #     quantile(releases_bproj$delay_abs, 0.975))) +
@@ -509,4 +532,30 @@ plot <- releases_bproj |>
 plot
 ggsave("commits_in_cycle.png", path = FIG_PATH,
     height = 80, unit = "mm", dpi = 300)
+```
+
+```{r}
+plot <- releases_bproj_ipal |>
+    mutate(
+        commits_in_cycle_per_bin = cut(commits_in_cycle, breaks = seq(0,1,0.1))) |>
+    ggplot(aes(
+        commits_in_cycle_per_bin)) +
+    geom_histogram(stat = "count") +
+    facet_grid(fct_rev(cycle_type) ~ ., labeller = as_labeller(c(
+            "rapid" = "rapid",
+            "trad" = "traditional"))) +
+    labs(
+        title = NULL,
+        x = "percent of commits in the release cycle",
+        y = NULL
+    ) +
+    theme_bw() +
+    theme(
+        text = element_text(size = 20),
+        title = element_text(size = 18),
+        axis.text.y = element_text(angle = 90, hjust = 0.5),
+    )
+plot
+ggsave("commits_in_cycle_hist.png", path = FIG_PATH,
+    height = 160, unit = "mm", dpi = 300)
 ```
