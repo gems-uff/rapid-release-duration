@@ -304,9 +304,10 @@ plot <- releases_bproj |>
         duration_nrm,
         cycle_type)) +
     geom_boxplot(outlier.shape = NA) +
-    geom_vline(aes(xintercept=1)) +
+    geom_boxplot() +
+    geom_vline(xintercept = 1, linetype = "dashed") +
     coord_cartesian(
-        xlim = c(0, 5)) +
+        xlim = c(0, 10)) +
         # xlim = c(0, quantile(releases_bproj$duration_nrm, 0.95))) +
     scale_x_continuous(n.breaks = 10) + # breaks = seq(0, 12, 1)) +
     scale_y_discrete(
