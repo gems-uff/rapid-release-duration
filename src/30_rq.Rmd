@@ -361,17 +361,20 @@ releases_bproj |>
 releases_bproj |>
     group_by(cycle_type) |>
     summarize(
+        median = median(delay_abs),
         mean = mean(delay_abs),
+        min = min(delay_abs),
+        max = max(delay_abs),
         m = median(delay_abs),
         q1 = quantile(delay_abs, 0.25),
         q2 = quantile(delay_abs, 0.5),
         q3 = quantile(delay_abs, 0.75),
         iqr = q3 - q1,
-        min = q1 - 1.5 * iqr,
-        max = q3 + 1.5 * iqr,
+        min_outlier = q1 - 1.5 * iqr,
+        max_outlier = q3 + 1.5 * iqr,
         1 - ecdf(delay_abs)(0),
         ecdf(delay_abs)(0),
-    ) |> t()
+    ) |> mutate(across(where(is.numeric), round, 3)) |> t()
 
 ```
 ```{r}
@@ -379,7 +382,7 @@ plot <- releases_bproj |>
     ggplot(aes(
         delay_abs,
         cycle_type)) +
-    geom_boxplot(outlier.shape = NA) +
+    geom_boxplot() +
     coord_cartesian(
         xlim = c(-200, 300)) +
         # xlim = c(
