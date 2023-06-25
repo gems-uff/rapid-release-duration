@@ -334,6 +334,22 @@ ggsave("duration_nrm.png", path = FIG_PATH,
 
 ```
 
+## Rapid developed releases
+
+```{r}
+
+rapid_releases <- releases_bproj |>
+    filter(cycle_type == "rapid")
+
+rapid_releases_parallel <- rapid_releases |> filter(duration_nrm > 1)
+
+rapid_developed_releases_parallel <- rapid_releases_parallel |> filter(duration_abs < 6*7)
+
+rapid_developed_releases_parallel |> nrow() / rapid_releases_parallel |> nrow()
+
+
+```
+
 # Delay
 
 ```{r}
@@ -410,6 +426,21 @@ plot
 ggsave("delay_abs.png", path = FIG_PATH,
     height = 80, unit = "mm", dpi = 300)
 ```
+
+## Rapid releases by delay
+
+```{r}
+
+releases |>
+    filter(start_delay > 6*7 & duration < 6*7)
+
+
+releases |>
+    filter(trad_release == 'True')
+
+882/7061
+```
+
 
 ## Normalized
 
