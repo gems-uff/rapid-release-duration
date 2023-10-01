@@ -1,1310 +1,1040 @@
 project,prefixes,prefixes_names,main_releases,rapid_releases,trad_releases,patches,releases,time,uncommon_prefixes
-robinvdvleuten/vuex-persistedstate,1,v,21,9,7,14,35,0 days 00:00:00.033683,0
-mindoc-org/mindoc,1,v,14,10,3,17,31,0 days 00:00:00.048180,0
-expressjs/session,1,v,17,7,6,45,62,0 days 00:00:00.060004,0
-jquense/react-big-calendar,1,v,37,18,12,77,114,0 days 00:00:00.167609,0
-telegraf/telegraf,2, v,68,48,5,112,180,0 days 00:00:00.232880,0
-FaisalUmair/udemy-downloader-gui,1,v,9,4,2,12,21,0 days 00:00:00.025176,0
-googleapis/google-api-python-client,1,v,60,50,6,52,112,0 days 00:00:00.119603,0
-stevenjoezhang/live2d-widget,1,v,8,5,2,9,17,0 days 00:00:00.014528,0
-kickstarter/android-oss,1,v,36,18,6,36,72,0 days 00:00:00.345916,0
-bblanchon/ArduinoJson,1,v,42,20,11,56,98,0 days 00:00:00.098701,0
-Yelp/dumb-init,1,v,8,4,3,14,22,0 days 00:00:00.025088,0
-kalcaddle/KodExplorer,2, v,31,15,10,3,34,0 days 00:00:00.024517,0
-shaka-project/shaka-player,1,v,18,2,10,119,137,0 days 00:00:00.641240,0
-botman/botman,2, v,17,9,6,44,61,0 days 00:00:00.062002,0
-listen1/listen1_desktop,1,v,26,18,5,40,66,0 days 00:00:00.031094,0
-ecrmnn/collect.js,1,,35,24,5,154,189,0 days 00:00:00.109340,0
-projectdiscovery/subfinder,2, v,10,5,4,24,34,0 days 00:00:00.084278,0
-substack/tape,1,v,50,23,16,85,135,0 days 00:00:00.087313,0
-capstone-engine/capstone,1,,5,2,2,9,14,0 days 00:00:00.188758,0
-encode/apistar,1,,6,2,3,88,94,0 days 00:00:00.088885,0
-eternnoir/pyTelegramBotAPI,1,,15,3,7,37,52,0 days 00:00:00.196013,0
-joeyespo/grip,1,v,15,3,10,9,24,0 days 00:00:00.035358,0
-matthewmueller/x-ray,1,,5,2,2,13,18,0 days 00:00:00.021165,0
-neutralinojs/neutralinojs,1,v,26,18,4,4,30,0 days 00:00:00.075281,0
-assaf/zombie,2, v,21,12,7,111,132,0 days 00:00:00.252457,0
-docker/docker-py,1,,40,7,11,63,103,0 days 00:00:00.192924,0
-ml5js/ml5-library,3, v V,9,3,3,45,54,0 days 00:00:00.148621,0
-Xhofe/alist,1,v,9,5,2,33,42,0 days 00:00:00.043412,0
-Dman95/SASM,1,v,15,4,9,11,26,0 days 00:00:00.024824,0
-OpenNMT/OpenNMT-py,2, v,15,6,8,14,29,0 days 00:00:00.211211,0
-thephpleague/omnipay,2, v,12,4,5,18,30,0 days 00:00:00.041320,0
-roots/bedrock,1,,21,3,12,82,103,0 days 00:00:00.062340,0
-tijsverkoyen/CssToInlineStyles,1,,9,2,5,20,29,0 days 00:00:00.022955,0
-datreeio/datree,1,,14,10,2,93,107,0 days 00:00:00.195728,0
-MikeMcl/bignumber.js,2, v,20,3,11,27,47,0 days 00:00:00.024679,0
-chainer/chainer,1,v,60,46,3,18,78,0 days 00:00:01.880422,0
-vuejs/vetur,2, v,23,12,7,47,70,0 days 00:00:00.202065,0
-kyleconroy/sqlc,2, v,15,6,3,1,16,0 days 00:00:00.051909,0
-tilt-dev/tilt,1,v,30,18,5,172,202,0 days 00:00:00.312307,0
-lebab/lebab,1,v,14,8,2,28,42,0 days 00:00:00.057663,0
-Lexikos/AutoHotkey_L,2,v L,56,48,2,146,202,0 days 00:00:00.167146,0
-graphql-java/graphql-java,2, v,40,13,14,2,42,0 days 00:00:00.148777,0
-nodeca/js-yaml,1,,23,2,18,51,74,0 days 00:00:00.088199,0
-documentationjs/documentation,1,v,36,23,7,49,85,0 days 00:00:00.079815,0
-haifengl/smile,1,v,12,3,6,10,22,0 days 00:00:00.202344,0
-tensorflow/serving,2, r,25,6,10,27,52,0 days 00:00:00.316228,0
-google/ios-webkit-debug-proxy,2, v,9,2,5,9,18,0 days 00:00:00.018170,0
-sockeqwe/mosby,1,,7,3,2,8,15,0 days 00:00:00.032451,0
-MinecraftForge/MinecraftForge,2, v,59,30,13,10,69,0 days 00:00:00.560257,0
-gzu-liyujiang/AndroidPicker,1,,11,3,5,45,56,0 days 00:00:00.046678,0
-dotnetcore/CAP,1,v,22,5,11,30,52,0 days 00:00:00.100785,0
-dinerojs/dinero.js,2, v,13,8,3,17,30,0 days 00:00:00.030922,0
-nl8590687/ASRT_SpeechRecognition,1,v,10,4,4,4,14,0 days 00:00:00.020796,0
-express-validator/express-validator,1,v,55,24,16,60,115,0 days 00:00:00.081477,0
-johnkerl/miller,2, v,29,15,8,23,52,0 days 00:00:00.455529,0
-jackc/pgx,1,v,36,11,14,18,54,0 days 00:00:00.294054,0
-hashicorp/serf,1,v,9,3,3,22,31,0 days 00:00:00.093716,0
-expressjs/cors,1,v,11,3,5,23,34,0 days 00:00:00.023153,0
-bfenetworks/bfe,1,v,18,10,3,0,18,0 days 00:00:00.057626,0
-mikaelbr/node-notifier,1,v,24,4,13,45,69,0 days 00:00:00.050487,0
-missive/emoji-mart,1,v,20,8,7,40,60,0 days 00:00:00.048846,0
-jrnl-org/jrnl,2, v,13,3,4,24,37,0 days 00:00:00.078317,0
-angular-ui/ui-grid,1,v,24,10,11,86,110,0 days 00:00:00.239562,0
-weaveworks/scope,2, v,31,17,5,30,61,0 days 00:00:00.446330,0
-serilog/serilog,1,v,19,3,7,13,32,0 days 00:00:00.092706,0
-aws/aws-sdk-php,1,,234,217,7,1228,1462,0 days 00:00:03.823153,0
-valor-software/ngx-bootstrap,2, v,31,15,9,81,112,0 days 00:00:00.153229,0
-jaywcjlove/hotkeys,1,v,12,4,7,62,74,0 days 00:00:00.041516,0
-jonls/redshift,2, v,17,6,7,2,19,0 days 00:00:00.038899,0
-algolia/places,1,v,34,26,4,69,103,0 days 00:00:00.108103,0
-NVIDIA/TensorRT,2, v,27,17,2,6,33,0 days 00:00:00.027729,0
-gcanti/io-ts,1,,20,10,3,84,104,0 days 00:00:00.055675,0
-anishathalye/dotbot,1,v,20,6,11,28,48,0 days 00:00:00.026959,0
-nathancahill/split,2, v,10,5,3,38,48,0 days 00:00:00.029600,0
-log4js-node/log4js-node,1,v,32,19,9,90,122,0 days 00:00:00.179677,0
-mwouts/jupytext,3, v. v,20,10,7,75,95,0 days 00:00:00.119574,0
-jonschlinkert/remarkable,2, v,9,6,2,13,22,0 days 00:00:00.032739,0
-ppoffice/hexo-theme-icarus,2, v,22,9,9,9,31,0 days 00:00:00.033551,0
-ly525/luban-h5,1,v,18,12,3,14,32,0 days 00:00:00.042393,0
-fatih/color,1,v,16,4,10,1,17,0 days 00:00:00.022349,0
-kaorun343/vue-property-decorator,1,v,24,5,7,16,40,0 days 00:00:00.032824,0
-containers/buildah,3, v V,42,22,3,70,112,0 days 00:00:00.394558,0
-go-acme/lego,1,v,34,15,7,17,51,0 days 00:00:00.075523,0
-go-flutter-desktop/go-flutter,1,v,39,33,3,15,54,0 days 00:00:00.044174,0
-gorakhargosh/watchdog,1,v,12,2,6,35,47,0 days 00:00:00.082519,0
-open-cli-tools/concurrently,2, v,27,7,14,18,45,0 days 00:00:00.041393,0
-ExactTarget/fuelux,1,,25,10,6,59,84,0 days 00:00:00.182730,0
-devicons/devicon,1,v,17,6,5,4,21,0 days 00:00:00.062916,0
-PyGithub/PyGithub,2, v,62,40,9,23,85,0 days 00:00:00.118643,0
-django/channels,1,,20,9,8,44,64,0 days 00:00:00.077850,0
-encode/uvicorn,1,,17,4,4,119,136,0 days 00:00:00.123897,0
-i-tu/Hasklig,2, v,12,5,4,0,12,0 days 00:00:00.066092,0
-tjanczuk/edge,1,v,11,5,5,23,34,0 days 00:00:00.137766,0
-alibaba/transmittable-thread-local,2, v,18,6,8,31,49,0 days 00:00:00.054346,0
-arturbien/React95,1,v,13,7,3,6,19,0 days 00:00:00.040901,0
-crossplane/crossplane,1,v,23,11,3,34,57,0 days 00:00:00.290986,0
-leongersen/noUiSlider,1,,45,19,16,58,103,0 days 00:00:00.230322,0
-tzapu/WiFiManager,2, v,16,10,4,0,16,0 days 00:00:00.031059,0
-phan/phan,1,,33,13,10,127,160,0 days 00:00:00.503706,0
-graphql-dotnet/graphql-dotnet,2, v,42,24,7,45,87,0 days 00:00:00.130815,0
-substack/minimist,1,,6,2,2,20,26,0 days 00:00:00.019595,0
-release-it/release-it,1,,84,66,12,176,260,0 days 00:00:00.173406,0
-nodegit/nodegit,1,v,27,9,10,67,94,0 days 00:00:00.206479,0
-kartik-v/bootstrap-fileinput,1,v,26,18,7,61,87,0 days 00:00:00.083718,0
-go-task/task,1,v,26,9,7,26,52,0 days 00:00:00.082706,0
-vrana/adminer,1,v,17,4,11,35,52,0 days 00:00:00.176920,0
-sachinchoolur/lightGallery,2, v,16,4,8,66,82,0 days 00:00:00.070928,0
-onionshare/onionshare,2, v,18,5,11,9,27,0 days 00:00:00.252872,0
-arkime/arkime,1,v,32,2,17,70,102,0 days 00:00:00.233815,0
-nhn/tui.image-editor,2, v,21,7,12,17,38,0 days 00:00:00.055997,0
-hiroppy/fusuma,1,v,37,32,3,59,96,0 days 00:00:00.090388,0
-wangyu-/udp2raw,1,,38,31,2,0,38,0 days 00:00:00.184400,0
-share/sharedb,1,v,23,7,9,111,134,0 days 00:00:00.222607,0
-johannesjo/super-productivity,1,v,58,48,3,296,354,0 days 00:00:00.569492,0
-ai/size-limit,1,,45,29,7,101,146,0 days 00:00:00.106053,0
-lancedikson/bowser,2, v,26,11,8,33,59,0 days 00:00:00.066305,0
-vuejs/v2.vuejs.org,1,v,8,4,3,9,17,0 days 00:00:00.034920,0
-openpgpjs/openpgpjs,1,v,40,18,13,109,149,0 days 00:00:00.172642,0
-nhn/tui.chart,2, v,38,21,8,60,98,0 days 00:00:00.161027,0
-timolins/react-hot-toast,1,v,7,3,2,5,12,0 days 00:00:00.025494,0
-reactchartjs/react-chartjs-2,3, v. v,24,9,9,51,75,0 days 00:00:00.140637,0
-msiemens/tinydb,2, v,34,10,16,26,60,0 days 00:00:00.060319,0
-laravel/socialite,1,v,18,2,9,62,80,0 days 00:00:00.169441,0
-reek/anti-adblock-killer,1,v,31,26,2,0,31,0 days 00:00:00.037538,0
-jarun/buku,2, v,36,18,6,3,39,0 days 00:00:00.235810,0
-expressjs/body-parser,1,,21,9,8,47,68,0 days 00:00:00.051355,0
-jvm-profiling-tools/async-profiler,1,v,14,2,9,9,23,0 days 00:00:00.042292,0
-TommyLemon/Android-ZBLibrary,1,,21,13,4,4,25,0 days 00:00:00.036183,0
-minbrowser/min,2, v,26,4,8,31,57,0 days 00:00:00.236411,0
-journeyapps/zxing-android-embedded,1,v,15,3,10,7,22,0 days 00:00:00.073198,0
-laravel-mix/laravel-mix,1,v,27,19,3,105,132,0 days 00:00:00.123561,0
-pypa/pipx,1,,15,7,5,36,51,0 days 00:00:00.046734,0
-timber/timber,2, v,32,10,14,96,128,0 days 00:00:00.293625,0
-mautic/mautic,1,,30,6,13,59,89,0 days 00:00:01.634884,0
-wiremock/wiremock,2, release-,55,28,16,28,83,0 days 00:00:00.135598,0
-istanbuljs/nyc,1,v,58,43,4,56,114,0 days 00:00:00.082774,0
-Mailtrain-org/mailtrain,1,v,25,20,2,10,35,0 days 00:00:00.188371,0
-SigmaHQ/sigma,1,,19,6,6,10,29,0 days 00:00:00.644929,0
-ZipArchive/ZipArchive,2, v,17,4,9,80,97,0 days 00:00:00.066404,0
-uber/prototool,1,v,18,13,3,2,20,0 days 00:00:00.033766,0
-lukeed/polka,1,v,5,2,2,9,14,0 days 00:00:00.022369,0
-zhaojun1998/zfile,1,,32,26,3,11,43,0 days 00:00:00.035457,0
-kedacore/keda,1,v,14,3,4,3,17,0 days 00:00:00.093850,0
-uNetworking/uWebSockets.js,1,v,59,51,3,6,65,0 days 00:00:00.072998,0
-ServiceStack/ServiceStack,1,v,17,2,12,41,58,0 days 00:00:00.705724,0
-material-shell/material-shell,2, v,11,7,2,0,11,0 days 00:00:00.044803,0
-ponylang/ponyc,2, release-,51,31,9,56,107,0 days 00:00:00.471001,0
-Angel-ML/angel,2,v Release-,14,2,6,4,18,0 days 00:00:00.156319,0
-rauchg/slackin,1,,14,8,3,26,40,0 days 00:00:00.029669,0
-panjf2000/gnet,1,v,8,2,5,35,43,0 days 00:00:00.145301,0
-docker/machine,2, v,16,2,8,16,32,0 days 00:00:00.192961,0
-reactjs/react-rails,2, v,24,9,9,31,55,0 days 00:00:00.080966,0
-pedroslopez/whatsapp-web.js,1,v,18,8,3,39,57,0 days 00:00:00.046082,0
-hajimehoshi/ebiten,1,v,17,2,13,66,83,0 days 00:00:00.350877,0
-roadrunner-server/roadrunner,2, v,22,7,7,81,103,0 days 00:00:00.190855,0
-fengyuanchen/viewerjs,1,v,21,6,10,28,49,0 days 00:00:00.041361,0
-LonamiWebs/Telethon,1,v,44,26,4,91,135,0 days 00:00:00.218509,0
-boto/boto,2, v,50,28,10,29,79,0 days 00:00:00.458651,0
-opencart/opencart,1,,11,4,5,24,35,0 days 00:00:00.818661,0
-mobxjs/mobx-state-tree,2, v,38,28,7,64,102,0 days 00:00:00.141308,0
-sghall/react-move,1,v,28,19,7,21,49,0 days 00:00:00.042511,0
-ocrmypdf/OCRmyPDF,1,v,63,40,7,115,178,0 days 00:00:00.225381,0
-invoiceninja/invoiceninja,1,v,41,21,5,387,428,0 days 00:00:01.456113,0
-0x7c13/Notepads,1,v,14,9,2,42,56,0 days 00:00:00.072883,0
-electerm/electerm,2, v,35,23,5,292,327,0 days 00:00:00.217992,0
-gocd/gocd,1,,69,48,4,2,71,0 days 00:00:00.968528,0
-optuna/optuna,1,v,36,27,2,4,40,0 days 00:00:00.798978,0
-wilsonpage/fastdom,2, v,8,5,2,23,31,0 days 00:00:00.027159,0
-mRemoteNG/mRemoteNG,2, v,17,9,7,23,40,0 days 00:00:00.340534,0
-baconjs/bacon.js,1,,9,3,3,200,209,0 days 00:00:00.378422,0
-sebastianbergmann/exporter,1,,7,2,4,12,19,0 days 00:00:00.043949,0
-zo0r/react-native-push-notification,2, v,16,10,2,19,35,0 days 00:00:00.053754,0
-FreeRDP/FreeRDP,1,,9,2,4,8,17,0 days 00:00:00.820915,0
-appleboy/gorush,2, v,16,6,8,15,31,0 days 00:00:00.060843,0
-rancher/os,1,v,15,4,6,43,58,0 days 00:00:00.155723,0
-rs/zerolog,1,v,27,9,8,16,43,0 days 00:00:00.131936,0
-linkedin/css-blocks,2, v,17,9,4,22,39,0 days 00:00:00.090858,0
-sindresorhus/caprine,2, v,70,49,3,43,113,0 days 00:00:00.076431,0
-baldurk/renderdoc,1,v,39,4,12,0,39,0 days 00:00:00.830459,0
-Squirrel/Squirrel.Windows,1,,17,5,7,48,65,0 days 00:00:00.083772,0
-kpdecker/jsdiff,1,v,15,3,9,24,39,0 days 00:00:00.037681,0
-conventional-changelog/standard-version,1,v,24,8,13,13,37,0 days 00:00:00.033889,0
-isomorphic-git/isomorphic-git,1,v,96,86,3,238,334,0 days 00:00:00.208624,0
-ramboxapp/community-edition,1,,7,3,3,36,43,0 days 00:00:00.074500,0
-dylanaraps/pywal,1,,17,10,2,65,82,0 days 00:00:00.068670,0
-vmware-tanzu/velero,1,v,17,2,8,43,60,0 days 00:00:00.178290,0
-Radarr/Radarr,2, v,99,64,13,13,112,0 days 00:00:00.695866,0
-graphql/express-graphql,1,v,12,3,7,31,43,0 days 00:00:00.057970,0
-Uberi/speech_recognition,1,,16,6,6,29,45,0 days 00:00:00.032777,0
-automl/auto-sklearn,3, v. v,12,2,6,21,33,0 days 00:00:00.239412,0
-concourse/concourse,1,v,134,117,4,81,215,0 days 00:00:01.594574,0
-NixOS/nix,1,,37,5,23,53,90,0 days 00:00:00.871570,0
-PrestaShop/PrestaShop,1,,30,18,4,83,113,0 days 00:00:04.522645,0
-feross/simple-peer,1,v,50,34,10,71,121,0 days 00:00:00.089583,0
-Cyan4973/xxHash,2,r v,12,4,4,11,23,0 days 00:00:00.075860,0
-symfony/translation,1,v,26,4,21,462,488,0 days 00:00:00.406362,0
-elasticsearch-dump/elasticsearch-dump,2, v,113,92,6,137,250,0 days 00:00:00.177005,0
-PHPOffice/PHPWord,1,,12,3,7,8,20,0 days 00:00:00.110744,0
-arc298/instagram-scraper,2, v,11,3,4,68,79,0 days 00:00:00.041963,0
-node-formidable/formidable,2, v,12,8,3,33,45,0 days 00:00:00.050724,0
-maxogden/menubar,1,v,18,4,8,47,65,0 days 00:00:00.039447,0
-katspaugh/wavesurfer.js,2, v,26,5,10,105,131,0 days 00:00:00.224539,0
-doccano/doccano,1,v,8,2,3,19,27,0 days 00:00:00.161354,0
-jackocnr/intl-tel-input,2, v,62,41,10,262,324,0 days 00:00:00.237781,0
-i18next/i18next,2, v,91,66,9,222,313,0 days 00:00:00.235805,0
-albertlauncher/albert,1,v,17,9,5,64,81,0 days 00:00:00.084799,0
-99designs/aws-vault,1,v,34,17,9,32,66,0 days 00:00:00.079653,0
-amoffat/sh,1,,34,26,5,17,51,0 days 00:00:00.191521,0
-JetBrains/Exposed,1,,8,3,3,78,86,0 days 00:00:00.232247,0
-react-native-video/react-native-video,2, v,24,13,7,49,73,0 days 00:00:00.078855,0
-StackExchange/blackbox,1,v,18,6,8,0,18,0 days 00:00:00.034145,0
-yocontra/react-responsive,1,v,8,2,4,28,36,0 days 00:00:00.033578,0
-Zizaco/entrust,1,,10,2,7,8,18,0 days 00:00:00.028188,0
-medialize/URI.js,2,v. v,20,7,11,54,74,0 days 00:00:00.071397,0
-go-resty/resty,1,v,34,14,10,7,41,0 days 00:00:00.039805,0
-maxence-charriere/go-app,2, v,37,24,6,69,106,0 days 00:00:00.087890,0
-yagop/node-telegram-bot-api,1,v,26,14,6,13,39,0 days 00:00:00.130376,0
-DIYgod/APlayer,2, v,6,3,2,15,21,0 days 00:00:00.028762,0
-jiaaro/pydub,1,v,17,3,9,19,36,0 days 00:00:00.049666,0
-bpmn-io/bpmn-js,2, v,75,45,7,155,230,0 days 00:00:00.229639,0
-gruntwork-io/terratest,1,v,39,21,9,296,335,0 days 00:00:00.303072,0
-thephpleague/oauth2-server,1,,25,3,11,72,97,0 days 00:00:00.164178,0
-snipe/snipe-it,3, v V,30,12,13,130,160,0 days 00:00:00.804948,0
-software-mansion/react-native-reanimated,1,,23,10,2,19,42,0 days 00:00:00.103386,0
-simonw/datasette,1,,55,43,6,39,94,0 days 00:00:00.132171,0
-securego/gosec,2, v,16,3,8,8,24,0 days 00:00:00.049386,0
-faker-js/faker,1,v,22,10,9,26,48,0 days 00:00:00.124836,0
-ArthurHub/Android-Image-Cropper,1,,9,2,6,23,32,0 days 00:00:00.039393,0
-garris/BackstopJS,2, v,25,9,8,106,131,0 days 00:00:00.114310,0
-fruitcake/laravel-cors,2,v V,16,5,10,33,49,0 days 00:00:00.034725,0
-PaddlePaddle/Paddle-Lite,3, v release/,15,4,7,6,21,0 days 00:00:00.525425,0
-chrismaltby/gb-studio,2, v,6,3,2,6,12,0 days 00:00:00.333170,0
-marshmallow-code/marshmallow,1,,48,22,11,77,125,0 days 00:00:00.210601,0
-centrifugal/centrifugo,1,v,24,5,9,57,81,0 days 00:00:00.094282,0
-dylang/npm-check,2, v,12,4,6,33,45,0 days 00:00:00.031768,0
-react-native-svg/react-native-svg,2, v,45,30,7,164,209,0 days 00:00:00.204413,0
-pahen/madge,2, v,30,13,11,29,59,0 days 00:00:00.042359,0
-QuantConnect/Lean,2, v,1917,1077,4,10,1927,0 days 00:00:05.048594,0
-qemu/qemu,2,release_ v,48,2,42,86,134,0 days 00:00:05.938206,0
-uber/cadence,1,v,22,10,6,55,77,0 days 00:00:00.459128,0
-jenssegers/laravel-mongodb,2, v,19,3,12,91,110,0 days 00:00:00.120678,0
-gsoft-inc/craco,1,v,32,24,2,27,59,0 days 00:00:00.044170,0
-tindy2013/subconverter,1,v,7,3,2,28,35,0 days 00:00:00.047614,0
-chancejs/chancejs,2, v,9,3,5,47,56,0 days 00:00:00.073570,0
-mcollina/autocannon,1,v,52,36,9,43,95,0 days 00:00:00.056884,0
-crater-invoice/crater,1,,11,4,4,19,30,0 days 00:00:00.080027,0
-thedevs-network/kutt,1,v,10,6,2,51,61,0 days 00:00:00.046857,0
-supertokens/supertokens-core,1,v,22,15,2,17,39,0 days 00:00:00.050539,0
-filhodanuvem/gitql,2, v,10,2,6,8,18,0 days 00:00:00.024786,0
-google/error-prone,1,v,15,3,5,34,49,0 days 00:00:00.296538,0
-flot/flot,2, v,16,6,7,35,51,0 days 00:00:00.069951,0
-SocketCluster/socketcluster,3, v. v,17,13,3,26,43,0 days 00:00:00.071713,0
-wojtekmaj/react-pdf,1,v,27,13,6,36,63,0 days 00:00:00.073574,0
-reactiveui/refit,2, v,13,3,6,39,52,0 days 00:00:00.128719,0
-onsi/ginkgo,1,v,19,3,11,21,40,0 days 00:00:00.061424,0
-burnash/gspread,2, v,19,9,8,21,40,0 days 00:00:00.067311,0
-plantuml/plantuml,1,v,9,2,4,78,87,0 days 00:00:00.209366,0
-fabiospampinato/cash,1,,16,8,5,36,52,0 days 00:00:00.054106,0
-jazzband/pip-tools,1,,45,22,12,49,94,0 days 00:00:00.115443,0
-sindresorhus/query-string,2, v,34,12,12,38,72,0 days 00:00:00.036172,0
-platformio/platformio-core,3, v. v,43,22,13,72,115,0 days 00:00:00.281039,0
-spulec/moto,2, v,14,2,8,152,166,0 days 00:00:00.492117,0
-perkeep/perkeep,1,,11,5,5,0,11,0 days 00:00:00.478973,0
-ckeditor/ckeditor5,2, v,48,30,3,6,54,0 days 00:00:02.756105,0
-heroiclabs/nakama,1,v,38,17,5,29,67,0 days 00:00:00.075585,0
-rest-assured/rest-assured,1,rest-assured-,32,6,15,40,72,0 days 00:00:00.318905,0
-ianstormtaylor/superstruct,1,v,14,7,4,55,69,0 days 00:00:00.063183,0
-gruntwork-io/terragrunt,1,v,37,18,12,337,374,0 days 00:00:00.427220,0
-File-New-Project/EarTrumpet,1,,9,2,6,29,38,0 days 00:00:00.083200,0
-sparklemotion/nokogiri,2,v REL_,15,2,10,89,104,0 days 00:00:00.358167,0
-moroshko/react-autosuggest,1,v,41,30,6,54,95,0 days 00:00:00.178674,0
-Unleash/unleash,2, v,34,19,7,132,166,0 days 00:00:00.467759,0
-kulshekhar/ts-jest,2, v,30,14,8,88,118,0 days 00:00:00.242741,0
-geerlingguy/ansible-for-devops,1,,32,16,9,1,33,0 days 00:00:00.039322,0
-twitchtv/twirp,1,v,18,8,8,10,28,0 days 00:00:00.041017,0
-phpmyadmin/phpmyadmin,2, RELEASE_,37,8,23,300,337,0 days 00:00:07.084750,0
-neuecc/UniRx,1,,18,8,5,7,25,0 days 00:00:00.059357,0
-postmanlabs/newman,3, v. v,26,8,8,80,106,0 days 00:00:00.372797,0
-mahmoud/boltons,1,,24,9,9,21,45,0 days 00:00:00.095529,0
-pentaho/pentaho-kettle,1,,31,11,16,37,68,0 days 00:00:01.002919,0
-davidjbradshaw/iframe-resizer,2, v,26,16,7,96,122,0 days 00:00:00.104132,0
-vmware-tanzu/octant,1,v,25,15,3,15,40,0 days 00:00:00.222341,0
-mitchellh/mapstructure,1,v,6,2,3,11,17,0 days 00:00:00.028567,0
-TypeStrong/typedoc,2, v,22,3,13,127,149,0 days 00:00:00.130013,0
-react-native-device-info/react-native-device-info,1,v,57,43,7,114,171,0 days 00:00:00.127945,0
-travist/jsencrypt,2, v,7,2,3,3,10,0 days 00:00:00.023553,0
-Jrohy/multi-v2ray,1,v,18,10,4,79,97,0 days 00:00:00.137143,0
-Financial-Times/polyfill-service,2, v,87,65,5,87,174,0 days 00:00:00.262656,0
-gevent/gevent,2, v,19,4,12,35,54,0 days 00:00:00.431121,0
-voidcosmos/npkill,1,v,8,5,2,19,27,0 days 00:00:00.035277,0
-deepmipt/DeepPavlov,1,,17,6,4,28,45,0 days 00:00:00.139966,0
-mamedev/mame,1,mame,124,89,11,0,124,0 days 00:00:05.015762,0
-HMBSbige/ShadowsocksR-Windows,1,,28,12,13,127,155,0 days 00:00:00.150620,0
-mattn/go-sqlite3,1,v,16,4,7,19,35,0 days 00:00:00.058782,0
-vuejs/vue-class-component,1,v,10,2,5,15,25,0 days 00:00:00.024545,0
-jsx-eslint/eslint-plugin-react,1,v,81,55,6,88,169,0 days 00:00:00.214342,0
-redux-observable/redux-observable,2, v,23,13,7,8,31,0 days 00:00:00.052520,0
-taigaio/taiga-back,1,,24,7,9,74,98,0 days 00:00:00.344424,0
-kelseyhightower/confd,1,v,15,3,8,7,22,0 days 00:00:00.072224,0
-vercel/serve,2, v,49,34,7,96,145,0 days 00:00:00.111558,0
-carla-simulator/carla,1,,9,4,3,38,47,0 days 00:00:00.354624,0
-gcanti/fp-ts,1,,38,23,8,115,153,0 days 00:00:00.158567,0
-hybridgroup/gobot,3, v. v,29,10,11,16,45,0 days 00:00:00.442459,0
-adnanh/webhook,1,,9,5,3,21,30,0 days 00:00:00.142832,0
-metalsmith/metalsmith,2, v,24,15,3,60,84,0 days 00:00:00.045713,0
-remix-run/history,1,v,38,24,7,40,78,0 days 00:00:00.069134,0
-BeyondDimension/SteamTools,1,,10,6,3,28,38,0 days 00:00:00.143007,0
-ffmpegwasm/ffmpeg.wasm,1,v,10,6,2,18,28,0 days 00:00:00.023744,0
-sindresorhus/type-fest,1,v,40,29,3,34,74,0 days 00:00:00.035614,0
-UKPLab/sentence-transformers,1,v,10,3,5,20,30,0 days 00:00:00.865655,0
-colinhacks/zod,2, v,20,15,2,23,43,0 days 00:00:00.087937,0
-rebassjs/rebass,1,v,11,3,5,42,53,0 days 00:00:00.093214,0
-beautify-web/js-beautify,1,v,13,3,7,74,87,0 days 00:00:00.241499,0
-probot/probot,2, v,71,58,3,124,195,0 days 00:00:00.166486,0
-tailscale/tailscale,1,v,19,8,2,54,73,0 days 00:00:00.200278,0
-yjs/yjs,1,v,19,9,8,151,170,0 days 00:00:00.147299,0
-freebsd/freebsd-src,1,release/,62,3,58,16,78,0 days 00:00:19.433478,0
-mrdoob/stats.js,1,r,16,5,9,0,16,0 days 00:00:00.019046,0
-sindresorhus/ora,1,v,24,9,9,13,37,0 days 00:00:00.121327,0
-paramiko/paramiko,3, release- v,23,3,13,152,175,0 days 00:00:00.231122,0
-symfony/http-kernel,1,v,26,4,21,489,515,0 days 00:00:00.579148,0
-theonedev/onedev,2, v,26,17,2,131,157,0 days 00:00:00.233250,0
-go-swagger/go-swagger,2, v,29,8,11,26,55,0 days 00:00:00.145599,0
-signalapp/Signal-Server,1,v,215,206,2,18,233,0 days 00:00:00.287843,0
-yiminghe/async-validator,2, v,18,4,11,59,77,0 days 00:00:00.034787,0
-kubernetes/kompose,1,v,34,22,6,3,37,0 days 00:00:00.086353,0
-swagger-api/swagger-editor,3, v/ v,27,11,11,364,391,0 days 00:00:00.412680,0
-sindresorhus/ky,1,v,29,15,2,18,47,0 days 00:00:00.031653,0
-99designs/gqlgen,2, v,16,7,6,35,51,0 days 00:00:00.149249,0
-konvajs/konva,1,,41,18,8,131,172,0 days 00:00:00.224854,0
-secdev/scapy,1,v,80,71,8,432,512,0 days 00:00:00.623606,0
-react-native-image-picker/react-native-image-picker,2, v,37,22,8,86,123,0 days 00:00:00.086326,0
-react-grid-layout/react-draggable,1,v,24,9,7,57,81,0 days 00:00:00.048396,0
-chaijs/chai,2, v,30,11,9,48,78,0 days 00:00:00.087586,0
-trustedsec/social-engineer-toolkit,1,,17,4,9,87,104,0 days 00:00:00.780104,0
-akveo/nebular,1,v,23,9,4,23,46,0 days 00:00:00.357592,0
-retejs/rete,2, v,12,4,3,35,47,0 days 00:00:00.041555,0
-go-vgo/robotgo,2, v,21,4,9,24,45,0 days 00:00:00.068927,0
-wix/react-native-calendars,2, v,1248,222,2,59,1307,0 days 00:00:02.877871,0
-streamlink/streamlink,1,,30,9,7,17,47,0 days 00:00:00.218344,0
-NginxProxyManager/nginx-proxy-manager,2, v,10,4,2,48,58,0 days 00:00:00.076050,0
-isaacs/node-glob,2, v,18,5,10,102,120,0 days 00:00:00.068364,0
-HangfireIO/Hangfire,2,v. v,13,4,4,92,105,0 days 00:00:00.256936,0
-webdriverio/webdriverio,1,v,91,65,12,415,506,0 days 00:00:01.075915,0
-visionmedia/page.js,2, v,10,3,4,29,39,0 days 00:00:00.054424,0
-xupefei/Locale-Emulator,2, v,13,7,5,14,27,0 days 00:00:00.030877,0
-twigphp/Twig,1,v,66,29,23,139,205,0 days 00:00:00.594232,0
-numba/numba,2, v,54,9,8,51,105,0 days 00:00:01.298321,0
-prometheus/node_exporter,2, v,17,2,12,11,28,0 days 00:00:00.097886,0
-ionic-team/capacitor,2, v,18,6,3,138,156,0 days 00:00:00.317925,0
-InsertKoinIO/koin,1,,13,5,6,33,46,0 days 00:00:00.108835,0
-doctrine/cache,2, v,17,3,10,27,44,0 days 00:00:00.054446,0
-metricsgraphics/metrics-graphics,3,v. v V,25,12,5,10,35,0 days 00:00:00.212198,0
-symfony/polyfill-mbstring,1,v,25,3,13,9,34,0 days 00:00:00.019565,0
-FormidableLabs/radium,1,v,17,6,6,46,63,0 days 00:00:00.082153,0
-react-cosmos/react-cosmos,2, v,33,18,8,41,74,0 days 00:00:00.300401,0
-gogf/gf,1,v,14,2,4,106,120,0 days 00:00:00.259998,0
-altair-viz/altair,2, v,13,3,7,8,21,0 days 00:00:00.153434,0
-openspug/spug,2,v V,8,3,3,34,42,0 days 00:00:00.072830,0
-webpack/webpack-dev-server,1,v,42,25,9,70,112,0 days 00:00:00.148811,0
-oclif/oclif,1,v,59,50,5,261,320,0 days 00:00:00.310861,0
-cryptomator/cryptomator,1,,18,7,6,73,91,0 days 00:00:00.425727,0
-kelektiv/node-cron,2, v,12,2,8,23,35,0 days 00:00:00.048183,0
-mopidy/mopidy,1,v,29,6,16,38,67,0 days 00:00:00.509444,0
-PointCloudLibrary/pcl,1,pcl-,13,2,8,12,25,0 days 00:00:00.756218,0
-krallin/tini,1,v,19,6,6,14,33,0 days 00:00:00.026737,0
-facebook/litho,1,v,41,26,2,157,198,0 days 00:00:01.137353,0
-lanpa/tensorboardX,1,v,15,2,9,1,16,0 days 00:00:00.048135,0
-Sonarr/Sonarr,1,v,44,27,5,8,52,0 days 00:00:00.540043,0
-lib/pq,1,v,11,3,5,10,21,0 days 00:00:00.060695,0
-LeetCode-OpenSource/vscode-leetcode,1,v,17,10,3,26,43,0 days 00:00:00.039100,0
-sosedoff/pgweb,1,v,11,6,3,31,42,0 days 00:00:00.066582,0
-sandboxie-plus/Sandboxie,2, v,11,3,4,58,69,0 days 00:00:00.120148,0
-symfony/debug,1,v,16,2,13,354,370,0 days 00:00:00.333668,0
-TrinityCore/TrinityCore,1,TDB,74,41,22,6,80,0 days 00:00:02.471860,0
-i18next/react-i18next,2, v,84,68,6,164,248,0 days 00:00:00.179330,0
-winsw/winsw,1,v,21,6,12,10,31,0 days 00:00:00.052415,0
-davemorrissey/subsampling-scale-image-view,1,v,13,7,5,8,21,0 days 00:00:00.028406,0
-AlessandroZ/LaZagne,2, v,14,6,5,6,20,0 days 00:00:00.058798,0
-FluentValidation/FluentValidation,1,,49,15,20,60,109,0 days 00:00:00.143294,0
-apache/cassandra,1,cassandra-,23,8,13,183,206,0 days 00:00:01.705357,0
-boto/boto3,1,,24,8,11,1045,1069,0 days 00:00:01.488200,0
-hrydgard/ppsspp,1,v,20,3,14,46,66,0 days 00:00:01.648747,0
-be5invis/Sarasa-Gothic,1,v,25,12,8,93,118,0 days 00:00:00.073155,0
-AppImage/AppImageKit,1,,13,4,8,0,13,0 days 00:00:00.114780,0
-rocksdanister/lively,1,v,18,15,2,29,47,0 days 00:00:00.040276,0
-xo/usql,1,v,10,4,5,22,32,0 days 00:00:00.044776,0
-terkelg/prompts,1,v,9,2,4,24,33,0 days 00:00:00.027268,0
-smartystreets/goconvey,2, v,7,3,3,20,27,0 days 00:00:00.063344,0
-styled-components/polished,2,v. v,22,12,6,56,78,0 days 00:00:00.067515,0
-pennersr/django-allauth,1,,42,13,18,13,55,0 days 00:00:00.329306,0
-ngrx/platform,2, v,35,19,5,25,60,0 days 00:00:00.100770,0
-pytube/pytube,2, v,31,18,9,78,109,0 days 00:00:00.181130,0
-nopSolutions/nopCommerce,1,release-,29,4,20,6,35,0 days 00:00:00.834035,0
-sveltejs/sapper,1,v,29,23,4,149,178,0 days 00:00:00.139104,0
-inorganik/countUp.js,2, v,13,3,8,26,39,0 days 00:00:00.035780,0
-graphql-python/graphene,2,v. v,16,7,5,29,45,0 days 00:00:00.100414,0
-chrisvfritz/prerender-spa-plugin,2, v,10,4,3,1,11,0 days 00:00:00.018261,0
-angular/angularfire,2, v,11,2,5,28,39,0 days 00:00:00.077794,0
-OWASP/Amass,2, v,37,25,6,123,160,0 days 00:00:00.142972,0
-jpillora/chisel,2, v,8,2,4,21,29,0 days 00:00:00.023818,0
-lz4/lz4,2,r v,18,11,2,11,29,0 days 00:00:00.119432,0
-symfony/routing,1,v,26,2,21,441,467,0 days 00:00:00.393629,0
-java-native-access/jna,2, v,26,3,18,32,58,0 days 00:00:00.223439,0
-marionettejs/backbone.marionette,1,v,32,14,10,93,125,0 days 00:00:00.200428,0
-es-shims/es5-shim,1,v,19,8,7,77,96,0 days 00:00:00.076182,0
-Zettlr/Zettlr,3, v. v,28,14,6,49,77,0 days 00:00:00.298588,0
-pillarjs/path-to-regexp,2, v,24,9,11,28,52,0 days 00:00:00.033169,0
-metafizzy/flickity,1,v,10,3,6,24,34,0 days 00:00:00.039567,0
-AmruthPillai/Reactive-Resume,1,v,7,4,2,24,31,0 days 00:00:00.167027,0
-surmon-china/vue-quill-editor,1,v,6,2,2,21,27,0 days 00:00:00.019057,0
-vercel/styled-jsx,2, v,15,5,8,78,93,0 days 00:00:00.051492,0
-yhirose/cpp-httplib,1,v,9,3,5,75,84,0 days 00:00:00.077813,0
-ljharb/qs,1,v,25,11,10,49,74,0 days 00:00:00.068816,0
-laravel/tinker,1,v,9,3,4,17,26,0 days 00:00:00.024817,0
-google/android-classyshark,1,,15,9,3,0,15,0 days 00:00:00.037757,0
-readthedocs/readthedocs.org,1,,76,55,5,152,228,0 days 00:00:01.219241,0
-jazzband/django-debug-toolbar,2, v,25,4,15,24,49,0 days 00:00:00.137961,0
-gitkraken/vscode-gitlens,2, v,45,33,4,91,136,0 days 00:00:00.207501,0
-symfony/css-selector,1,v,26,4,19,434,460,0 days 00:00:00.327984,0
-jemalloc/jemalloc,1,,22,4,14,24,46,0 days 00:00:00.185793,0
-raineorshine/npm-check-updates,2, v,56,34,11,194,250,0 days 00:00:00.280546,0
-symfony/process,1,v,26,4,20,450,476,0 days 00:00:00.471020,0
-mqttjs/MQTT.js,2, v,42,22,7,109,151,0 days 00:00:00.114327,0
-encode/starlette,1,,19,8,5,94,113,0 days 00:00:00.276045,0
-wallabag/wallabag,1,,20,6,10,40,60,0 days 00:00:00.428032,0
-ThreeMammals/Ocelot,1,,31,19,6,110,141,0 days 00:00:00.226107,0
-developit/microbundle,2, v,15,7,6,24,39,0 days 00:00:00.059851,0
-deepstreamIO/deepstream.io,2, v,25,7,8,98,123,0 days 00:00:00.129198,0
-Turfjs/turf,2, v,23,15,5,65,88,0 days 00:00:00.199534,0
-xmrig/xmrig,1,v,46,34,7,73,119,0 days 00:00:00.177813,0
-monero-project/monero,1,v,19,8,7,34,53,0 days 00:00:00.734428,0
-DevinVinson/WordPress-Plugin-Boilerplate,1,,9,5,2,5,14,0 days 00:00:00.031495,0
-FullHuman/purgecss,2, v,23,11,7,20,43,0 days 00:00:00.083261,0
-final-form/react-final-form,2,v. v,23,16,3,47,70,0 days 00:00:00.051410,0
-reach/router,1,v,5,2,2,13,18,0 days 00:00:00.026591,0
-jsplumb/jsplumb,1,,28,5,18,188,216,0 days 00:00:00.548012,0
-projectstorm/react-diagrams,2, v,16,6,6,23,39,0 days 00:00:00.059517,0
-symfony/var-dumper,1,v,20,4,15,355,375,0 days 00:00:00.351907,0
-matthew-andrews/isomorphic-fetch,1,v,12,7,3,14,26,0 days 00:00:00.020314,0
-aws/aws-sdk-js,1,v,1089,1078,5,301,1390,0 days 00:00:02.421936,0
-reactjs/react-modal,1,v,19,7,6,91,110,0 days 00:00:00.061822,0
-reactiveui/ReactiveUI,2, v,41,21,7,181,222,0 days 00:00:00.807049,0
-ffuf/ffuf,1,v,18,8,5,6,24,0 days 00:00:00.028255,0
-rr-debugger/rr,1,,28,9,14,6,34,0 days 00:00:00.384503,0
-abel533/Mapper,1,,18,9,4,33,51,0 days 00:00:00.060486,0
-trentm/node-bunyan,1,,33,18,7,81,114,0 days 00:00:00.070428,0
-verlok/vanilla-lazyload,2, v,81,56,15,77,158,0 days 00:00:00.129887,0
-cockpit-project/cockpit,2, v,314,303,7,1,315,0 days 00:00:01.282059,0
-taskflow/taskflow,1,v,13,3,8,1,14,0 days 00:00:00.104267,0
-transmission/transmission,1,,99,69,12,1,100,0 days 00:00:00.771651,0
-Humanizr/Humanizer,3, v V,16,9,4,49,65,0 days 00:00:00.144053,0
-brunch/brunch,1,,24,11,8,107,131,0 days 00:00:00.178237,0
-Nuitka/Nuitka,1,,13,8,4,238,251,0 days 00:00:00.648845,0
-Sylius/Sylius,1,v,30,4,17,151,181,0 days 00:00:01.757514,0
-microsoft/azuredatastudio,2, v,40,28,2,89,129,0 days 00:00:00.744110,0
-barry-ran/QtScrcpy,1,v,9,3,3,15,24,0 days 00:00:00.048170,0
-juice-shop/juice-shop,2, v,91,67,8,101,192,0 days 00:00:01.166536,0
-gobuffalo/buffalo,2, v,15,3,9,107,122,0 days 00:00:00.203123,0
-filamentgroup/loadCSS,2, v,9,2,6,14,23,0 days 00:00:00.028741,0
-ajenti/ajenti,2, v,5,2,2,123,128,0 days 00:00:00.192463,0
-DylanVann/react-native-fast-image,1,v,20,8,7,90,110,0 days 00:00:00.064431,0
-ds300/patch-package,1,v,17,9,3,40,57,0 days 00:00:00.047305,0
-vercel/ncc,1,,31,21,4,46,77,0 days 00:00:00.054902,0
-needim/noty,1,v,10,2,5,37,47,0 days 00:00:00.034973,0
-cssinjs/jss,2, v,60,41,8,86,146,0 days 00:00:00.144382,0
-twpayne/chezmoi,1,v,27,16,4,106,133,0 days 00:00:00.232389,0
-mongodb/mongo-go-driver,2, v,13,4,7,60,73,0 days 00:00:00.138324,0
-tgalal/yowsup,1,v,8,3,4,20,28,0 days 00:00:00.118354,0
-jupyterhub/jupyterhub,1,,19,2,11,20,39,0 days 00:00:00.322741,0
-lucas-clemente/quic-go,2,v. v,24,5,10,33,57,0 days 00:00:00.302033,0
-alibaba/MNN,1,,13,9,3,36,49,0 days 00:00:00.140471,0
-kazupon/vue-i18n,1,v,64,37,7,83,147,0 days 00:00:00.131303,0
-NLPchina/elasticsearch-sql,1,,46,21,13,144,190,0 days 00:00:00.175630,0
-infracost/infracost,2, v,10,6,3,62,72,0 days 00:00:00.202924,0
-SirVer/ultisnips,1,,11,2,7,0,11,0 days 00:00:00.117500,0
-Vincit/objection.js,1,,19,3,10,101,120,0 days 00:00:00.136453,0
-ActivityWatch/activitywatch,1,v,8,4,3,11,19,0 days 00:00:00.047854,0
-open-policy-agent/opa,1,v,40,22,6,80,120,0 days 00:00:00.367663,0
-eclipse/che,1,,100,95,2,126,226,0 days 00:00:00.753906,0
-Laravel-Lang/lang,1,,20,12,6,174,194,0 days 00:00:00.385017,0
-lcobucci/jwt,1,,11,3,6,34,45,0 days 00:00:00.087153,0
-sindresorhus/fkill-cli,2, v,23,9,10,3,26,0 days 00:00:00.018171,0
-aheckmann/gm,2, v,31,13,12,35,66,0 days 00:00:00.147387,0
-ElemeFE/v-charts,1,v,14,9,2,72,86,0 days 00:00:00.049411,0
-sindresorhus/np,1,v,42,24,10,34,76,0 days 00:00:00.046915,0
-grpc/grpc-web,1,,7,4,2,9,16,0 days 00:00:00.060284,0
-gregberge/loadable-components,1,v,30,19,6,35,65,0 days 00:00:00.044934,0
-xojs/xo,1,v,43,24,8,43,86,0 days 00:00:00.068282,0
-hugapi/hug,1,,18,11,5,44,62,0 days 00:00:00.283802,0
-visgl/react-map-gl,2, v,22,10,9,143,165,0 days 00:00:00.141692,0
-Hacker0x01/react-datepicker,2, v,107,85,2,73,180,0 days 00:00:00.257597,0
-electron/fiddle,2, v,29,14,3,22,51,0 days 00:00:00.103594,0
-enquirer/enquirer,1,,6,3,2,27,33,0 days 00:00:00.034781,0
-QUANTAXIS/QUANTAXIS,2, V,15,4,5,44,59,0 days 00:00:00.359208,0
-flyway/flyway,1,flyway-,40,20,13,101,141,0 days 00:00:00.271277,0
-migueldeicaza/gui.cs,1,v,13,6,4,9,22,0 days 00:00:00.167546,0
-wailsapp/wails,1,v,19,10,2,44,63,0 days 00:00:00.263200,0
-jaredpalmer/tsdx,1,v,13,6,3,40,53,0 days 00:00:00.056289,0
-grpc/grpc-java,1,v,52,22,4,58,110,0 days 00:00:00.423723,0
-iterative/dvc,1,,92,83,3,258,350,0 days 00:00:00.579204,0
-catboost/catboost,3, v. v,25,7,3,57,82,0 days 00:00:01.449171,0
-wasabeef/glide-transformations,1,,9,3,5,10,19,0 days 00:00:00.024065,0
-botpress/botpress,2, v,88,76,4,234,322,0 days 00:00:00.804087,0
-stylelint/stylelint,2, v,97,78,4,88,185,0 days 00:00:00.499911,0
-josdejong/jsoneditor,1,v,71,48,11,125,196,0 days 00:00:00.192184,0
-svgdotjs/svg.js,1,,50,38,8,48,98,0 days 00:00:00.126159,0
-libretro/RetroArch,2, v,15,3,7,77,92,0 days 00:00:03.285807,0
-react-native-camera/react-native-camera,1,v,84,69,5,96,180,0 days 00:00:00.145353,0
-FormidableLabs/victory,1,v,65,43,8,156,221,0 days 00:00:00.480640,0
-snapappointments/bootstrap-select,2, v,13,3,7,52,65,0 days 00:00:00.092854,0
-lvgl/lvgl,2, v,26,10,7,20,46,0 days 00:00:00.644745,0
-TranslucentTB/TranslucentTB,1,,14,7,6,0,14,0 days 00:00:00.075599,0
-mdbootstrap/material-design-for-bootstrap,1,,18,11,5,46,64,0 days 00:00:00.031044,0
-addyosmani/critical,2, v,17,4,9,44,61,0 days 00:00:00.211297,0
-pockethub/PocketHub,2, v,11,5,3,9,20,0 days 00:00:00.149847,0
-sindresorhus/pageres,2, v,24,8,7,23,47,0 days 00:00:00.041939,0
-mongodb/node-mongodb-native,3,v. v V,25,4,18,387,412,0 days 00:00:00.734992,0
-senchalabs/connect,1,,52,27,11,174,226,0 days 00:00:00.308504,0
-meliorence/react-native-snap-carousel,2,v V,22,15,2,29,51,0 days 00:00:00.036507,0
-TarsCloud/Tars,2, v,15,6,4,32,47,0 days 00:00:00.059523,0
-BookStackApp/BookStack,3, v. v,36,10,9,113,149,0 days 00:00:00.375725,0
-argoproj/argo-cd,1,v,25,9,4,115,140,0 days 00:00:00.394113,0
-jhen0409/react-native-debugger,1,v,12,3,7,74,86,0 days 00:00:00.071352,0
-apidoc/apidoc,1,,27,7,10,19,46,0 days 00:00:00.060391,0
-Automattic/kue,2, v,10,2,7,47,57,0 days 00:00:00.062951,0
-squizlabs/PHP_CodeSniffer,1,,19,5,12,51,70,0 days 00:00:00.525600,0
-vnotex/vnote,2, v,47,34,4,13,60,0 days 00:00:00.096558,0
-upx/upx,1,v,31,7,18,0,31,0 days 00:00:00.154064,0
-Atmosphere-NX/Atmosphere,1,,18,7,6,48,66,0 days 00:00:00.193461,0
-pinojs/pino,2, v,90,69,7,150,240,0 days 00:00:00.297871,0
-r-spacex/SpaceX-API,2, v,15,9,3,8,23,0 days 00:00:00.107048,0
-bulletphysics/bullet3,1,,18,5,9,6,24,0 days 00:00:00.588534,0
-future-architect/vuls,1,v,19,4,6,64,83,0 days 00:00:00.091350,0
-dingo/api,2, v,16,9,5,41,57,0 days 00:00:00.089779,0
-FormidableLabs/spectacle,2, v,35,12,11,77,112,0 days 00:00:00.095987,0
-exceljs/exceljs,2, v,41,28,7,180,221,0 days 00:00:00.211066,0
-uncss/uncss,1,,9,2,5,9,18,0 days 00:00:00.038841,0
-reactjs/react-transition-group,1,v,19,9,7,19,38,0 days 00:00:00.030472,0
-oblador/react-native-animatable,1,v,10,4,4,13,23,0 days 00:00:00.021528,0
-deployphp/deployer,1,v,20,6,9,47,67,0 days 00:00:00.122167,0
-acaudwell/Gource,1,gource-,20,5,11,0,20,0 days 00:00:00.052810,0
-coredns/coredns,1,v,20,7,7,42,62,0 days 00:00:00.295222,0
-arasatasaygin/is.js,1,v,8,5,2,13,21,0 days 00:00:00.028026,0
-cheat/cheat,1,,18,10,4,67,85,0 days 00:00:00.088410,0
-crimx/ext-saladict,3, v V,59,47,6,139,198,0 days 00:00:00.215425,0
-callstack/react-native-paper,2, v,53,40,5,61,114,0 days 00:00:00.122277,0
-docmirror/dev-sidecar,2, v,7,3,2,16,23,0 days 00:00:00.044016,0
-hackware1993/MagicIndicator,1,,8,4,2,5,13,0 days 00:00:00.022474,0
-coleifer/peewee,1,,35,12,13,139,174,0 days 00:00:00.220477,0
-boardgameio/boardgame.io,1,v,39,28,4,111,150,0 days 00:00:00.141095,0
-pyinstaller/pyinstaller,2, v,28,5,19,6,34,0 days 00:00:00.616918,0
-chimurai/http-proxy-middleware,1,v,26,19,6,30,56,0 days 00:00:00.037536,0
-direnv/direnv,2, v,33,8,16,42,75,0 days 00:00:00.070640,0
-javascript-obfuscator/javascript-obfuscator,1,,63,47,4,122,185,0 days 00:00:00.188308,0
-symfony/console,1,v,26,4,21,466,492,0 days 00:00:00.512620,0
-phpDocumentor/ReflectionDocBlock,1,,14,4,8,24,38,0 days 00:00:00.059957,0
-sonic-pi-net/sonic-pi,1,v,16,5,7,9,25,0 days 00:00:00.538499,0
-rough-stuff/wired-elements,1,v,9,2,4,26,35,0 days 00:00:00.033901,0
-Gallopsled/pwntools,1,,26,5,8,35,61,0 days 00:00:00.338793,0
-PrefectHQ/prefect,1,,17,5,6,102,119,0 days 00:00:01.098166,0
-ydataai/pandas-profiling,2,v. v,20,10,7,14,34,0 days 00:00:00.062727,0
-aksonov/react-native-router-flux,2, v,13,3,6,34,47,0 days 00:00:00.090037,0
-cure53/DOMPurify,2, v,12,3,8,68,80,0 days 00:00:00.206122,0
-sinonjs/sinon,2, v,57,26,18,121,178,0 days 00:00:00.400160,0
-react-dropzone/react-dropzone,2, v,55,34,12,120,175,0 days 00:00:00.110567,0
-thumbor/thumbor,1,,61,33,14,178,239,0 days 00:00:00.206030,0
-paulmillr/chokidar,1,,28,10,13,70,98,0 days 00:00:00.105760,0
-ginuerzh/gost,2, v,21,11,7,11,32,0 days 00:00:00.044168,0
-helmetjs/helmet,1,v,51,23,8,34,85,0 days 00:00:00.083482,0
-inversify/InversifyJS,2, v,25,15,7,22,47,0 days 00:00:00.097342,0
-callstack/linaria,1,v,14,9,4,24,38,0 days 00:00:00.142633,0
-aws/chalice,1,,38,17,8,43,81,0 days 00:00:00.142287,0
-dromara/Sa-Token,1,v,23,18,2,1,24,0 days 00:00:00.057811,0
-antvis/G6,1,,9,2,3,64,73,0 days 00:00:00.291028,0
-gka/chroma.js,2, v,9,3,5,26,35,0 days 00:00:00.045123,0
-phpDocumentor/TypeResolver,1,,14,2,9,18,32,0 days 00:00:00.036707,0
-cert-manager/cert-manager,1,v,25,3,3,49,74,0 days 00:00:00.491741,0
-fkhadra/react-toastify,1,v,33,16,8,60,93,0 days 00:00:00.103560,0
-react-page/react-page,2, v,58,45,6,214,272,0 days 00:00:00.187189,0
-HabitRPG/habitica,2, v,351,348,2,612,963,0 days 00:00:02.910784,0
-facebookresearch/ParlAI,2, v,10,5,2,10,20,0 days 00:00:00.223490,0
-heartexlabs/label-studio,2,v. v,14,4,2,24,38,0 days 00:00:00.115693,0
-webtorrent/webtorrent-desktop,1,v,25,18,5,13,38,0 days 00:00:00.264391,0
-tweepy/tweepy,2, v,40,17,15,4,44,0 days 00:00:00.175762,0
-remarkjs/react-markdown,2, v,22,7,11,46,68,0 days 00:00:00.042754,0
-encode/httpx,1,,23,10,4,47,70,0 days 00:00:00.085583,0
-golang-migrate/migrate,1,v,24,7,7,25,49,0 days 00:00:00.077334,0
-zerotier/ZeroTierOne,1,,15,4,6,68,83,0 days 00:00:00.712595,0
-mapeditor/tiled,1,v,27,3,19,56,83,0 days 00:00:00.423047,0
-GoogleChromeLabs/comlink,1,v,15,8,4,23,38,0 days 00:00:00.070217,0
-cefsharp/CefSharp,1,v,27,5,11,70,97,0 days 00:00:00.356258,0
-pytest-dev/pytest,1,,42,10,17,122,164,0 days 00:00:00.941972,0
-gregberge/svgr,1,v,36,29,4,19,55,0 days 00:00:00.057349,0
-ultralytics/yolov3,1,v,12,6,4,0,12,0 days 00:00:00.240912,0
-desandro/imagesloaded,1,v,11,3,5,27,38,0 days 00:00:00.029691,0
-doctrine/dbal,2, v,18,2,14,79,97,0 days 00:00:00.652569,0
-microsoft/Windows-universal-samples,2, v,438,13,9,171,609,0 days 00:00:00.574613,0
-pyodide/pyodide,2, v,20,11,6,25,45,0 days 00:00:00.116083,0
-caprover/caprover,2,v V,12,6,5,17,29,0 days 00:00:00.073443,0
-piskelapp/piskel,1,v,14,2,9,16,30,0 days 00:00:00.094122,0
-cyrus-and/gdb-dashboard,1,v,15,6,8,15,30,0 days 00:00:00.030705,0
-tweenjs/tween.js,3, r v,30,12,13,23,53,0 days 00:00:00.060219,0
-spotDL/spotify-downloader,1,v,14,4,4,38,52,0 days 00:00:00.085353,0
-Automattic/node-canvas,2, v,30,11,13,88,118,0 days 00:00:00.127498,0
-OnsenUI/OnsenUI,1,,20,6,8,68,88,0 days 00:00:00.565997,0
-aws/serverless-application-model,2, v,42,25,6,9,51,0 days 00:00:00.196601,0
-Shopify/sarama,1,v,34,10,15,18,52,0 days 00:00:00.144634,0
-claudiodangelis/qrcp,1,,6,2,3,17,23,0 days 00:00:00.024521,0
-google/go-github,1,v,59,43,6,35,94,0 days 00:00:00.114111,0
-muesli/duf,1,v,8,5,2,4,12,0 days 00:00:00.020824,0
-jprichardson/node-fs-extra,2, v,43,18,12,42,85,0 days 00:00:00.073161,0
-shipshapecode/tether,1,v,13,6,4,60,73,0 days 00:00:00.074095,0
-welldone-software/why-did-you-render,2,v. v,19,8,6,67,86,0 days 00:00:00.048544,0
-listen1/listen1_chrome_extension,1,v,32,22,7,36,68,0 days 00:00:00.045412,0
-wkentaro/labelme,1,v,50,38,9,125,175,0 days 00:00:00.124060,0
-MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-,2, v,26,17,3,32,58,0 days 00:00:00.204370,0
-restsharp/RestSharp,2, v,30,14,10,29,59,0 days 00:00:00.105964,0
-blevesearch/bleve,1,v,14,4,7,27,41,0 days 00:00:00.133754,0
-giampaolo/psutil,1,release-,32,8,17,52,84,0 days 00:00:00.251443,0
-tsayen/dom-to-image,1,,13,7,3,23,36,0 days 00:00:00.137912,0
-libgit2/libgit2,1,v,29,7,16,48,77,0 days 00:00:00.893679,0
-nilaoda/N_m3u8DL-CLI,1,,18,9,3,65,83,0 days 00:00:00.041470,0
-cesanta/mongoose,1,,43,12,22,1,44,0 days 00:00:00.183586,0
-nodejs/node-gyp,2, v,37,7,18,98,135,0 days 00:00:00.106083,0
-node-schedule/node-schedule,2, v,10,3,5,36,46,0 days 00:00:00.036134,0
-cytoscape/cytoscape.js,1,v,29,10,13,198,227,0 days 00:00:00.776415,0
-jwtk/jjwt,1,,11,4,6,15,26,0 days 00:00:00.037722,0
-projectdiscovery/nuclei,2,v. v,10,2,6,43,53,0 days 00:00:00.301384,0
-KurtBestor/Hitomi-Downloader,1,v,17,3,8,0,17,0 days 00:00:00.016407,0
-rq/rq,2, v,24,2,15,44,68,0 days 00:00:00.111687,0
-vector-im/element-web,1,v,27,9,9,172,199,0 days 00:00:00.747211,0
-borgbackup/borg,1,,22,13,5,36,58,0 days 00:00:00.430671,0
-Nozbe/WatermelonDB,1,v,19,5,6,17,36,0 days 00:00:00.193853,0
-sebastianbergmann/php-code-coverage,1,,23,4,13,138,161,0 days 00:00:00.159725,0
-ag-grid/ag-grid,2, v,87,62,5,103,190,0 days 00:00:01.335475,0
-panjf2000/ants,1,v,9,4,4,15,24,0 days 00:00:00.035060,0
-benoitc/gunicorn,1,,31,12,14,51,82,0 days 00:00:00.128848,0
-uber/react-vis,2, v,22,14,3,77,99,0 days 00:00:00.065358,0
-dat-ecosystem-archive/dat,1,v,43,31,8,64,107,0 days 00:00:00.119832,0
-MahApps/MahApps.Metro,1,,21,5,11,33,54,0 days 00:00:00.388081,0
-agenda/agenda,2, v,20,5,11,65,85,0 days 00:00:00.073267,0
-protobufjs/protobuf.js,2, v,23,11,6,55,78,0 days 00:00:00.085685,0
-jopohl/urh,1,v,17,8,7,74,91,0 days 00:00:00.251766,0
-coil-kt/coil,1,,15,5,6,12,27,0 days 00:00:00.168556,0
-google/or-tools,1,v,32,7,8,3,35,0 days 00:00:00.572268,0
-pre-commit/pre-commit,1,v,60,32,9,111,171,0 days 00:00:00.136795,0
-devhubapp/devhub,2, v,55,47,3,61,116,0 days 00:00:00.199244,0
-symfony/http-foundation,1,v,26,4,20,464,490,0 days 00:00:00.497866,0
-NG-ZORRO/ng-zorro-antd,1,,41,30,5,65,106,0 days 00:00:00.276298,0
-tidwall/tile38,1,,27,6,7,59,86,0 days 00:00:00.067909,0
-bloomrpc/bloomrpc,2, v,6,2,3,9,15,0 days 00:00:00.017353,0
-googleapis/google-api-php-client,2, v,13,2,8,32,45,0 days 00:00:00.223063,0
-hediet/vscode-drawio,1,v,10,6,2,13,23,0 days 00:00:00.030215,0
-OpenFeign/feign,3, release- v,72,48,10,54,126,0 days 00:00:00.097977,0
-symfony/event-dispatcher,1,v,26,4,21,436,462,0 days 00:00:00.360252,0
-VulcanJS/Vulcan,2, v,22,11,6,45,67,0 days 00:00:00.397199,0
-resilience4j/resilience4j,3, v. v,22,5,9,15,37,0 days 00:00:00.074648,0
-openshift/origin,1,v,14,2,10,25,39,0 days 00:00:01.678102,0
-Koenkk/zigbee2mqtt,1,,28,16,5,33,61,0 days 00:00:00.213361,0
-happyfish100/fastdfs,1,V,16,7,5,0,16,0 days 00:00:00.021832,0
-electron/electron-packager,1,v,53,30,10,42,95,0 days 00:00:00.088037,0
-abpframework/abp,2, v,43,33,3,60,103,0 days 00:00:01.451155,0
-rofl0r/proxychains-ng,1,v,16,3,10,1,17,0 days 00:00:00.029126,0
-pypa/pip,1,,36,2,27,73,109,0 days 00:00:00.729281,0
-dotnet/machinelearning,1,v,18,12,4,5,23,0 days 00:00:00.174302,0
-symfony/finder,1,v,26,4,20,440,466,0 days 00:00:00.335037,0
-keybase/client,2, v,29,21,5,65,94,0 days 00:00:02.226616,0
-Stuk/jszip,1,v,19,5,11,14,33,0 days 00:00:00.051606,0
-ng-bootstrap/ng-bootstrap,1,,27,12,6,49,76,0 days 00:00:00.129425,0
-sahat/satellizer,1,,14,7,4,41,55,0 days 00:00:00.249490,0
-szimek/signature_pad,1,v,11,3,4,19,30,0 days 00:00:00.170255,0
-firefly-iii/firefly-iii,1,,41,19,8,201,242,0 days 00:00:01.217316,0
-airbnb/epoxy,1,,41,26,5,22,63,0 days 00:00:00.040629,0
-arrow-py/arrow,1,,17,2,12,37,54,0 days 00:00:00.087173,0
-ChrisRM/material-theme-jetbrains,2, v,83,68,2,163,246,0 days 00:00:00.235039,0
-grommet/grommet,2, v,41,18,8,76,117,0 days 00:00:00.357523,0
-adrai/flowchart.js,1,v,17,4,9,31,48,0 days 00:00:00.030106,0
-doitsujin/dxvk,1,v,40,30,5,32,72,0 days 00:00:00.222818,0
-Jguer/yay,1,v,49,33,9,26,75,0 days 00:00:00.247913,0
-JustArchiNET/ArchiSteamFarm,1,,167,154,10,431,598,0 days 00:00:00.892951,0
-mediaelement/mediaelement,1,,32,8,12,117,149,0 days 00:00:00.358098,0
-qutebrowser/qutebrowser,1,v,32,4,16,49,81,0 days 00:00:01.378215,0
-mjmlio/mjml,3, v V,25,8,11,50,75,0 days 00:00:00.135344,0
-scylladb/scylla,1,scylla-,33,11,10,130,163,0 days 00:00:01.931438,0
-justauth/JustAuth,3, v. v,14,9,2,25,39,0 days 00:00:00.042103,0
-zalmoxisus/redux-devtools-extension,2, v,27,23,2,43,70,0 days 00:00:00.054192,0
-google/cadvisor,2, v,45,20,15,71,116,0 days 00:00:00.394321,0
-grpc-ecosystem/grpc-gateway,1,v,28,10,10,43,71,0 days 00:00:00.117576,0
-fabric/fabric,1,,26,4,19,97,123,0 days 00:00:00.331597,0
-automerge/automerge,1,v,13,4,6,20,33,0 days 00:00:00.045408,0
-verdaccio/verdaccio,1,v,64,34,13,148,212,0 days 00:00:00.350740,0
-powerline/powerline,1,,13,3,7,10,23,0 days 00:00:00.130787,0
-Tencent/APIJSON,1,,37,21,7,51,88,0 days 00:00:00.173145,0
-orhanobut/logger,2, v,13,6,4,1,14,0 days 00:00:00.020205,0
-android-hacker/VirtualXposed,2, v,12,3,3,55,67,0 days 00:00:00.130702,0
-getgrav/grav,1,,13,3,8,170,183,0 days 00:00:00.498480,0
-authelia/authelia,1,v,55,39,5,114,169,0 days 00:00:00.385355,0
-Budibase/budibase,1,v,10,5,3,479,489,0 days 00:00:01.586805,0
-RaRe-Technologies/gensim,1,,23,6,11,36,59,0 days 00:00:00.234908,0
-python/mypy,1,v,59,38,8,7,66,0 days 00:00:00.624642,0
-timescale/timescaledb,1,,28,8,8,33,61,0 days 00:00:00.233505,0
-flipped-aurora/gin-vue-admin,3,v. v V,7,2,2,21,28,0 days 00:00:00.114127,0
-ahmetb/kubectx,1,v,9,2,5,11,20,0 days 00:00:00.025690,0
-mdx-js/mdx,2, v,26,19,5,140,166,0 days 00:00:00.152024,0
-txthinking/brook,1,v,43,22,6,0,43,0 days 00:00:00.046611,0
-mockito/mockito,1,v,58,32,10,409,467,0 days 00:00:00.542785,0
-xtermjs/xterm.js,1,,76,52,7,35,111,0 days 00:00:00.563486,0
-termux/termux-app,1,v,89,73,7,0,89,0 days 00:00:00.081829,0
-xtaci/kcptun,2, v,106,79,7,0,106,0 days 00:00:00.085942,0
-arduino/Arduino,1,,26,5,13,46,72,0 days 00:00:00.451993,0
-bcicen/ctop,2, v,5,2,2,11,16,0 days 00:00:00.035756,0
-selectize/selectize.js,1,v,12,5,2,64,76,0 days 00:00:00.060595,0
-WerWolv/ImHex,1,v,19,14,2,12,31,0 days 00:00:00.071177,0
-gionkunz/chartist-js,1,v,11,6,4,47,58,0 days 00:00:00.052845,0
-wechaty/wechaty,1,v,15,4,7,8,23,0 days 00:00:00.316871,0
-http-party/node-http-proxy,2, v,27,11,13,70,97,0 days 00:00:00.101962,0
-filp/whoops,1,,18,6,8,50,68,0 days 00:00:00.078798,0
-Semantic-Org/Semantic-UI-React,1,v,93,78,5,211,304,0 days 00:00:00.434336,0
-DIYgod/DPlayer,2, v,21,12,5,21,42,0 days 00:00:00.077681,0
-you-dont-need/You-Dont-Need-Momentjs,1,v,6,3,2,5,11,0 days 00:00:00.022839,0
-rwaldron/johnny-five,2, v,14,3,7,73,87,0 days 00:00:00.159744,0
-umijs/qiankun,1,v,14,4,7,92,106,0 days 00:00:00.068383,0
-NodeBB/NodeBB,1,v,30,2,17,93,123,0 days 00:00:01.344652,0
-Intervention/image,1,,15,3,8,93,108,0 days 00:00:00.068537,0
-redux-form/redux-form,1,v,46,30,8,141,187,0 days 00:00:00.283195,0
-revel/revel,1,v,18,4,10,7,25,0 days 00:00:00.081740,0
-charmbracelet/bubbletea,1,v,20,14,4,27,47,0 days 00:00:00.044179,0
-moment/luxon,1,,37,21,6,69,106,0 days 00:00:00.073648,0
-showdownjs/showdown,2, v,14,3,7,42,56,0 days 00:00:00.049974,0
-pqina/filepond,1,,52,41,4,143,195,0 days 00:00:00.093663,0
-thephpleague/flysystem,1,,13,2,6,175,188,0 days 00:00:00.395285,0
-horovod/horovod,1,v,16,3,10,53,69,0 days 00:00:00.079701,0
-aws/aws-cli,1,,46,24,17,1642,1688,0 days 00:00:03.714740,0
-OptimalBits/bull,2, v,49,26,13,84,133,0 days 00:00:00.126161,0
-openstf/stf,1,v,12,4,7,16,28,0 days 00:00:00.100176,0
-keycloak/keycloak,1,,16,3,7,21,37,0 days 00:00:00.670430,0
-josdejong/mathjs,1,v,109,83,4,118,227,0 days 00:00:00.378099,0
-pyecharts/pyecharts,1,v,14,4,6,29,43,0 days 00:00:00.274378,0
-barryvdh/laravel-ide-helper,1,v,25,8,15,61,86,0 days 00:00:00.060037,0
-MaterialDesignInXAML/MaterialDesignInXamlToolkit,2, v,21,5,12,12,33,0 days 00:00:00.111159,0
-uuidjs/uuid,1,v,16,6,8,21,37,0 days 00:00:00.232805,0
-surmon-china/vue-awesome-swiper,2, v,14,5,5,36,50,0 days 00:00:00.026059,0
-tensorflow/tensor2tensor,3, v. v,15,5,4,61,76,0 days 00:00:00.181823,0
-danilowoz/react-content-loader,2, v,16,6,8,27,43,0 days 00:00:00.030817,0
-liriliri/eruda,1,v,15,6,5,40,55,0 days 00:00:00.043158,0
-gaearon/react-hot-loader,2, v,25,13,6,107,132,0 days 00:00:00.128271,0
-OpenAPITools/openapi-generator,2, v,16,2,11,38,54,0 days 00:00:01.058536,0
-wkhtmltopdf/wkhtmltopdf,1,,8,4,3,31,39,0 days 00:00:00.059301,0
-11ty/eleventy,1,v,13,2,7,41,54,0 days 00:00:00.090908,0
-systemjs/systemjs,2, v,40,18,10,187,227,0 days 00:00:00.159729,0
-rt2zz/redux-persist,1,v,36,27,6,76,112,0 days 00:00:00.062428,0
-aquasecurity/trivy,1,v,28,19,2,59,87,0 days 00:00:00.170959,0
-visionmedia/supertest,2, v,29,8,13,29,58,0 days 00:00:00.037021,0
-lra/mackup,1,,8,4,3,53,61,0 days 00:00:00.110396,0
-casbin/casbin,1,v,68,52,5,118,186,0 days 00:00:00.102089,0
-oliver-moran/jimp,2, v,15,8,4,71,86,0 days 00:00:00.062354,0
-tabler/tabler-icons,1,v,69,65,2,15,84,0 days 00:00:00.066542,0
-foambubble/foam,1,v,17,10,3,44,61,0 days 00:00:00.297627,0
-arut/nginx-rtmp-module,1,v,12,5,3,100,112,0 days 00:00:00.071336,0
-Miserlou/Zappa,2, v,50,42,3,71,121,0 days 00:00:00.335522,0
-carloscuesta/gitmoji,1,v,13,5,2,5,18,0 days 00:00:00.047562,0
-roots/sage,2, v,27,10,12,35,62,0 days 00:00:00.140286,0
-webpack-contrib/webpack-bundle-analyzer,1,v,32,19,8,34,66,0 days 00:00:00.051959,0
-http-party/http-server,2, v,15,2,10,30,45,0 days 00:00:00.050927,0
-aurelia/framework,1,,23,16,5,32,55,0 days 00:00:00.055840,0
-Tamsiree/RxTool,2, v,15,7,4,177,192,0 days 00:00:00.111025,0
-karma-runner/karma,2, v,35,14,12,198,233,0 days 00:00:00.408470,0
-FaridSafi/react-native-gifted-chat,2, v,16,6,7,46,62,0 days 00:00:00.092420,0
-thingsboard/thingsboard,1,v,15,2,7,33,48,0 days 00:00:00.545298,0
-ramsey/uuid,1,,26,6,14,37,63,0 days 00:00:00.068971,0
-ben-manes/caffeine,2, v,16,4,7,45,61,0 days 00:00:00.103778,0
-segmentio/evergreen,1,v,51,39,2,84,135,0 days 00:00:00.094469,0
-AdguardTeam/AdGuardHome,1,v,19,6,4,31,50,0 days 00:00:00.154611,0
-emirpasic/gods,1,v,19,14,3,6,25,0 days 00:00:00.032860,0
-mikepenz/MaterialDrawer,1,v,35,19,8,166,201,0 days 00:00:00.194185,0
-LuckSiege/PictureSelector,2,v. v,12,6,5,91,103,0 days 00:00:00.328051,0
-microsoft/nni,1,v,27,9,2,16,43,0 days 00:00:00.309245,0
-apexcharts/apexcharts.js,2, v,32,15,3,54,86,0 days 00:00:00.136612,0
-nock/nock,2, v,125,107,13,181,306,0 days 00:00:00.242847,0
-rjsf-team/react-jsonschema-form,1,v,71,56,6,52,123,0 days 00:00:00.102123,0
-d2-projects/d2-admin,2, v,25,17,4,62,87,0 days 00:00:00.190951,0
-mifi/lossless-cut,1,v,70,52,9,67,137,0 days 00:00:00.126151,0
-sindresorhus/got,1,v,70,49,11,71,141,0 days 00:00:00.124145,0
-spicetify/spicetify-cli,2,v. v,23,14,5,52,75,0 days 00:00:00.079669,0
-rizinorg/cutter,1,v,14,6,5,16,30,0 days 00:00:00.129658,0
-video-dev/hls.js,1,v,16,2,9,185,201,0 days 00:00:00.613536,0
-bettercap/bettercap,1,v,33,23,5,10,43,0 days 00:00:00.285042,0
-hotwired/stimulus,1,v,12,5,4,14,26,0 days 00:00:00.063599,0
-graphile/postgraphile,1,v,35,20,7,60,95,0 days 00:00:00.251762,0
-slimphp/Slim,1,,40,11,21,55,95,0 days 00:00:00.264732,0
-wenzhixin/bootstrap-table,1,,18,3,9,39,57,0 days 00:00:00.189613,0
-cloudwu/skynet,1,v,15,7,6,18,33,0 days 00:00:00.120207,0
-antvis/G2,2, v,13,2,8,144,157,0 days 00:00:00.293367,0
-conventional-changelog/commitlint,1,v,47,28,10,89,136,0 days 00:00:00.285286,0
-PHPOffice/PhpSpreadsheet,1,,24,6,7,10,34,0 days 00:00:00.191556,0
-micro/micro,2, v,62,48,2,37,99,0 days 00:00:00.244219,0
-pagehelper/Mybatis-PageHelper,1,v,18,9,6,42,60,0 days 00:00:00.049844,0
-single-spa/single-spa,2, v,29,15,10,85,114,0 days 00:00:00.066348,0
-davisking/dlib,1,v,55,14,13,0,55,0 days 00:00:00.367765,0
-argoproj/argo-workflows,2, v,23,7,9,102,125,0 days 00:00:00.356886,0
-frappe/erpnext,2, v,153,136,7,763,916,0 days 00:00:03.591320,0
-FriendsOfPHP/PHP-CS-Fixer,1,v,48,26,15,148,196,0 days 00:00:00.619451,0
-mail-in-a-box/mailinabox,1,v,45,16,11,0,45,0 days 00:00:00.103945,0
-ajv-validator/ajv,2, v,71,54,6,89,160,0 days 00:00:00.179991,0
-SFTtech/openage,1,v,5,2,2,4,9,0 days 00:00:00.343591,0
-allenai/allennlp,2, v,24,7,5,23,47,0 days 00:00:00.147089,0
-baidu/amis,1,,9,5,2,37,46,0 days 00:00:00.487992,0
-keeweb/keeweb,1,v,25,10,9,103,128,0 days 00:00:00.197130,0
-ansible/awx,1,,36,18,2,20,56,0 days 00:00:01.763344,0
-nats-io/nats-server,1,v,17,2,12,49,66,0 days 00:00:00.398438,0
-stylus/stylus,1,,53,34,11,115,168,0 days 00:00:00.199422,0
-jonas/tig,1,tig-,27,6,19,22,49,0 days 00:00:00.210357,0
-tomnomnom/gron,2, v,7,2,2,27,34,0 days 00:00:00.021403,0
-dgraph-io/badger,1,v,14,6,7,20,34,0 days 00:00:00.103662,0
-ent/ent,1,v,10,3,4,21,31,0 days 00:00:00.104665,0
-Kotlin/kotlinx.coroutines,1,,24,11,6,38,62,0 days 00:00:00.147316,0
-SpartnerNL/Laravel-Excel,2, v,11,3,6,143,154,0 days 00:00:00.250518,0
-networkx/networkx,1,networkx-,37,7,25,10,47,0 days 00:00:00.471464,0
-wbkd/react-flow,2, v,56,52,2,118,174,0 days 00:00:00.174883,0
-GoogleChrome/workbox,1,v,24,10,7,38,62,0 days 00:00:00.214006,0
-summernote/summernote,1,v,8,2,2,52,60,0 days 00:00:00.180393,0
-javve/list.js,2, v,11,4,5,10,21,0 days 00:00:00.049820,0
-ionic-team/stencil,1,v,53,40,2,189,242,0 days 00:00:00.571520,0
-browserslist/browserslist,1,,49,24,11,119,168,0 days 00:00:00.122246,0
-Rapptz/discord.py,1,v,24,15,6,41,65,0 days 00:00:00.147296,0
-fengyuanchen/cropperjs,1,v,14,6,4,40,54,0 days 00:00:00.042432,0
-casesandberg/react-color,2, v,14,8,5,23,37,0 days 00:00:00.038478,0
-jxnblk/mdx-deck,1,v,21,16,2,91,112,0 days 00:00:00.233623,0
-swaywm/sway,1,,22,7,8,7,29,0 days 00:00:00.317051,0
-lingochamp/FileDownloader,1,v,11,4,4,56,67,0 days 00:00:00.049719,0
-downshift-js/downshift,1,v,49,38,4,179,228,0 days 00:00:00.123036,0
-tymondesigns/jwt-auth,1,,6,3,2,29,35,0 days 00:00:00.083335,0
-App-vNext/Polly,2, v,7,3,2,4,11,0 days 00:00:00.054841,0
-polybar/polybar,1,,20,12,7,84,104,0 days 00:00:00.228715,0
-mholt/PapaParse,1,,19,5,7,55,74,0 days 00:00:00.042158,0
-star7th/showdoc,2, v,18,6,6,124,142,0 days 00:00:00.100010,0
-go-playground/validator,1,v,94,69,10,59,153,0 days 00:00:00.105389,0
-rqlite/rqlite,1,v,56,37,8,39,95,0 days 00:00:00.172084,0
-spatie/laravel-permission,1,,87,61,11,71,158,0 days 00:00:00.119614,0
-VSCodeVim/Vim,2, v,38,19,6,187,225,0 days 00:00:00.349445,0
-abseil/abseil-cpp,1,,17,5,9,0,17,0 days 00:00:00.064868,0
-avwo/whistle,1,v,31,12,10,342,373,0 days 00:00:00.932031,0
-restify/node-restify,2, v,44,27,13,96,140,0 days 00:00:00.229399,0
-GoogleContainerTools/kaniko,1,v,33,20,4,4,37,0 days 00:00:00.217833,0
-akiran/react-slick,2, v,13,3,8,27,40,0 days 00:00:00.080379,0
-thanos-io/thanos,1,v,26,7,2,17,43,0 days 00:00:00.175826,0
-dbcli/pgcli,2, v,39,16,10,47,86,0 days 00:00:00.233436,0
-milvus-io/milvus,1,v,9,3,3,15,24,0 days 00:00:00.979597,0
-dbcli/mycli,1,v,26,8,10,20,46,0 days 00:00:00.088550,0
-luin/ioredis,2, v,54,33,11,132,186,0 days 00:00:00.231662,0
-styleguidist/react-styleguidist,2, v,47,30,7,215,262,0 days 00:00:00.187159,0
-netbox-community/netbox,2, v,24,6,13,173,197,0 days 00:00:00.659664,0
-jina-ai/clip-as-service,1,v,15,11,2,92,107,0 days 00:00:00.132801,0
-TypeStrong/ts-node,1,v,52,29,9,83,135,0 days 00:00:00.106617,0
-redis/redis-py,2, v,15,2,9,49,64,0 days 00:00:00.103609,0
-tidwall/gjson,1,v,15,5,6,42,57,0 days 00:00:00.040234,0
-okonet/lint-staged,2, v,44,23,7,145,189,0 days 00:00:00.109930,0
-aspnetboilerplate/aspnetboilerplate,3, v. v,91,57,7,125,216,0 days 00:00:00.502529,0
-reactstrap/reactstrap,2, v,61,45,7,54,115,0 days 00:00:00.093483,0
-git-lfs/git-lfs,2, v,29,3,19,60,89,0 days 00:00:00.448755,0
-PrismJS/prism,2, v,29,8,11,11,40,0 days 00:00:00.192695,0
-shipshapecode/shepherd,1,v,46,28,9,73,119,0 days 00:00:00.153823,0
-snabbdom/snabbdom,1,v,14,3,6,33,47,0 days 00:00:00.063075,0
-ant-design/ant-design-mobile,2, v,28,19,4,107,135,0 days 00:00:00.364409,0
-spencermountain/compromise,2, v,70,45,12,148,218,0 days 00:00:00.280335,0
-debug-js/debug,1,,22,7,8,47,69,0 days 00:00:00.048399,0
-plouc/nivo,1,v,67,56,7,45,112,0 days 00:00:00.120806,0
-pagekit/vue-resource,1,,12,5,4,41,53,0 days 00:00:00.040055,0
-jantimon/html-webpack-plugin,2, v,47,34,10,36,83,0 days 00:00:00.064608,0
-mailhog/MailHog,2, v,10,7,2,16,26,0 days 00:00:00.027936,0
-vercel/micro,2, v,21,13,5,34,55,0 days 00:00:00.050767,0
-react-static/react-static,1,v,28,20,5,162,190,0 days 00:00:00.196110,0
-SpacehuhnTech/esp8266_deauther,3, v. v,10,5,3,3,13,0 days 00:00:00.048959,0
-serbanghita/Mobile-Detect,1,,6,2,3,64,70,0 days 00:00:00.063680,0
-samuelcolvin/pydantic,2,v V,42,30,6,37,79,0 days 00:00:00.098520,0
-clauderic/react-sortable-hoc,1,v,20,14,3,52,72,0 days 00:00:00.054500,0
-h2o/h2o,1,v,12,3,2,32,44,0 days 00:00:00.248143,0
-tinygo-org/tinygo,1,v,23,9,3,4,27,0 days 00:00:00.136383,0
-FredrikNoren/ungit,2, v,16,9,6,126,142,0 days 00:00:00.412077,0
-atomiks/tippyjs,2, v,27,20,5,65,92,0 days 00:00:00.079494,0
-nhn/tui.calendar,1,v,21,13,3,42,63,0 days 00:00:00.100841,0
-typesense/typesense,2, v,16,5,5,8,24,0 days 00:00:00.078420,0
-dask/dask,1,,97,59,9,141,238,0 days 00:00:00.982896,0
-bitwarden/server,2, v,49,31,4,58,107,0 days 00:00:00.170848,0
-kubernetes-sigs/kind,2, v,14,2,6,10,24,0 days 00:00:00.187927,0
-zricethezav/gitleaks,1,v,60,47,5,62,122,0 days 00:00:00.081187,0
-w7corp/easywechat,1,,47,25,16,241,288,0 days 00:00:00.267290,0
-visgl/deck.gl,2, v,32,8,11,250,282,0 days 00:00:00.569185,0
-squidfunk/mkdocs-material,1,,52,34,6,192,244,0 days 00:00:00.294813,0
-NaturalNode/natural,2, v,6,2,3,44,50,0 days 00:00:00.459134,0
-frida/frida,1,,54,30,10,579,633,0 days 00:00:00.626653,0
-coryhouse/react-slingshot,2, v,8,3,2,7,15,0 days 00:00:00.038858,0
-socketio/socket.io-client,1,,28,2,16,97,125,0 days 00:00:00.122908,0
-vega/vega,1,v,45,20,15,73,118,0 days 00:00:00.437625,0
-immerjs/immer,2, v,35,23,5,94,129,0 days 00:00:00.202477,0
-tj/commander.js,2, v,50,19,18,38,88,0 days 00:00:00.086159,0
-jesseduffield/lazydocker,1,v,18,11,5,27,45,0 days 00:00:00.049073,0
-angular/components,1,,31,13,7,128,159,0 days 00:00:00.877771,0
-alibaba/nacos,2, v,16,9,6,15,31,0 days 00:00:00.224695,0
-doczjs/docz,1,v,19,13,5,66,85,0 days 00:00:00.111436,0
-labstack/echo,2, v,20,3,10,75,95,0 days 00:00:00.108399,0
-vuejs/devtools,1,v,10,4,4,36,46,0 days 00:00:00.103983,0
-halo-dev/halo,1,v,10,2,5,42,52,0 days 00:00:00.125541,0
-react-native-elements/react-native-elements,2, v,30,18,5,52,82,0 days 00:00:00.141105,0
-files-community/Files,1,v,23,18,4,38,61,0 days 00:00:00.344051,0
-lovell/sharp,1,v,30,4,16,88,118,0 days 00:00:00.108548,0
-seata/seata,3, v V,15,6,3,18,33,0 days 00:00:00.201215,0
-redux-saga/redux-saga,2, v,18,9,5,40,58,0 days 00:00:00.135078,0
-reduxjs/react-redux,1,v,26,17,6,59,85,0 days 00:00:00.084807,0
-swagger-api/swagger-ui,3, v/ v,69,51,11,189,258,0 days 00:00:00.473911,0
-ramda/ramda,2, v,28,13,9,26,54,0 days 00:00:00.133998,0
-t4t5/sweetalert,2, v,9,2,3,23,32,0 days 00:00:00.028216,0
-signalapp/Signal-Android,3, v. v,180,163,8,860,1040,0 days 00:00:01.854115,0
-sampotts/plyr,1,v,16,6,7,195,211,0 days 00:00:00.983141,0
-guzzle/guzzle,2, v,37,16,14,96,133,0 days 00:00:00.209764,0
-fabricjs/fabric.js,2, v,34,10,14,69,103,0 days 00:00:00.256129,0
-emberjs/ember.js,1,v,68,20,4,184,252,0 days 00:00:01.821198,0
-facebook/draft-js,2, v,11,7,3,16,27,0 days 00:00:00.071846,0
-helm/helm,2, v,32,7,12,68,100,0 days 00:00:00.615730,0
-github/hub,1,v,29,14,10,59,88,0 days 00:00:00.370422,0
-feathericons/feather,1,v,39,28,3,12,51,0 days 00:00:00.147155,0
-httpie/httpie,1,,19,2,12,28,47,0 days 00:00:00.096994,0
-openfaas/faas,2, v,18,9,7,110,128,0 days 00:00:00.131016,0
-usablica/intro.js,2, v,29,5,13,12,41,0 days 00:00:00.076387,0
-mochajs/mocha,2, v,65,28,15,110,175,0 days 00:00:00.243263,0
-vercel/pkg,1,,15,7,5,42,57,0 days 00:00:00.060883,0
-rollup/rollup,1,v,169,157,3,411,580,0 days 00:00:00.759317,0
-paularmstrong/normalizr,2, v,16,7,5,18,34,0 days 00:00:00.041025,0
-docsifyjs/docsify,1,v,44,35,6,147,191,0 days 00:00:00.153550,0
-jlmakes/scrollreveal,1,v,10,3,5,36,46,0 days 00:00:00.155775,0
-StevenBlack/hosts,2, v,24,10,7,405,429,0 days 00:00:00.505211,0
-react-bootstrap/react-bootstrap,2, v,44,24,10,108,152,0 days 00:00:00.378087,0
-sirupsen/logrus,2, v,20,6,8,35,55,0 days 00:00:00.073336,0
-eslint/eslint,1,v,164,153,3,103,267,0 days 00:00:00.532471,0
-localForage/localForage,1,,19,10,7,43,62,0 days 00:00:00.076684,0
-nicolargo/glances,1,v,22,2,15,70,92,0 days 00:00:00.210904,0
-michalsnik/aos,2, v,11,4,4,24,35,0 days 00:00:00.023165,0
-vuejs/vuepress,1,v,24,14,5,50,74,0 days 00:00:00.242923,0
-postcss/autoprefixer,1,,53,27,14,133,186,0 days 00:00:00.307902,0
-microsoft/cascadia-code,1,v,18,8,3,0,18,0 days 00:00:00.025340,0
-uglide/RedisDesktopManager,1,,33,19,4,38,71,0 days 00:00:00.124558,0
-petkaantonov/bluebird,1,v,24,11,7,115,139,0 days 00:00:00.165153,0
-necolas/react-native-web,1,,17,6,7,242,259,0 days 00:00:00.329027,0
-python-poetry/poetry,1,,14,10,3,63,77,0 days 00:00:00.142087,0
-avajs/ava,1,v,54,37,4,23,77,0 days 00:00:00.119734,0
-Seldaek/monolog,1,,36,9,21,26,62,0 days 00:00:00.336657,0
-ShareX/ShareX,1,v,50,24,11,22,72,0 days 00:00:00.473471,0
-electron-react-boilerplate/electron-react-boilerplate,1,v,32,13,10,31,63,0 days 00:00:00.076274,0
-validatorjs/validator.js,2, v,107,79,8,43,150,0 days 00:00:00.147754,0
-schollz/croc,1,v,31,15,6,106,137,0 days 00:00:00.127792,0
-marmelab/react-admin,1,v,46,32,4,168,214,0 days 00:00:01.021709,0
-youzan/vant,1,v,33,13,6,377,410,0 days 00:00:00.773089,0
-parse-community/parse-server,1,,34,15,12,111,145,0 days 00:00:00.251561,0
-spf13/viper,1,v,13,2,8,13,26,0 days 00:00:00.037126,0
-apache/skywalking,1,v,20,4,6,11,31,0 days 00:00:00.372273,0
-celery/celery,2, v,22,3,17,143,165,0 days 00:00:00.749777,0
-benweet/stackedit,1,v,23,17,4,104,127,0 days 00:00:00.112322,0
-afollestad/material-dialogs,3, v. v,20,12,3,98,118,0 days 00:00:00.117490,0
-felixrieseberg/windows95,1,v,11,4,5,3,14,0 days 00:00:00.021307,0
-TeamNewPipe/NewPipe,2, v,17,3,10,100,117,0 days 00:00:00.644944,0
-segmentio/nightmare,1,,21,9,4,67,88,0 days 00:00:00.073221,0
-alibaba/Sentinel,2, v,8,2,3,16,24,0 days 00:00:00.058030,0
-codex-team/editor.js,2, v,11,3,5,16,27,0 days 00:00:00.423333,0
-jhipster/generator-jhipster,1,v,110,89,5,114,224,0 days 00:00:02.376555,0
-locustio/locust,2, v,27,9,10,56,83,0 days 00:00:00.184961,0
-osquery/osquery,2, v,39,13,12,80,119,0 days 00:00:00.434531,0
-winstonjs/winston,2, v,24,6,13,62,86,0 days 00:00:00.089876,0
-Popmotion/popmotion,2, v,21,14,5,131,152,0 days 00:00:00.172694,0
-vuejs/vue-router,1,v,19,9,5,59,78,0 days 00:00:00.218397,0
-graphql/graphql-js,2, v,34,12,13,88,122,0 days 00:00:00.191480,0
-telegramdesktop/tdesktop,1,v,34,11,15,542,576,0 days 00:00:01.045549,0
-zhongyang219/TrafficMonitor,1,V,18,8,6,4,22,0 days 00:00:00.046342,0
-python-telegram-bot/python-telegram-bot,3, v V,49,27,8,39,88,0 days 00:00:00.150129,0
-reduxjs/reselect,1,v,11,6,4,14,25,0 days 00:00:00.050664,0
-sideway/joi,2, v,92,63,11,135,227,0 days 00:00:00.185622,0
-chalk/chalk,1,v,16,3,8,16,32,0 days 00:00:00.028889,0
-jumpserver/jumpserver,2, v,31,24,5,103,134,0 days 00:00:00.674473,0
-PyTorchLightning/pytorch-lightning,1,,16,3,4,98,114,0 days 00:00:00.598623,0
-vnpy/vnpy,2, v,22,6,7,28,50,0 days 00:00:00.452532,0
-vadimdemedes/ink,1,v,16,6,6,23,39,0 days 00:00:00.038365,0
-bazelbuild/bazel,1,,47,29,8,56,103,0 days 00:00:01.952145,0
-solidjs/solid,1,v,27,16,2,137,164,0 days 00:00:00.129092,0
-pbatard/rufus,1,v,42,11,15,28,70,0 days 00:00:00.110084,0
-mpv-player/mpv,1,v,34,10,8,46,80,0 days 00:00:02.439114,0
-urfave/cli,1,v,33,16,9,34,67,0 days 00:00:00.324284,0
-mingrammer/diagrams,1,v,20,14,3,16,36,0 days 00:00:00.031920,0
-OpenZeppelin/openzeppelin-contracts,1,v,30,10,5,22,52,0 days 00:00:00.150990,0
-appsmithorg/appsmith,3, v. v,13,7,3,129,142,0 days 00:00:00.652977,0
-recharts/recharts,1,v,26,13,6,93,119,0 days 00:00:00.257725,0
-Baseflow/PhotoView,2, v,8,2,4,12,20,0 days 00:00:00.030389,0
-websockets/ws,2, v,40,13,11,114,154,0 days 00:00:00.125940,0
-lensapp/lens,1,v,19,6,6,56,75,0 days 00:00:00.380755,0
-iawia002/lux,2, v,15,7,5,59,74,0 days 00:00:00.061122,0
-philc/vimium,2, v,11,2,5,17,28,0 days 00:00:00.301808,0
-eggjs/egg,1,,70,51,10,43,113,0 days 00:00:00.099523,0
-go-kratos/kratos,1,v,11,2,7,21,32,0 days 00:00:00.087412,0
-wekan/wekan,2, v,610,607,2,27,637,0 days 00:00:01.119302,0
-valyala/fasthttp,1,v,43,27,4,3,46,0 days 00:00:00.221067,0
-quii/learn-go-with-tests,2, v,22,13,5,27,49,0 days 00:00:00.072316,0
-svg/svgo,2, v,20,8,11,66,86,0 days 00:00:00.084401,0
-react-dnd/react-dnd,2, v,45,25,10,100,145,0 days 00:00:00.199120,0
-arendst/Tasmota,1,v,35,14,7,58,93,0 days 00:00:00.924318,0
-typicode/lowdb,1,v,21,8,9,36,57,0 days 00:00:00.148842,0
-NickeManarin/ScreenToGif,1,,37,16,7,43,80,0 days 00:00:00.073878,0
-pubkey/rxdb,1,,58,43,2,55,113,0 days 00:00:00.541690,0
-flameshot-org/flameshot,1,v,11,3,6,30,41,0 days 00:00:00.192157,0
-freqtrade/freqtrade,1,,44,35,3,14,58,0 days 00:00:00.861786,0
-SortableJS/Vue.Draggable,2,v. v,24,13,6,25,49,0 days 00:00:00.044278,0
-jsdom/jsdom,2, v,98,67,9,144,242,0 days 00:00:00.226541,0
-nosir/cleave.js,1,v,9,2,5,57,66,0 days 00:00:00.042614,0
-TanStack/table,1,v,36,24,6,86,122,0 days 00:00:00.112865,0
-mysqljs/mysql,1,v,28,10,9,26,54,0 days 00:00:00.080896,0
-jquense/yup,1,v,27,12,8,67,94,0 days 00:00:00.055466,0
-pmndrs/zustand,1,v,13,4,6,56,69,0 days 00:00:00.074308,0
-linlinjava/litemall,1,v,19,10,2,3,22,0 days 00:00:00.104239,0
-BabylonJS/Babylon.js,2, v,36,16,14,36,72,0 days 00:00:02.207009,0
-Molunerfinn/PicGo,1,v,11,4,5,21,32,0 days 00:00:00.050653,0
-ai/nanoid,1,,12,5,4,73,85,0 days 00:00:00.090142,0
-oldj/SwitchHosts,1,v,9,2,5,36,45,0 days 00:00:00.106703,0
-badges/shields,1,,8,3,4,3,11,0 days 00:00:00.456169,0
-cookiecutter/cookiecutter,1,,14,4,8,15,29,0 days 00:00:00.265587,0
-eclipse-theia/theia,2, v,43,37,2,33,76,0 days 00:00:00.478709,0
-restic/restic,1,v,13,2,7,18,31,0 days 00:00:00.436826,0
-facebook/fresco,1,v,35,14,13,12,47,0 days 00:00:00.182462,0
-less/less.js,1,v,26,8,13,42,68,0 days 00:00:00.169332,0
-brettwooldridge/HikariCP,1,HikariCP-,17,2,10,82,99,0 days 00:00:00.265985,0
-defunkt/jquery-pjax,2, v,12,6,3,15,27,0 days 00:00:00.036830,0
-zloirock/core-js,2, v,41,26,7,156,197,0 days 00:00:00.293547,0
-fingerprintjs/fingerprintjs,2, v,23,11,7,50,73,0 days 00:00:00.067349,0
-monicahq/monica,1,v,47,32,4,39,86,0 days 00:00:00.237250,0
-framework7io/framework7,1,v,43,19,11,172,215,0 days 00:00:00.535243,0
-handlebars-lang/handlebars.js,2, v,14,5,6,56,70,0 days 00:00:00.107941,0
-elastic/kibana,1,v,55,16,12,190,245,0 days 00:00:06.634677,0
-handsontable/handsontable,2, v,62,27,14,117,179,0 days 00:00:00.536931,0
-grafana/k6,1,v,36,12,6,36,72,0 days 00:00:00.251955,0
-plotly/dash,1,v,42,29,3,33,75,0 days 00:00:00.439415,0
-testing-library/react-testing-library,1,v,57,43,2,110,167,0 days 00:00:00.088612,0
-derailed/k9s,2, v,25,17,2,155,180,0 days 00:00:00.125661,0
-dropzone/dropzone,1,v,32,15,12,83,115,0 days 00:00:00.357062,0
-responsively-org/responsively-app,1,v,18,14,3,10,28,0 days 00:00:00.079845,0
-GoogleChromeLabs/squoosh,1,v,10,4,5,17,27,0 days 00:00:00.063955,0
-gchq/CyberChef,1,v,119,106,4,273,392,0 days 00:00:00.436582,0
-Tencent/tinker,1,v,7,3,2,46,53,0 days 00:00:00.054981,0
-jamiebuilds/react-loadable,1,v,13,8,3,16,29,0 days 00:00:00.019498,0
-nginx/nginx,1,release-,32,10,20,516,548,0 days 00:00:00.813614,0
-nfl/react-helmet,1,,15,5,4,18,33,0 days 00:00:00.031839,0
-radareorg/radare2,2, release-,42,22,6,43,85,0 days 00:00:01.323399,0
-hubotio/hubot,1,v,26,7,12,68,94,0 days 00:00:00.105808,0
-aFarkas/lazysizes,1,,21,10,7,45,66,0 days 00:00:00.064181,0
-matomo-org/matomo,1,,64,20,21,130,194,0 days 00:00:01.935387,0
-sanic-org/sanic,2, v,21,2,13,49,70,0 days 00:00:00.160564,0
-matryer/xbar,2, v,9,5,2,5,14,0 days 00:00:00.286079,0
-ionic-team/ionicons,2, v,21,9,10,51,72,0 days 00:00:00.055769,0
-v2fly/v2ray-core,1,v,185,168,4,217,402,0 days 00:00:00.486984,0
-grafana/loki,1,v,17,4,4,8,25,0 days 00:00:00.203618,0
-notepad-plus-plus/notepad-plus-plus,2, v,42,7,11,159,201,0 days 00:00:00.461290,0
-visionmedia/superagent,2, v,50,23,13,84,134,0 days 00:00:00.277220,0
-trojan-gfw/trojan,1,v,24,15,4,19,43,0 days 00:00:00.037506,0
-youzan/vant-weapp,1,v,16,7,4,91,107,0 days 00:00:00.154058,0
-cocos2d/cocos2d-x,1,cocos2d-x-,20,2,8,17,37,0 days 00:00:02.277592,0
-filebrowser/filebrowser,1,v,34,23,6,62,96,0 days 00:00:00.140848,0
-EastWorld/wechat-app-mall,2, v,14,6,4,8,22,0 days 00:00:00.032248,0
-uber-go/zap,1,v,22,11,8,6,28,0 days 00:00:00.041840,0
-knex/knex,2, v,25,2,17,146,171,0 days 00:00:00.379224,0
-qbittorrent/qBittorrent,1,release-,24,5,16,145,169,0 days 00:00:00.968573,0
-jaegertracing/jaeger,1,v,40,24,3,13,53,0 days 00:00:00.094753,0
-briannesbitt/Carbon,1,,99,80,7,79,178,0 days 00:00:00.198098,0
-react-grid-layout/react-grid-layout,2, v,22,9,8,86,108,0 days 00:00:00.086510,0
-wagerfield/parallax,1,v,6,2,2,5,11,0 days 00:00:00.018123,0
-oblador/react-native-vector-icons,1,v,37,14,10,42,79,0 days 00:00:00.054978,0
-spotify/luigi,2, v,13,4,8,46,59,0 days 00:00:00.205925,0
-buger/goreplay,2, v,18,5,10,23,41,0 days 00:00:00.071138,0
-semantic-release/semantic-release,2, v,62,48,9,206,268,0 days 00:00:00.173891,0
-ustbhuangyi/better-scroll,3, v. v,17,6,4,41,58,0 days 00:00:00.092852,0
-nikic/PHP-Parser,1,v,24,7,12,41,65,0 days 00:00:00.073927,0
-motdotla/dotenv,1,v,33,17,11,26,59,0 days 00:00:00.039686,0
-infernojs/inferno,2, v,38,29,6,160,198,0 days 00:00:00.412922,0
-jasmine/jasmine,1,v,28,5,17,29,57,0 days 00:00:00.117493,0
-janl/mustache.js,2, v,20,5,12,23,43,0 days 00:00:00.064845,0
-wulkano/Kap,1,v,13,2,5,14,27,0 days 00:00:00.065650,0
-teambit/bit,1,v,18,7,5,121,139,0 days 00:00:00.320602,0
-auth0/node-jsonwebtoken,1,v,29,13,9,42,71,0 days 00:00:00.045263,0
-KaTeX/KaTeX,1,v,15,3,10,41,56,0 days 00:00:00.131437,0
-facebook/yoga,2, v,19,6,8,23,42,0 days 00:00:00.293357,0
-huiyadanli/RevokeMsgPatcher,1,,15,6,3,0,15,0 days 00:00:00.022475,0
-catchorg/Catch2,3,v. v V,24,7,7,62,86,0 days 00:00:00.248173,0
-lottie-react-native/lottie-react-native,1,v,16,2,9,37,53,0 days 00:00:00.050192,0
-bower/bower,2, v,18,8,4,83,101,0 days 00:00:00.153526,0
-icsharpcode/ILSpy,2, v,16,2,11,9,25,0 days 00:00:00.520906,0
-fullcalendar/fullcalendar,1,v,44,14,18,72,116,0 days 00:00:00.299935,0
-DapperLib/Dapper,1,,31,22,6,13,44,0 days 00:00:00.096785,0
-pouchdb/pouchdb,2, v,24,7,8,47,71,0 days 00:00:00.379706,0
-airbnb/react-sketchapp,2, v,20,11,5,27,47,0 days 00:00:00.059165,0
-flatpickr/flatpickr,2, v,23,10,4,121,144,0 days 00:00:00.180116,0
-ChainSafe/web3.js,2, v,25,16,7,54,79,0 days 00:00:00.335666,0
-jellyfin/jellyfin,1,v,8,2,4,30,38,0 days 00:00:01.100756,0
-kovidgoyal/kitty,1,v,25,8,9,58,83,0 days 00:00:00.693911,0
-Anuken/Mindustry,1,v,136,129,4,0,136,0 days 00:00:00.800549,0
-nodemailer/nodemailer,1,v,47,20,15,170,217,0 days 00:00:00.132677,0
-desktop/desktop,1,release-,22,6,8,136,158,0 days 00:00:01.770976,0
-riot/riot,1,v,44,16,10,155,199,0 days 00:00:00.353072,0
-gabime/spdlog,1,v,19,4,10,15,34,0 days 00:00:00.168906,0
-Tencent/ncnn,1,,32,9,3,0,32,0 days 00:00:00.112445,0
-pqrs-org/Karabiner-Elements,1,v,28,11,5,0,28,0 days 00:00:00.311825,0
-framer/motion,1,v,60,51,3,243,303,0 days 00:00:00.328990,0
-you-dont-need/You-Dont-Need-Lodash-Underscore,1,v,14,5,6,6,20,0 days 00:00:00.035288,0
-plotly/plotly.js,1,v,72,54,3,133,205,0 days 00:00:01.468669,0
-Tencent/vConsole,2, v,24,13,7,34,58,0 days 00:00:00.063066,0
-magic-wormhole/magic-wormhole,1,,12,2,6,22,34,0 days 00:00:00.077054,0
-node-red/node-red,2, v,26,3,18,99,125,0 days 00:00:00.408912,0
-browsh-org/browsh,1,v,5,2,2,45,50,0 days 00:00:00.147200,0
-hashcat/hashcat,1,v,17,4,9,8,25,0 days 00:00:00.328224,0
-antonmedv/fx,1,,27,18,4,34,61,0 days 00:00:00.040716,0
-mkdocs/mkdocs,1,,20,9,9,27,47,0 days 00:00:00.095842,0
-chrislusf/seaweedfs,2, v,218,211,2,0,218,0 days 00:00:00.538873,0
-joke2k/faker,1,v,95,84,9,138,233,0 days 00:00:00.240332,0
-sweetalert2/sweetalert2,1,v,129,115,3,544,673,0 days 00:00:00.827075,0
-fmtlib/fmt,2, v,23,2,14,16,39,0 days 00:00:00.461501,0
-checkly/headless-recorder,1,v,8,4,3,10,18,0 days 00:00:00.030429,0
-krisk/Fuse,2, v,25,12,11,50,75,0 days 00:00:00.056826,0
-erusev/parsedown,2, v,17,10,5,51,68,0 days 00:00:00.055871,0
-localtunnel/localtunnel,1,v,13,3,6,20,33,0 days 00:00:00.022775,0
-greensock/GSAP,1,,26,5,17,72,98,0 days 00:00:00.048291,0
-jarun/nnn,1,v,34,11,4,2,36,0 days 00:00:00.336297,0
-barryvdh/laravel-debugbar,2,v V,24,11,10,99,123,0 days 00:00:00.090895,0
-micropython/micropython,1,v,19,4,10,31,50,0 days 00:00:00.620785,0
-iBotPeaches/Apktool,1,v,12,3,8,23,35,0 days 00:00:00.102759,0
-browserify/browserify,2, v,149,129,7,264,413,0 days 00:00:00.376276,0
-google/filament,1,v,23,13,5,70,93,0 days 00:00:00.400180,0
-dogecoin/dogecoin,2, v,17,3,10,64,81,0 days 00:00:01.118827,0
-be5invis/Iosevka,1,v,59,45,8,163,222,0 days 00:00:00.371315,0
-RasaHQ/rasa,1,,33,15,7,233,266,0 days 00:00:01.877558,0
-FormidableLabs/webpack-dashboard,2, v,12,3,8,31,43,0 days 00:00:00.030030,0
-bootstrap-vue/bootstrap-vue,2, v,47,38,2,66,113,0 days 00:00:00.326366,0
-infinitered/ignite,2, v,52,42,6,94,146,0 days 00:00:00.123556,0
-medcl/elasticsearch-analysis-ik,1,v,42,5,11,130,172,0 days 00:00:00.067323,0
-janpaepke/ScrollMagic,1,v,5,2,2,21,26,0 days 00:00:00.044193,0
-uNetworking/uWebSockets,1,v,66,52,5,26,92,0 days 00:00:00.107513,0
-gpujs/gpu.js,1,,21,15,3,55,76,0 days 00:00:00.086571,0
-hapijs/hapi,2, v,129,104,12,194,323,0 days 00:00:00.565119,0
-koel/koel,1,v,18,6,6,38,56,0 days 00:00:00.124568,0
-Qv2ray/Qv2ray,1,v,15,11,2,32,47,0 days 00:00:00.146616,0
-containers/podman,1,v,21,5,4,95,116,0 days 00:00:01.186090,0
-docker-slim/docker-slim,1,,38,21,10,17,55,0 days 00:00:00.048300,0
-wting/autojump,1,release-v,31,14,9,22,53,0 days 00:00:00.173300,0
-commitizen/cz-cli,2, v,16,6,7,58,74,0 days 00:00:00.044400,0
-infinitered/reactotron,1,v,46,36,3,40,86,0 days 00:00:00.095609,0
-markdown-it/markdown-it,1,,29,13,10,47,76,0 days 00:00:00.067902,0
-hashicorp/packer,2, v,21,5,15,82,103,0 days 00:00:01.278058,0
-vuejs/vue,2, v,15,4,7,145,160,0 days 00:00:00.378246,0
-facebook/react,2, v,36,8,14,58,94,0 days 00:00:01.061279,0
-twbs/bootstrap,1,v,23,3,15,36,59,0 days 00:00:01.287198,0
-facebook/react-native,2, v,67,52,8,144,211,0 days 00:00:01.660242,0
-d3/d3,1,v,91,58,12,197,288,0 days 00:00:00.383920,0
-axios/axios,2, v,27,10,10,30,57,0 days 00:00:00.068002,0
-electron/electron,1,v,113,74,19,595,708,0 days 00:00:02.777692,0
-vercel/next.js,2, v,33,11,8,122,155,0 days 00:00:01.133204,0
-mrdoob/three.js,1,r,132,108,5,0,132,0 days 00:00:02.548951,0
-iluwatar/java-design-patterns,1,,19,3,13,0,19,0 days 00:00:00.186090,0
-tensorflow/models,2,v. v,19,3,9,6,25,0 days 00:00:00.895930,0
-ant-design/ant-design,1,,79,66,4,329,408,0 days 00:00:01.578255,0
-nvbn/thefuck,1,,79,64,8,4,83,0 days 00:00:00.120170,0
-microsoft/PowerToys,2, v,28,19,3,31,59,0 days 00:00:00.293906,0
-FortAwesome/Font-Awesome,2, v,30,6,15,40,70,0 days 00:00:00.072410,0
-kubernetes/kubernetes,1,v,45,20,19,329,374,0 days 00:00:07.958721,0
-microsoft/TypeScript,1,v,12,2,2,120,132,0 days 00:00:02.345984,0
-Genymobile/scrcpy,1,v,25,9,5,2,27,0 days 00:00:00.287020,0
-laravel/laravel,1,v,40,19,17,134,174,0 days 00:00:00.549040,0
-storybookjs/storybook,1,v,107,90,13,323,430,0 days 00:00:02.968819,0
-typicode/json-server,2, v,17,4,10,106,123,0 days 00:00:00.080205,0
-bitcoin/bitcoin,1,v,25,3,20,82,107,0 days 00:00:02.806035,0
-hakimel/reveal.js,1,,27,2,19,11,38,0 days 00:00:00.139352,0
-gin-gonic/gin,1,v,13,3,8,13,26,0 days 00:00:00.088330,0
-webpack/webpack,1,v,152,134,8,224,376,0 days 00:00:01.179523,0
-gohugoio/hugo,1,v,93,72,10,101,194,0 days 00:00:00.455324,0
-reduxjs/redux,1,v,26,16,6,42,68,0 days 00:00:00.142210,0
-pallets/flask,1,,16,5,10,25,41,0 days 00:00:00.423442,0
-tailwindlabs/tailwindcss,1,v,21,9,8,127,148,0 days 00:00:00.281210,0
-sveltejs/svelte,1,v,134,119,2,244,378,0 days 00:00:00.747917,0
-expressjs/express,1,,61,40,12,185,246,0 days 00:00:00.403052,0
-fatedier/frp,1,v,42,23,11,30,72,0 days 00:00:00.076629,0
-chartjs/Chart.js,2, v,21,7,10,31,52,0 days 00:00:00.247616,0
-socketio/socket.io,1,,30,5,15,118,148,0 days 00:00:00.161640,0
-adam-p/markdown-here,1,v,15,8,6,34,49,0 days 00:00:00.056897,0
-atom/atom,2, v,271,256,2,104,375,0 days 00:00:02.624145,0
-shadowsocks/shadowsocks-windows,1,,13,4,7,49,62,0 days 00:00:00.094197,0
-protocolbuffers/protobuf,1,v,29,6,13,46,75,0 days 00:00:00.519565,0
-coder/code-server,2, v,20,9,4,22,42,0 days 00:00:00.248024,0
-lodash/lodash,1,,48,35,3,59,107,0 days 00:00:00.721386,0
-h5bp/html5-boilerplate,2, v,19,2,13,10,29,0 days 00:00:00.091786,0
-apache/echarts,1,,29,5,14,64,93,0 days 00:00:00.671963,0
-elastic/elasticsearch,1,v,67,22,15,231,298,0 days 00:00:08.065439,0
-ansible/ansible,2, v,26,4,13,174,200,0 days 00:00:03.304311,0
-azl397985856/leetcode,2, v,35,25,3,5,40,0 days 00:00:00.096947,0
-psf/requests,2, v,43,11,22,101,144,0 days 00:00:00.320362,0
-ionic-team/ionic-framework,2, v,43,27,10,140,183,0 days 00:00:01.186037,0
-nestjs/nest,2, v,33,18,5,167,200,0 days 00:00:00.994661,0
-remix-run/react-router,1,v,39,22,11,76,115,0 days 00:00:00.441528,0
-moment/moment,1,,40,15,12,46,86,0 days 00:00:00.215700,0
-tiangolo/fastapi,2, v,77,68,3,52,129,0 days 00:00:00.151112,0
-grafana/grafana,2, v,46,7,9,181,227,0 days 00:00:03.032784,0
-junegunn/fzf,1,,27,8,13,76,103,0 days 00:00:00.142267,0
-strapi/strapi,1,v,16,7,3,79,95,0 days 00:00:01.350610,0
-scrapy/scrapy,1,,32,7,17,58,90,0 days 00:00:00.598686,0
-prettier/prettier,2, v,39,20,8,71,110,0 days 00:00:00.486688,0
-juliangarnier/anime,2, v,8,2,5,6,14,0 days 00:00:00.046227,0
-prometheus/prometheus,2, v,67,35,6,79,146,0 days 00:00:00.719643,0
-ColorlibHQ/AdminLTE,2, v,13,4,6,47,60,0 days 00:00:00.354243,0
-babel/babel,1,v,90,67,9,606,696,0 days 00:00:01.435388,0
-caddyserver/caddy,1,v,14,2,10,49,63,0 days 00:00:00.224433,0
-nuxt/nuxt.js,1,v,30,17,7,112,142,0 days 00:00:00.428523,0
-gogs/gogs,1,v,11,4,6,51,62,0 days 00:00:00.245465,0
-TryGhost/Ghost,2, v,170,154,8,318,488,0 days 00:00:01.404905,0
-v2ray/v2ray-core,1,v,168,154,3,182,350,0 days 00:00:00.488225,0
-iamkun/dayjs,1,v,11,5,4,99,110,0 days 00:00:00.114481,0
-facebook/jest,2, v,68,45,10,143,211,0 days 00:00:00.585274,0
-Dogfalo/materialize,2, v,17,10,3,20,37,0 days 00:00:00.221376,0
-vercel/hyper,2, v,18,9,6,43,61,0 days 00:00:00.182884,0
-ocornut/imgui,1,v,72,44,5,2,74,0 days 00:00:00.570330,0
-impress/impress.js,1,,8,4,3,4,12,0 days 00:00:00.028290,0
-FiloSottile/mkcert,1,v,6,3,2,8,14,0 days 00:00:00.019967,0
-PhilJay/MPAndroidChart,1,v,8,2,4,33,41,0 days 00:00:00.109767,0
-hexojs/hexo,1,,38,14,12,101,139,0 days 00:00:00.214070,0
-vuetifyjs/vuetify,1,v,23,7,8,284,307,0 days 00:00:00.905170,0
-sahat/hackathon-starter,1,,8,2,4,6,14,0 days 00:00:00.126966,0
-videojs/video.js,2, v,70,38,15,220,290,0 days 00:00:00.361155,0
-airbnb/lottie-android,2,v. v,21,8,9,42,63,0 days 00:00:00.089597,0
-rclone/rclone,1,v,69,36,11,21,90,0 days 00:00:00.432667,0
-quilljs/quill,1,v,23,12,5,99,122,0 days 00:00:00.485874,0
-lerna/lerna,1,v,39,26,6,70,109,0 days 00:00:00.179068,0
-d2l-ai/d2l-zh,1,v,9,5,3,0,9,0 days 00:00:00.158344,0
-koajs/koa,1,,43,23,13,44,87,0 days 00:00:00.207678,0
-bumptech/glide,1,v,21,6,11,15,36,0 days 00:00:00.157622,0
-shadowsocks/shadowsocks-android,1,v,24,8,11,156,180,0 days 00:00:00.363137,0
-gulpjs/gulp,2, v,6,2,3,13,19,0 days 00:00:00.073568,0
-hashicorp/terraform,2, v,18,2,12,158,176,0 days 00:00:02.005970,0
-zenorocha/clipboard.js,1,v,9,5,3,33,42,0 days 00:00:00.033535,0
-marktext/marktext,1,v,7,2,4,20,27,0 days 00:00:00.077060,0
-ant-design/ant-design-pro,2, v,18,6,6,12,30,0 days 00:00:00.124111,0
-wagoodman/dive,1,v,10,5,2,15,25,0 days 00:00:00.035013,0
-immutable-js/immutable-js,2, v,16,11,3,39,55,0 days 00:00:00.105410,0
-evanw/esbuild,1,v,12,5,2,284,296,0 days 00:00:00.253646,0
-photonstorm/phaser,2, v,39,20,11,59,98,0 days 00:00:00.971971,0
-XX-net/XX-Net,1,,51,36,5,285,336,0 days 00:00:00.272522,0
-nolimits4web/swiper,1,v,49,13,13,139,188,0 days 00:00:00.209118,0
-Blankj/AndroidUtilCode,1,,27,12,7,89,116,0 days 00:00:00.081116,0
-nativefier/nativefier,2, v,56,42,9,90,146,0 days 00:00:00.092150,0
-NervJS/taro,1,v,12,2,5,272,284,0 days 00:00:00.946994,0
-carbon-app/carbon,1,,24,14,4,194,218,0 days 00:00:00.272535,0
-nlohmann/json,2, v,15,2,8,36,51,0 days 00:00:00.218828,0
-istio/istio,1,,22,4,12,143,165,0 days 00:00:01.347304,0
-getsentry/sentry,2, v,102,90,9,294,396,0 days 00:00:02.989886,0
-microsoft/monaco-editor,2, v,28,11,10,36,64,0 days 00:00:00.142466,0
-streamich/react-use,1,v,134,130,3,117,251,0 days 00:00:00.196934,0
-google/leveldb,2, v,21,7,7,0,21,0 days 00:00:00.027303,0
-certbot/certbot,1,v,68,54,2,31,99,0 days 00:00:00.568049,0
-fxsjy/jieba,1,v,23,2,5,5,28,0 days 00:00:00.032413,0
-date-fns/date-fns,2,v. v,77,62,7,42,119,0 days 00:00:00.293410,0
-react-boilerplate/react-boilerplate,1,v,17,6,6,13,30,0 days 00:00:00.093294,0
-beego/beego,1,v,16,3,10,24,40,0 days 00:00:00.233504,0
-jashkenas/backbone,2, v,10,2,7,22,32,0 days 00:00:00.280039,0
-nocodb/nocodb,2, v,9,5,2,86,95,0 days 00:00:00.184293,0
-mitmproxy/mitmproxy,2, v,30,4,17,35,65,0 days 00:00:00.564620,0
-openai/gym,2, v,15,7,6,34,49,0 days 00:00:00.086529,0
-markedjs/marked,2, v,16,2,11,94,110,0 days 00:00:00.142809,0
-caolan/async,2, v,25,13,10,52,77,0 days 00:00:00.128329,0
-vuejs/vuex,1,v,21,7,7,24,45,0 days 00:00:00.170166,0
-Dreamacro/clash,1,v,28,10,3,14,42,0 days 00:00:00.044701,0
-square/leakcanary,1,v,14,4,9,10,24,0 days 00:00:00.100450,0
-kenwheeler/slick,2, v,8,3,3,43,51,0 days 00:00:00.051524,0
-jesseduffield/lazygit,2, v,33,21,5,151,184,0 days 00:00:00.247404,0
-tannerlinsley/react-query,1,v,77,73,2,294,371,0 days 00:00:00.292858,0
-ReactiveX/rxjs,1,,19,7,6,45,64,0 days 00:00:00.274804,0
-atlassian/react-beautiful-dnd,2, v,24,15,4,46,70,0 days 00:00:00.187379,0
-standard/standard,1,v,66,55,8,87,153,0 days 00:00:00.141479,0
-apolloconfig/apollo,2, v,19,2,9,16,35,0 days 00:00:00.134587,0
-airbnb/lottie-web,2,v. v,24,9,9,144,168,0 days 00:00:00.135611,0
-typicode/husky,1,v,34,16,11,88,122,0 days 00:00:00.073975,0
-aria2/aria2,1,release-,53,22,18,87,140,0 days 00:00:00.264536,0
-webtorrent/webtorrent,1,v,125,112,9,284,409,0 days 00:00:00.318524,0
-jashkenas/underscore,1,,20,5,13,54,74,0 days 00:00:00.889598,0
-laravel/framework,2, v,163,148,13,630,793,0 days 00:00:02.984767,0
-denysdovhan/wtfjs,1,v,23,13,6,16,39,0 days 00:00:00.033297,0
-postcss/postcss,1,,20,4,10,207,227,0 days 00:00:00.260552,0
-sequelize/sequelize,2, v,137,107,19,334,471,0 days 00:00:00.897524,0
-docker/compose,2, v,41,12,15,67,108,0 days 00:00:00.530866,0
-niklasvh/html2canvas,2, v,7,3,3,17,24,0 days 00:00:00.054790,0
-hankcs/HanLP,1,v,9,2,5,44,53,0 days 00:00:00.066054,0
-request/request,1,v,73,55,6,71,144,0 days 00:00:00.128990,0
-github/fetch,1,v,21,10,9,19,40,0 days 00:00:00.048355,0
-select2/select2,1,,9,2,5,27,36,0 days 00:00:00.139071,0
-Modernizr/Modernizr,1,v,20,4,13,23,43,0 days 00:00:00.118672,0
-cheeriojs/cheerio,2, v,22,7,7,30,52,0 days 00:00:00.059562,0
-harness/drone,1,v,31,17,9,44,75,0 days 00:00:00.181900,0
-SortableJS/Sortable,1,,17,2,11,18,35,0 days 00:00:00.055656,0
-GitbookIO/gitbook,1,,22,17,2,68,90,0 days 00:00:00.112690,0
-GoogleChrome/lighthouse,2, v,56,40,4,42,98,0 days 00:00:00.394882,0
-YMFE/yapi,2, v,9,2,3,68,77,0 days 00:00:00.545929,0
-Binaryify/NeteaseCloudMusicApi,2, v,52,36,7,102,154,0 days 00:00:00.129026,0
-remy/nodemon,1,v,20,7,9,101,121,0 days 00:00:00.320831,0
-Automattic/mongoose,2, v,58,15,20,646,704,0 days 00:00:01.373032,0
-bvaughn/react-virtualized,2, v,71,65,3,129,200,0 days 00:00:00.144871,0
-ggreer/the_silver_searcher,1,,37,17,8,12,49,0 days 00:00:00.239955,0
-akveo/ngx-admin,1,v,19,2,9,8,27,0 days 00:00:00.204873,0
-explosion/spaCy,2, v,28,14,11,72,100,0 days 00:00:00.838265,0
-CodeHubApp/CodeHub,1,,15,10,3,13,28,0 days 00:00:00.041141,0
-pmndrs/react-spring,1,v,22,15,3,150,172,0 days 00:00:00.328722,0
-influxdata/influxdb,2, v,26,6,14,133,159,0 days 00:00:01.860855,0
+mindoc-org/mindoc,1,v,14,8,3,17,31,0 days 00:00:00.050835,0
+jquense/react-big-calendar,1,v,37,4,5,77,114,0 days 00:00:00.164497,0
+telegraf/telegraf,2, v,68,11,5,112,180,0 days 00:00:00.237530,0
+googleapis/google-api-python-client,1,v,60,8,3,52,112,0 days 00:00:00.213749,0
+kickstarter/android-oss,1,v,36,14,5,36,72,0 days 00:00:00.352842,0
+bblanchon/ArduinoJson,1,v,42,10,7,56,98,0 days 00:00:00.100068,0
+Yelp/dumb-init,1,v,8,2,3,14,22,0 days 00:00:00.026035,0
+kalcaddle/KodExplorer,2, v,31,2,6,3,34,0 days 00:00:00.023080,0
+botman/botman,2, v,17,8,4,44,61,0 days 00:00:00.062190,0
+projectdiscovery/subfinder,2, v,10,3,4,24,34,0 days 00:00:00.063346,0
+substack/tape,1,v,50,2,10,85,135,0 days 00:00:00.092207,0
+capstone-engine/capstone,1,,5,2,2,9,14,0 days 00:00:00.260003,0
+eternnoir/pyTelegramBotAPI,1,,15,3,7,37,52,0 days 00:00:00.139478,0
+assaf/zombie,2, v,21,8,5,111,132,0 days 00:00:00.122078,0
+neutralinojs/neutralinojs,1,v,26,18,4,4,30,0 days 00:00:00.070001,0
+joeyespo/grip,1,v,15,2,10,9,24,0 days 00:00:00.143053,0
+docker/docker-py,1,,40,7,11,63,103,0 days 00:00:00.193960,0
+Xhofe/alist,1,v,9,5,2,33,42,0 days 00:00:00.041295,0
+OpenNMT/OpenNMT-py,2, v,15,5,7,14,29,0 days 00:00:00.234878,0
+thephpleague/omnipay,2, v,12,3,4,18,30,0 days 00:00:00.043728,0
+tijsverkoyen/CssToInlineStyles,1,,9,2,2,20,29,0 days 00:00:00.024597,0
+chainer/chainer,1,v,60,44,3,18,78,0 days 00:00:01.796928,0
+vuejs/vetur,2, v,23,12,7,47,70,0 days 00:00:00.204764,0
+tilt-dev/tilt,1,v,30,16,5,172,202,0 days 00:00:00.299386,0
+kyleconroy/sqlc,2, v,15,6,3,1,16,0 days 00:00:00.048135,0
+lebab/lebab,1,v,14,8,2,28,42,0 days 00:00:00.056233,0
+haifengl/smile,1,v,12,3,6,10,22,0 days 00:00:00.111594,0
+nodeca/js-yaml,1,,23,2,11,51,74,0 days 00:00:00.168440,0
+graphql-java/graphql-java,2, v,40,6,12,2,42,0 days 00:00:00.251410,0
+documentationjs/documentation,1,v,36,3,4,49,85,0 days 00:00:00.083674,0
+tensorflow/serving,2, r,25,5,10,27,52,0 days 00:00:00.411138,0
+MinecraftForge/MinecraftForge,2, v,59,22,13,10,69,0 days 00:00:00.560064,0
+sockeqwe/mosby,1,,7,3,2,8,15,0 days 00:00:00.036395,0
+dotnetcore/CAP,1,v,22,4,10,30,52,0 days 00:00:00.100001,0
+dinerojs/dinero.js,2, v,13,7,3,17,30,0 days 00:00:00.033971,0
+nl8590687/ASRT_SpeechRecognition,1,v,10,3,2,4,14,0 days 00:00:00.022067,0
+johnkerl/miller,2, v,29,15,8,23,52,0 days 00:00:00.477609,0
+aws/aws-sdk-php,1,,234,16,2,1228,1462,0 days 00:00:03.094702,0
+express-validator/express-validator,1,v,55,6,7,60,115,0 days 00:00:00.180492,0
+hashicorp/serf,1,v,9,3,2,22,31,0 days 00:00:00.109836,0
+bfenetworks/bfe,1,v,18,10,3,0,18,0 days 00:00:00.062557,0
+jackc/pgx,1,v,36,5,14,18,54,0 days 00:00:00.267117,0
+mikaelbr/node-notifier,1,v,24,3,10,45,69,0 days 00:00:00.051272,0
+weaveworks/scope,2, v,31,15,5,30,61,0 days 00:00:00.287207,0
+missive/emoji-mart,1,v,20,4,7,40,60,0 days 00:00:00.055497,0
+jrnl-org/jrnl,2, v,13,3,4,24,37,0 days 00:00:00.080907,0
+angular-ui/ui-grid,1,v,24,7,7,86,110,0 days 00:00:00.261876,0
+serilog/serilog,1,v,19,3,7,13,32,0 days 00:00:00.083978,0
+jaywcjlove/hotkeys,1,v,12,2,3,62,74,0 days 00:00:00.037454,0
+algolia/places,1,v,34,10,3,69,103,0 days 00:00:00.079983,0
+valor-software/ngx-bootstrap,2, v,31,11,7,81,112,0 days 00:00:00.319932,0
+jonls/redshift,2, v,17,3,7,2,19,0 days 00:00:00.038428,0
+mwouts/jupytext,3, v. v,20,5,6,75,95,0 days 00:00:00.135030,0
+jonschlinkert/remarkable,2, v,9,5,2,13,22,0 days 00:00:00.034522,0
+log4js-node/log4js-node,1,v,32,9,7,90,122,0 days 00:00:00.235504,0
+ppoffice/hexo-theme-icarus,2, v,22,2,7,9,31,0 days 00:00:00.035049,0
+ly525/luban-h5,1,v,18,6,2,14,32,0 days 00:00:00.215039,0
+containers/buildah,3, V v,42,18,3,70,112,0 days 00:00:00.364224,0
+kaorun343/vue-property-decorator,1,v,24,4,5,16,40,0 days 00:00:00.028968,0
+go-acme/lego,1,v,34,12,7,17,51,0 days 00:00:00.071222,0
+gorakhargosh/watchdog,1,v,12,2,6,35,47,0 days 00:00:00.075203,0
+ExactTarget/fuelux,1,,25,9,5,59,84,0 days 00:00:00.166916,0
+PyGithub/PyGithub,2, v,62,31,6,23,85,0 days 00:00:00.104010,0
+devicons/devicon,1,v,17,4,5,4,21,0 days 00:00:00.060119,0
+django/channels,1,,20,7,7,44,64,0 days 00:00:00.082727,0
+tjanczuk/edge,1,v,11,2,4,23,34,0 days 00:00:00.044451,0
+i-tu/Hasklig,2, v,12,3,3,0,12,0 days 00:00:00.032571,0
+leongersen/noUiSlider,1,,45,7,13,58,103,0 days 00:00:00.083058,0
+alibaba/transmittable-thread-local,2, v,18,5,8,31,49,0 days 00:00:00.051033,0
+phan/phan,1,,33,12,10,127,160,0 days 00:00:00.391036,0
+tzapu/WiFiManager,2, v,16,5,3,0,16,0 days 00:00:00.022865,0
+crossplane/crossplane,1,v,23,11,3,34,57,0 days 00:00:00.408244,0
+graphql-dotnet/graphql-dotnet,2, v,42,12,6,45,87,0 days 00:00:00.252652,0
+release-it/release-it,1,,84,18,5,176,260,0 days 00:00:00.314146,0
+nodegit/nodegit,1,v,27,8,10,67,94,0 days 00:00:00.190105,0
+kartik-v/bootstrap-fileinput,1,v,26,6,3,61,87,0 days 00:00:00.085542,0
+go-task/task,1,v,26,7,6,26,52,0 days 00:00:00.064697,0
+sachinchoolur/lightGallery,2, v,16,2,4,66,82,0 days 00:00:00.066214,0
+vrana/adminer,1,v,17,4,11,35,52,0 days 00:00:00.189533,0
+onionshare/onionshare,2, v,18,5,11,9,27,0 days 00:00:00.235859,0
+arkime/arkime,1,v,32,2,16,70,102,0 days 00:00:00.234967,0
+nhn/tui.image-editor,2, v,21,5,7,17,38,0 days 00:00:00.051529,0
+wangyu-/udp2raw,1,,38,17,2,0,38,0 days 00:00:00.040505,0
+share/sharedb,1,v,23,5,4,111,134,0 days 00:00:00.109047,0
+johannesjo/super-productivity,1,v,58,45,3,296,354,0 days 00:00:00.682213,0
+lancedikson/bowser,2, v,26,8,8,33,59,0 days 00:00:00.067182,0
+ai/size-limit,1,,45,9,2,101,146,0 days 00:00:00.190880,0
+openpgpjs/openpgpjs,1,v,40,10,9,109,149,0 days 00:00:00.159960,0
+vuejs/v2.vuejs.org,1,v,8,2,3,9,17,0 days 00:00:00.032674,0
+timolins/react-hot-toast,1,v,7,2,2,5,12,0 days 00:00:00.022564,0
+reactchartjs/react-chartjs-2,3, v. v,24,2,2,51,75,0 days 00:00:00.046321,0
+msiemens/tinydb,2, v,34,5,11,26,60,0 days 00:00:00.045752,0
+jarun/buku,2, v,36,15,6,3,39,0 days 00:00:00.112157,0
+expressjs/body-parser,1,,21,2,8,47,68,0 days 00:00:00.043405,0
+nhn/tui.chart,2, v,38,17,5,60,98,0 days 00:00:00.547595,0
+jvm-profiling-tools/async-profiler,1,v,14,2,9,9,23,0 days 00:00:00.038393,0
+minbrowser/min,2, v,26,4,8,31,57,0 days 00:00:00.265593,0
+mautic/mautic,1,,30,6,13,59,89,0 days 00:00:01.310591,0
+journeyapps/zxing-android-embedded,1,v,15,2,10,7,22,0 days 00:00:00.068561,0
+laravel-mix/laravel-mix,1,v,27,16,2,105,132,0 days 00:00:00.124895,0
+timber/timber,2, v,32,10,14,96,128,0 days 00:00:00.250616,0
+Mailtrain-org/mailtrain,1,v,25,9,2,10,35,0 days 00:00:00.073112,0
+wiremock/wiremock,2,release- ,55,17,15,28,83,0 days 00:00:00.132582,0
+SigmaHQ/sigma,1,,19,6,6,10,29,0 days 00:00:00.532394,0
+uber/prototool,1,v,18,9,2,2,20,0 days 00:00:00.029137,0
+istanbuljs/nyc,1,v,58,15,2,56,114,0 days 00:00:00.175953,0
+zhaojun1998/zfile,1,,32,8,3,11,43,0 days 00:00:00.030976,0
+kedacore/keda,1,v,14,3,4,3,17,0 days 00:00:00.082468,0
+uNetworking/uWebSockets.js,1,v,59,32,3,6,65,0 days 00:00:00.062114,0
+material-shell/material-shell,2, v,11,5,2,0,11,0 days 00:00:00.052321,0
+ponylang/ponyc,2, release-,51,31,9,56,107,0 days 00:00:00.374500,0
+Angel-ML/angel,2,v Release-,14,2,6,4,18,0 days 00:00:00.139394,0
+panjf2000/gnet,1,v,8,2,4,35,43,0 days 00:00:00.046248,0
+rauchg/slackin,1,,14,2,2,26,40,0 days 00:00:00.157261,0
+reactjs/react-rails,2, v,24,7,7,31,55,0 days 00:00:00.085912,0
+pedroslopez/whatsapp-web.js,1,v,18,5,2,39,57,0 days 00:00:00.040764,0
+docker/machine,2, v,16,2,8,16,32,0 days 00:00:00.258141,0
+hajimehoshi/ebiten,1,v,17,2,13,66,83,0 days 00:00:00.436967,0
+roadrunner-server/roadrunner,2, v,22,6,7,81,103,0 days 00:00:00.303030,0
+fengyuanchen/viewerjs,1,v,21,4,5,28,49,0 days 00:00:00.034613,0
+LonamiWebs/Telethon,1,v,44,21,4,91,135,0 days 00:00:00.248973,0
+boto/boto,2, v,50,25,9,29,79,0 days 00:00:00.342495,0
+opencart/opencart,1,,11,3,4,24,35,0 days 00:00:00.686097,0
+mobxjs/mobx-state-tree,2, v,38,21,6,64,102,0 days 00:00:00.255059,0
+sghall/react-move,1,v,28,8,4,21,49,0 days 00:00:00.038370,0
+ocrmypdf/OCRmyPDF,1,v,63,26,7,115,178,0 days 00:00:00.216836,0
+gocd/gocd,1,,69,47,4,2,71,0 days 00:00:00.761856,0
+invoiceninja/invoiceninja,1,v,41,20,5,387,428,0 days 00:00:01.429380,0
+0x7c13/Notepads,1,v,14,3,2,42,56,0 days 00:00:00.058521,0
+optuna/optuna,1,v,36,27,2,4,40,0 days 00:00:00.721413,0
+baconjs/bacon.js,1,,9,2,2,200,209,0 days 00:00:00.263707,0
+mRemoteNG/mRemoteNG,2, v,17,4,7,23,40,0 days 00:00:00.281203,0
+zo0r/react-native-push-notification,2, v,16,5,2,19,35,0 days 00:00:00.051043,0
+FreeRDP/FreeRDP,1,,9,2,4,8,17,0 days 00:00:00.720721,0
+linkedin/css-blocks,2, v,17,6,4,22,39,0 days 00:00:00.102757,0
+Squirrel/Squirrel.Windows,1,,17,5,6,48,65,0 days 00:00:00.055940,0
+appleboy/gorush,2, v,16,6,7,15,31,0 days 00:00:00.194423,0
+rancher/os,1,v,15,3,6,43,58,0 days 00:00:00.360220,0
+kpdecker/jsdiff,1,v,15,2,8,24,39,0 days 00:00:00.023845,0
+ramboxapp/community-edition,1,,7,2,3,36,43,0 days 00:00:00.071457,0
+dylanaraps/pywal,1,,17,8,2,65,82,0 days 00:00:00.078290,0
+Radarr/Radarr,2, v,99,43,13,13,112,0 days 00:00:00.649592,0
+vmware-tanzu/velero,1,v,17,2,8,43,60,0 days 00:00:00.177037,0
+automl/auto-sklearn,3, v. v,12,2,6,21,33,0 days 00:00:00.294342,0
+PrestaShop/PrestaShop,1,,30,16,4,83,113,0 days 00:00:04.302255,0
+concourse/concourse,1,v,134,104,4,81,215,0 days 00:00:01.554826,0
+feross/simple-peer,1,v,50,9,6,71,121,0 days 00:00:00.090138,0
+Cyan4973/xxHash,2,r v,12,3,4,11,23,0 days 00:00:00.069734,0
+NixOS/nix,1,,37,4,23,53,90,0 days 00:00:00.786924,0
+elasticsearch-dump/elasticsearch-dump,2, v,113,12,2,137,250,0 days 00:00:00.165431,0
+symfony/translation,1,v,26,4,21,462,488,0 days 00:00:00.432473,0
+PHPOffice/PHPWord,1,,12,3,7,8,20,0 days 00:00:00.098578,0
+jackocnr/intl-tel-input,2, v,62,17,5,262,324,0 days 00:00:00.228033,0
+i18next/i18next,2, v,91,11,5,222,313,0 days 00:00:00.227020,0
+doccano/doccano,1,v,8,2,3,19,27,0 days 00:00:00.233135,0
+albertlauncher/albert,1,v,17,9,5,64,81,0 days 00:00:00.073310,0
+99designs/aws-vault,1,v,34,6,9,32,66,0 days 00:00:00.073447,0
+amoffat/sh,1,,34,9,4,17,51,0 days 00:00:00.188416,0
+react-native-video/react-native-video,2, v,24,8,6,49,73,0 days 00:00:00.080174,0
+StackExchange/blackbox,1,v,18,3,8,0,18,0 days 00:00:00.030035,0
+yocontra/react-responsive,1,v,8,2,2,28,36,0 days 00:00:00.026877,0
+medialize/URI.js,2,v. v,20,4,8,54,74,0 days 00:00:00.058441,0
+go-resty/resty,1,v,34,5,10,7,41,0 days 00:00:00.035893,0
+yagop/node-telegram-bot-api,1,v,26,5,4,13,39,0 days 00:00:00.043501,0
+DIYgod/APlayer,2, v,6,2,2,15,21,0 days 00:00:00.024250,0
+bpmn-io/bpmn-js,2, v,75,23,3,155,230,0 days 00:00:00.216359,0
+gruntwork-io/terratest,1,v,39,5,4,296,335,0 days 00:00:00.260647,0
+thephpleague/oauth2-server,1,,25,3,10,72,97,0 days 00:00:00.234688,0
+snipe/snipe-it,3, V v,30,12,13,130,160,0 days 00:00:00.792211,0
+software-mansion/react-native-reanimated,1,,23,5,2,19,42,0 days 00:00:00.088139,0
+simonw/datasette,1,,55,31,6,39,94,0 days 00:00:00.138976,0
+securego/gosec,2, v,16,2,8,8,24,0 days 00:00:00.171155,0
+faker-js/faker,1,v,22,8,7,26,48,0 days 00:00:00.340525,0
+ArthurHub/Android-Image-Cropper,1,,9,2,6,23,32,0 days 00:00:00.033344,0
+garris/BackstopJS,2, v,25,5,5,106,131,0 days 00:00:00.102658,0
+PaddlePaddle/Paddle-Lite,3, release/ v,15,4,7,6,21,0 days 00:00:00.430019,0
+chrismaltby/gb-studio,2, v,6,3,2,6,12,0 days 00:00:00.185008,0
+centrifugal/centrifugo,1,v,24,5,8,57,81,0 days 00:00:00.080540,0
+marshmallow-code/marshmallow,1,,48,14,9,77,125,0 days 00:00:00.282134,0
+react-native-svg/react-native-svg,2, v,45,13,6,164,209,0 days 00:00:00.259533,0
+QuantConnect/Lean,2, v,1917,18,4,10,1927,0 days 00:00:04.862936,0
+pahen/madge,2, v,30,4,5,29,59,0 days 00:00:00.038573,0
+uber/cadence,1,v,22,10,6,55,77,0 days 00:00:00.329076,0
+qemu/qemu,2,release_ v,48,2,42,86,134,0 days 00:00:05.838296,0
+jenssegers/laravel-mongodb,2, v,19,3,7,91,110,0 days 00:00:00.097453,0
+tindy2013/subconverter,1,v,7,3,2,28,35,0 days 00:00:00.045646,0
+mcollina/autocannon,1,v,52,6,5,43,95,0 days 00:00:00.058028,0
+crater-invoice/crater,1,,11,4,4,19,30,0 days 00:00:00.069688,0
+flot/flot,2, v,16,4,6,35,51,0 days 00:00:00.066248,0
+SocketCluster/socketcluster,3, v. v,17,3,3,26,43,0 days 00:00:00.067712,0
+google/error-prone,1,v,15,2,5,34,49,0 days 00:00:00.609167,0
+wojtekmaj/react-pdf,1,v,27,8,6,36,63,0 days 00:00:00.071411,0
+reactiveui/refit,2, v,13,2,6,39,52,0 days 00:00:00.125121,0
+burnash/gspread,2, v,19,7,7,21,40,0 days 00:00:00.063809,0
+fabiospampinato/cash,1,,16,4,4,36,52,0 days 00:00:00.051504,0
+jazzband/pip-tools,1,,45,15,10,49,94,0 days 00:00:00.112625,0
+platformio/platformio-core,3, v. v,43,22,13,72,115,0 days 00:00:00.294769,0
+perkeep/perkeep,1,,11,4,5,0,11,0 days 00:00:00.332645,0
+heroiclabs/nakama,1,v,38,11,5,29,67,0 days 00:00:00.068397,0
+ckeditor/ckeditor5,2, v,48,30,3,6,54,0 days 00:00:02.649805,0
+rest-assured/rest-assured,1,rest-assured-,32,6,15,40,72,0 days 00:00:00.107384,0
+gruntwork-io/terragrunt,1,v,37,7,5,337,374,0 days 00:00:00.287321,0
+moroshko/react-autosuggest,1,v,41,3,3,54,95,0 days 00:00:00.046658,0
+Unleash/unleash,2, v,34,15,5,132,166,0 days 00:00:00.212895,0
+kulshekhar/ts-jest,2, v,30,13,6,88,118,0 days 00:00:00.177768,0
+twitchtv/twirp,1,v,18,8,6,10,28,0 days 00:00:00.040645,0
+postmanlabs/newman,3, v. v,26,8,6,80,106,0 days 00:00:00.260573,0
+neuecc/UniRx,1,,18,8,4,7,25,0 days 00:00:00.057975,0
+pentaho/pentaho-kettle,1,,31,3,11,37,68,0 days 00:00:00.786542,0
+mahmoud/boltons,1,,24,8,8,21,45,0 days 00:00:00.081504,0
+davidjbradshaw/iframe-resizer,2, v,26,9,4,96,122,0 days 00:00:00.101319,0
+vmware-tanzu/octant,1,v,25,15,3,15,40,0 days 00:00:00.203050,0
+mitchellh/mapstructure,1,v,6,2,3,11,17,0 days 00:00:00.026094,0
+mamedev/mame,1,mame,124,88,11,0,124,0 days 00:00:04.488892,0
+gevent/gevent,2, v,19,4,12,35,54,0 days 00:00:00.292830,0
+react-native-device-info/react-native-device-info,1,v,57,8,2,114,171,0 days 00:00:00.123697,0
+Financial-Times/polyfill-service,2, v,87,36,5,87,174,0 days 00:00:00.218499,0
+voidcosmos/npkill,1,v,8,5,2,19,27,0 days 00:00:00.028354,0
+deepmipt/DeepPavlov,1,,17,4,3,28,45,0 days 00:00:00.133792,0
+HMBSbige/ShadowsocksR-Windows,1,,28,4,10,127,155,0 days 00:00:00.136659,0
+mattn/go-sqlite3,1,v,16,2,6,19,35,0 days 00:00:00.062013,0
+taigaio/taiga-back,1,,24,7,8,74,98,0 days 00:00:00.230002,0
+redux-observable/redux-observable,2, v,23,9,5,8,31,0 days 00:00:00.050698,0
+kelseyhightower/confd,1,v,15,3,8,7,22,0 days 00:00:00.046456,0
+jsx-eslint/eslint-plugin-react,1,v,81,38,6,88,169,0 days 00:00:00.492264,0
+carla-simulator/carla,1,,9,4,3,38,47,0 days 00:00:00.260256,0
+gcanti/fp-ts,1,,38,19,7,115,153,0 days 00:00:00.191735,0
+UKPLab/sentence-transformers,1,v,10,3,5,20,30,0 days 00:00:00.064992,0
+hybridgroup/gobot,3, v. v,29,10,11,16,45,0 days 00:00:00.134892,0
+metalsmith/metalsmith,2, v,24,4,2,60,84,0 days 00:00:00.042954,0
+remix-run/history,1,v,38,10,4,40,78,0 days 00:00:00.072759,0
+BeyondDimension/SteamTools,1,,10,5,3,28,38,0 days 00:00:00.132429,0
+colinhacks/zod,2, v,20,10,2,23,43,0 days 00:00:00.082339,0
+rebassjs/rebass,1,v,11,2,4,42,53,0 days 00:00:00.125502,0
+beautify-web/js-beautify,1,v,13,3,7,74,87,0 days 00:00:00.265578,0
+yjs/yjs,1,v,19,2,4,151,170,0 days 00:00:00.189367,0
+tailscale/tailscale,1,v,19,6,2,54,73,0 days 00:00:01.110396,0
+paramiko/paramiko,3, release- v,23,3,13,152,175,0 days 00:00:00.234904,0
+theonedev/onedev,2, v,26,13,2,131,157,0 days 00:00:00.212149,0
+freebsd/freebsd-src,1,release/,62,3,58,16,78,0 days 00:00:19.804225,0
+go-swagger/go-swagger,2, v,29,8,11,26,55,0 days 00:00:00.143749,0
+symfony/http-kernel,1,v,26,4,21,489,515,0 days 00:00:00.598963,0
+signalapp/Signal-Server,1,v,215,20,2,18,233,0 days 00:00:00.304585,0
+kubernetes/kompose,1,v,34,17,5,3,37,0 days 00:00:00.086827,0
+swagger-api/swagger-editor,3, v/ v,27,2,8,364,391,0 days 00:00:00.349027,0
+99designs/gqlgen,2, v,16,7,6,35,51,0 days 00:00:00.132007,0
+react-native-image-picker/react-native-image-picker,2, v,37,2,3,86,123,0 days 00:00:00.069457,0
+secdev/scapy,1,v,80,8,8,432,512,0 days 00:00:00.550136,0
+konvajs/konva,1,,41,11,7,131,172,0 days 00:00:00.208559,0
+chaijs/chai,2, v,30,8,9,48,78,0 days 00:00:00.098918,0
+akveo/nebular,1,v,23,6,4,23,46,0 days 00:00:00.105948,0
+trustedsec/social-engineer-toolkit,1,,17,3,8,87,104,0 days 00:00:00.753850,0
+retejs/rete,2, v,12,3,2,35,47,0 days 00:00:00.037048,0
+go-vgo/robotgo,2, v,21,3,7,24,45,0 days 00:00:00.070220,0
+NginxProxyManager/nginx-proxy-manager,2, v,10,3,2,48,58,0 days 00:00:00.062330,0
+streamlink/streamlink,1,,30,9,7,17,47,0 days 00:00:00.222814,0
+HangfireIO/Hangfire,2,v. v,13,4,4,92,105,0 days 00:00:00.172163,0
+twigphp/Twig,1,v,66,29,20,139,205,0 days 00:00:00.511826,0
+webdriverio/webdriverio,1,v,91,45,11,415,506,0 days 00:00:01.174292,0
+numba/numba,2, v,54,9,8,51,105,0 days 00:00:01.276042,0
+metricsgraphics/metrics-graphics,3,V v. v,25,12,4,10,35,0 days 00:00:00.081948,0
+doctrine/cache,2, v,17,2,7,27,44,0 days 00:00:00.056562,0
+react-cosmos/react-cosmos,2, v,33,6,6,41,74,0 days 00:00:00.264028,0
+InsertKoinIO/koin,1,,13,5,6,33,46,0 days 00:00:00.307260,0
+altair-viz/altair,2, v,13,3,7,8,21,0 days 00:00:00.159227,0
+gogf/gf,1,v,14,2,4,106,120,0 days 00:00:00.457802,0
+openspug/spug,2,V v,8,2,3,34,42,0 days 00:00:00.075347,0
+cryptomator/cryptomator,1,,18,7,6,73,91,0 days 00:00:00.214441,0
+webpack/webpack-dev-server,1,v,42,14,9,70,112,0 days 00:00:00.140354,0
+mopidy/mopidy,1,v,29,6,16,38,67,0 days 00:00:00.518014,0
+PointCloudLibrary/pcl,1,pcl-,13,2,8,12,25,0 days 00:00:00.809374,0
+facebook/litho,1,v,41,22,2,157,198,0 days 00:00:00.924646,0
+Sonarr/Sonarr,1,v,44,12,4,8,52,0 days 00:00:00.499758,0
+sosedoff/pgweb,1,v,11,6,3,31,42,0 days 00:00:00.096652,0
+symfony/debug,1,v,16,2,13,354,370,0 days 00:00:00.353825,0
+sandboxie-plus/Sandboxie,2, v,11,2,4,58,69,0 days 00:00:01.400595,0
+TrinityCore/TrinityCore,1,TDB,74,41,22,6,80,0 days 00:00:02.882764,0
+apache/cassandra,1,cassandra-,23,7,13,183,206,0 days 00:00:01.425780,0
+winsw/winsw,1,v,21,4,10,10,31,0 days 00:00:00.049525,0
+i18next/react-i18next,2, v,84,15,2,164,248,0 days 00:00:00.121165,0
+davemorrissey/subsampling-scale-image-view,1,v,13,3,4,8,21,0 days 00:00:00.040919,0
+hrydgard/ppsspp,1,v,20,3,14,46,66,0 days 00:00:01.629179,0
+FluentValidation/FluentValidation,1,,49,11,18,60,109,0 days 00:00:00.127200,0
+AppImage/AppImageKit,1,,13,2,8,0,13,0 days 00:00:00.098344,0
+rocksdanister/lively,1,v,18,6,2,29,47,0 days 00:00:00.032621,0
+xo/usql,1,v,10,4,3,22,32,0 days 00:00:00.043254,0
+pennersr/django-allauth,1,,42,11,18,13,55,0 days 00:00:00.125453,0
+smartystreets/goconvey,2, v,7,3,3,20,27,0 days 00:00:00.065246,0
+ngrx/platform,2, v,35,16,5,25,60,0 days 00:00:00.086864,0
+sveltejs/sapper,1,v,29,16,4,149,178,0 days 00:00:00.128242,0
+nopSolutions/nopCommerce,1,release-,29,4,20,6,35,0 days 00:00:00.642253,0
+graphql-python/graphene,2,v. v,16,7,5,29,45,0 days 00:00:00.079358,0
+pytube/pytube,2, v,31,10,7,78,109,0 days 00:00:00.282851,0
+OWASP/Amass,2, v,37,14,5,123,160,0 days 00:00:00.151165,0
+lz4/lz4,2,r v,18,10,2,11,29,0 days 00:00:00.117645,0
+symfony/routing,1,v,26,2,21,441,467,0 days 00:00:00.724988,0
+java-native-access/jna,2, v,26,3,18,32,58,0 days 00:00:00.366033,0
+marionettejs/backbone.marionette,1,v,32,12,9,93,125,0 days 00:00:00.196940,0
+es-shims/es5-shim,1,v,19,5,4,77,96,0 days 00:00:00.071858,0
+Zettlr/Zettlr,3, v. v,28,12,6,49,77,0 days 00:00:00.264656,0
+metafizzy/flickity,1,v,10,2,5,24,34,0 days 00:00:00.040531,0
+AmruthPillai/Reactive-Resume,1,v,7,4,2,24,31,0 days 00:00:00.150948,0
+ljharb/qs,1,v,25,3,7,49,74,0 days 00:00:00.054017,0
+google/android-classyshark,1,,15,7,2,0,15,0 days 00:00:00.031349,0
+readthedocs/readthedocs.org,1,,76,52,5,152,228,0 days 00:00:01.213480,0
+jazzband/django-debug-toolbar,2, v,25,3,15,24,49,0 days 00:00:00.115975,0
+gitkraken/vscode-gitlens,2, v,45,28,4,91,136,0 days 00:00:00.201935,0
+jemalloc/jemalloc,1,,22,2,13,24,46,0 days 00:00:00.147540,0
+symfony/css-selector,1,v,26,3,10,434,460,0 days 00:00:00.390507,0
+raineorshine/npm-check-updates,2, v,56,6,4,194,250,0 days 00:00:00.187237,0
+symfony/process,1,v,26,4,19,450,476,0 days 00:00:00.364210,0
+encode/starlette,1,,19,2,4,94,113,0 days 00:00:00.071762,0
+mqttjs/MQTT.js,2, v,42,8,6,109,151,0 days 00:00:00.116660,0
+ThreeMammals/Ocelot,1,,31,5,3,110,141,0 days 00:00:00.089264,0
+wallabag/wallabag,1,,20,5,10,40,60,0 days 00:00:00.534403,0
+developit/microbundle,2, v,15,5,5,24,39,0 days 00:00:00.192207,0
+deepstreamIO/deepstream.io,2, v,25,5,5,98,123,0 days 00:00:00.151456,0
+Turfjs/turf,2, v,23,10,3,65,88,0 days 00:00:00.159148,0
+xmrig/xmrig,1,v,46,34,7,73,119,0 days 00:00:00.201020,0
+DevinVinson/WordPress-Plugin-Boilerplate,1,,9,4,2,5,14,0 days 00:00:00.024629,0
+monero-project/monero,1,v,19,7,7,34,53,0 days 00:00:00.803384,0
+FullHuman/purgecss,2, v,23,8,7,20,43,0 days 00:00:00.061918,0
+final-form/react-final-form,2,v. v,23,7,2,47,70,0 days 00:00:00.040253,0
+jsplumb/jsplumb,1,,28,3,14,188,216,0 days 00:00:00.527632,0
+symfony/var-dumper,1,v,20,4,15,355,375,0 days 00:00:00.246397,0
+projectstorm/react-diagrams,2, v,16,4,5,23,39,0 days 00:00:00.049047,0
+reactiveui/ReactiveUI,2, v,41,16,7,181,222,0 days 00:00:00.740245,0
+ffuf/ffuf,1,v,18,2,4,6,24,0 days 00:00:00.025843,0
+aws/aws-sdk-js,1,v,1089,18,4,301,1390,0 days 00:00:02.534538,0
+rr-debugger/rr,1,,28,9,14,6,34,0 days 00:00:00.335585,0
+abel533/Mapper,1,,18,6,4,33,51,0 days 00:00:00.046612,0
+trentm/node-bunyan,1,,33,4,4,81,114,0 days 00:00:00.065787,0
+cockpit-project/cockpit,2, v,314,275,6,1,315,0 days 00:00:01.044705,0
+taskflow/taskflow,1,v,13,3,8,1,14,0 days 00:00:00.080444,0
+verlok/vanilla-lazyload,2, v,81,29,5,77,158,0 days 00:00:00.214067,0
+transmission/transmission,1,,99,55,12,1,100,0 days 00:00:00.806590,0
+Humanizr/Humanizer,3, V v,16,8,4,49,65,0 days 00:00:00.118905,0
+brunch/brunch,1,,24,10,7,107,131,0 days 00:00:00.150255,0
+microsoft/azuredatastudio,2, v,40,25,2,89,129,0 days 00:00:00.589801,0
+barry-ran/QtScrcpy,1,v,9,3,2,15,24,0 days 00:00:00.033370,0
+juice-shop/juice-shop,2, v,91,56,8,101,192,0 days 00:00:00.960553,0
+Sylius/Sylius,1,v,30,4,17,151,181,0 days 00:00:01.726599,0
+gobuffalo/buffalo,2, v,15,2,7,107,122,0 days 00:00:00.202344,0
+cssinjs/jss,2, v,60,20,8,86,146,0 days 00:00:00.134403,0
+mongodb/mongo-go-driver,2, v,13,3,7,60,73,0 days 00:00:00.118098,0
+twpayne/chezmoi,1,v,27,15,4,106,133,0 days 00:00:00.284917,0
+tgalal/yowsup,1,v,8,3,4,20,28,0 days 00:00:00.072459,0
+jupyterhub/jupyterhub,1,,19,2,11,20,39,0 days 00:00:00.279350,0
+lucas-clemente/quic-go,2,v. v,24,5,10,33,57,0 days 00:00:00.283033,0
+kazupon/vue-i18n,1,v,64,18,3,83,147,0 days 00:00:00.123621,0
+infracost/infracost,2, v,10,5,3,62,72,0 days 00:00:00.112119,0
+NLPchina/elasticsearch-sql,1,,46,4,4,144,190,0 days 00:00:00.204927,0
+SirVer/ultisnips,1,,11,2,7,0,11,0 days 00:00:00.074599,0
+eclipse/che,1,,100,85,2,126,226,0 days 00:00:00.591839,0
+ActivityWatch/activitywatch,1,v,8,2,3,11,19,0 days 00:00:00.039960,0
+open-policy-agent/opa,1,v,40,22,6,80,120,0 days 00:00:00.411875,0
+Laravel-Lang/lang,1,,20,9,4,174,194,0 days 00:00:00.321196,0
+aheckmann/gm,2, v,31,5,7,35,66,0 days 00:00:00.148367,0
+lcobucci/jwt,1,,11,2,4,34,45,0 days 00:00:00.071380,0
+hugapi/hug,1,,18,10,5,44,62,0 days 00:00:00.121652,0
+grpc/grpc-web,1,,7,4,2,9,16,0 days 00:00:00.047471,0
+xojs/xo,1,v,43,3,7,43,86,0 days 00:00:00.051217,0
+gregberge/loadable-components,1,v,30,5,3,35,65,0 days 00:00:00.046230,0
+visgl/react-map-gl,2, v,22,3,8,143,165,0 days 00:00:00.115908,0
+electron/fiddle,2, v,29,12,3,22,51,0 days 00:00:00.101116,0
+flyway/flyway,1,flyway-,40,7,13,101,141,0 days 00:00:00.193813,0
+migueldeicaza/gui.cs,1,v,13,2,3,9,22,0 days 00:00:00.140362,0
+QUANTAXIS/QUANTAXIS,2, V,15,3,4,44,59,0 days 00:00:00.459910,0
+jaredpalmer/tsdx,1,v,13,4,3,40,53,0 days 00:00:00.035982,0
+grpc/grpc-java,1,v,52,22,4,58,110,0 days 00:00:00.355532,0
+catboost/catboost,3, v. v,25,7,3,57,82,0 days 00:00:00.984416,0
+iterative/dvc,1,,92,63,3,258,350,0 days 00:00:00.634255,0
+stylelint/stylelint,2, v,97,72,4,88,185,0 days 00:00:00.323701,0
+botpress/botpress,2, v,88,53,4,234,322,0 days 00:00:00.638088,0
+josdejong/jsoneditor,1,v,71,21,5,125,196,0 days 00:00:00.148129,0
+svgdotjs/svg.js,1,,50,5,5,48,98,0 days 00:00:00.070102,0
+libretro/RetroArch,2, v,15,3,7,77,92,0 days 00:00:03.344523,0
+react-native-camera/react-native-camera,1,v,84,7,3,96,180,0 days 00:00:00.140261,0
+FormidableLabs/victory,1,v,65,24,5,156,221,0 days 00:00:00.574070,0
+snapappointments/bootstrap-select,2, v,13,2,5,52,65,0 days 00:00:00.100480,0
+lvgl/lvgl,2, v,26,10,7,20,46,0 days 00:00:00.523096,0
+pockethub/PocketHub,2, v,11,5,3,9,20,0 days 00:00:00.154214,0
+sindresorhus/pageres,2, v,24,2,3,23,47,0 days 00:00:00.033058,0
+senchalabs/connect,1,,52,17,10,174,226,0 days 00:00:00.432533,0
+meliorence/react-native-snap-carousel,2,V v,22,10,2,29,51,0 days 00:00:00.030273,0
+BookStackApp/BookStack,3, v. v,36,10,9,113,149,0 days 00:00:00.250985,0
+TarsCloud/Tars,2, v,15,2,4,32,47,0 days 00:00:00.057562,0
+mongodb/node-mongodb-native,3,V v. v,25,4,18,387,412,0 days 00:00:01.153189,0
+argoproj/argo-cd,1,v,25,9,4,115,140,0 days 00:00:00.375304,0
+jhen0409/react-native-debugger,1,v,12,3,4,74,86,0 days 00:00:00.206503,0
+apidoc/apidoc,1,,27,5,6,19,46,0 days 00:00:00.052407,0
+squizlabs/PHP_CodeSniffer,1,,19,5,12,51,70,0 days 00:00:00.532551,0
+Automattic/kue,2, v,10,2,6,47,57,0 days 00:00:00.063931,0
+vnotex/vnote,2, v,47,28,3,13,60,0 days 00:00:00.091708,0
+pinojs/pino,2, v,90,20,2,150,240,0 days 00:00:00.171258,0
+upx/upx,1,v,31,4,18,0,31,0 days 00:00:00.153130,0
+r-spacex/SpaceX-API,2, v,15,9,3,8,23,0 days 00:00:00.105947,0
+Atmosphere-NX/Atmosphere,1,,18,7,6,48,66,0 days 00:00:00.184309,0
+bulletphysics/bullet3,1,,18,3,9,6,24,0 days 00:00:00.537339,0
+dingo/api,2, v,16,5,5,41,57,0 days 00:00:00.092126,0
+exceljs/exceljs,2, v,41,22,4,180,221,0 days 00:00:00.160544,0
+FormidableLabs/spectacle,2, v,35,3,8,77,112,0 days 00:00:00.088804,0
+uncss/uncss,1,,9,2,5,9,18,0 days 00:00:00.035204,0
+deployphp/deployer,1,v,20,5,8,47,67,0 days 00:00:00.105169,0
+reactjs/react-transition-group,1,v,19,5,6,19,38,0 days 00:00:00.029585,0
+coredns/coredns,1,v,20,6,7,42,62,0 days 00:00:00.180119,0
+crimx/ext-saladict,3, V v,59,34,5,139,198,0 days 00:00:00.325092,0
+callstack/react-native-paper,2, v,53,23,4,61,114,0 days 00:00:00.113094,0
+docmirror/dev-sidecar,2, v,7,3,2,16,23,0 days 00:00:00.032887,0
+pyinstaller/pyinstaller,2, v,28,5,19,6,34,0 days 00:00:00.570326,0
+coleifer/peewee,1,,35,8,13,139,174,0 days 00:00:00.248862,0
+boardgameio/boardgame.io,1,v,39,20,2,111,150,0 days 00:00:00.134045,0
+javascript-obfuscator/javascript-obfuscator,1,,63,27,2,122,185,0 days 00:00:00.222723,0
+symfony/console,1,v,26,4,21,466,492,0 days 00:00:00.475343,0
+PrefectHQ/prefect,1,,17,5,6,102,119,0 days 00:00:00.889639,0
+direnv/direnv,2, v,33,2,15,42,75,0 days 00:00:00.175861,0
+sonic-pi-net/sonic-pi,1,v,16,5,7,9,25,0 days 00:00:00.495664,0
+Gallopsled/pwntools,1,,26,5,8,35,61,0 days 00:00:00.214657,0
+ydataai/pandas-profiling,2,v. v,20,7,7,14,34,0 days 00:00:00.078937,0
+sinonjs/sinon,2, v,57,18,16,121,178,0 days 00:00:00.434862,0
+react-dropzone/react-dropzone,2, v,55,5,3,120,175,0 days 00:00:00.114014,0
+paulmillr/chokidar,1,,28,8,10,70,98,0 days 00:00:00.120593,0
+thumbor/thumbor,1,,61,12,9,178,239,0 days 00:00:00.254482,0
+ginuerzh/gost,2, v,21,4,6,11,32,0 days 00:00:00.048663,0
+helmetjs/helmet,1,v,51,2,6,34,85,0 days 00:00:00.079211,0
+inversify/InversifyJS,2, v,25,4,6,22,47,0 days 00:00:00.092014,0
+callstack/linaria,1,v,14,2,2,24,38,0 days 00:00:00.052557,0
+HabitRPG/habitica,2, v,351,105,2,612,963,0 days 00:00:02.071489,0
+dromara/Sa-Token,1,v,23,16,2,1,24,0 days 00:00:00.045555,0
+aws/chalice,1,,38,15,7,43,81,0 days 00:00:00.138780,0
+antvis/G6,1,,9,2,2,64,73,0 days 00:00:00.355171,0
+cert-manager/cert-manager,1,v,25,3,3,49,74,0 days 00:00:00.512294,0
+fkhadra/react-toastify,1,v,33,10,7,60,93,0 days 00:00:00.174264,0
+react-page/react-page,2, v,58,9,4,214,272,0 days 00:00:00.154179,0
+webtorrent/webtorrent-desktop,1,v,25,17,5,13,38,0 days 00:00:00.112951,0
+facebookresearch/ParlAI,2, v,10,5,2,10,20,0 days 00:00:00.210046,0
+tweepy/tweepy,2, v,40,16,15,4,44,0 days 00:00:00.164565,0
+zerotier/ZeroTierOne,1,,15,3,5,68,83,0 days 00:00:00.400778,0
+encode/httpx,1,,23,7,3,47,70,0 days 00:00:00.074416,0
+remarkjs/react-markdown,2, v,22,2,6,46,68,0 days 00:00:00.198941,0
+golang-migrate/migrate,1,v,24,6,7,25,49,0 days 00:00:00.094931,0
+mapeditor/tiled,1,v,27,3,19,56,83,0 days 00:00:00.314553,0
+GoogleChromeLabs/comlink,1,v,15,6,4,23,38,0 days 00:00:00.084041,0
+cefsharp/CefSharp,1,v,27,4,10,70,97,0 days 00:00:00.346473,0
+pytest-dev/pytest,1,,42,10,17,122,164,0 days 00:00:00.947347,0
+ultralytics/yolov3,1,v,12,6,3,0,12,0 days 00:00:00.108365,0
+gregberge/svgr,1,v,36,6,4,19,55,0 days 00:00:00.051539,0
+doctrine/dbal,2, v,18,2,14,79,97,0 days 00:00:00.723380,0
+pyodide/pyodide,2, v,20,9,6,25,45,0 days 00:00:00.114530,0
+caprover/caprover,2,V v,12,6,5,17,29,0 days 00:00:00.080767,0
+piskelapp/piskel,1,v,14,2,9,16,30,0 days 00:00:00.092032,0
+tweenjs/tween.js,3, r v,30,4,10,23,53,0 days 00:00:00.052189,0
+spotDL/spotify-downloader,1,v,14,2,4,38,52,0 days 00:00:00.079236,0
+Automattic/node-canvas,2, v,30,6,10,88,118,0 days 00:00:00.116599,0
+aws/serverless-application-model,2, v,42,10,5,9,51,0 days 00:00:00.067203,0
+google/go-github,1,v,59,10,6,35,94,0 days 00:00:00.104146,0
+OnsenUI/OnsenUI,1,,20,6,8,68,88,0 days 00:00:00.538209,0
+Shopify/sarama,1,v,34,10,15,18,52,0 days 00:00:00.273686,0
+jprichardson/node-fs-extra,2, v,43,7,7,42,85,0 days 00:00:00.073638,0
+shipshapecode/tether,1,v,13,2,3,60,73,0 days 00:00:00.071353,0
+wkentaro/labelme,1,v,50,15,7,125,175,0 days 00:00:00.136149,0
+MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-,2, v,26,15,3,32,58,0 days 00:00:00.086423,0
+restsharp/RestSharp,2, v,30,10,7,29,59,0 days 00:00:00.109268,0
+giampaolo/psutil,1,release-,32,8,17,52,84,0 days 00:00:00.384450,0
+libgit2/libgit2,1,v,29,7,16,48,77,0 days 00:00:00.920097,0
+cesanta/mongoose,1,,43,11,21,1,44,0 days 00:00:00.183177,0
+nodejs/node-gyp,2, v,37,2,15,98,135,0 days 00:00:00.104737,0
+cytoscape/cytoscape.js,1,v,29,10,12,198,227,0 days 00:00:00.599138,0
+jwtk/jjwt,1,,11,3,6,15,26,0 days 00:00:00.036231,0
+projectdiscovery/nuclei,2,v. v,10,2,6,43,53,0 days 00:00:00.216140,0
+rq/rq,2, v,24,2,15,44,68,0 days 00:00:00.093281,0
+vector-im/element-web,1,v,27,9,9,172,199,0 days 00:00:00.764209,0
+Nozbe/WatermelonDB,1,v,19,5,6,17,36,0 days 00:00:00.180231,0
+borgbackup/borg,1,,22,12,5,36,58,0 days 00:00:00.540736,0
+sebastianbergmann/php-code-coverage,1,,23,2,13,138,161,0 days 00:00:00.149355,0
+panjf2000/ants,1,v,9,2,2,15,24,0 days 00:00:00.037621,0
+ag-grid/ag-grid,2, v,87,57,5,103,190,0 days 00:00:01.495928,0
+MahApps/MahApps.Metro,1,,21,5,11,33,54,0 days 00:00:00.282114,0
+dat-ecosystem-archive/dat,1,v,43,9,5,64,107,0 days 00:00:00.124591,0
+benoitc/gunicorn,1,,31,12,14,51,82,0 days 00:00:00.307855,0
+protobufjs/protobuf.js,2, v,23,7,5,55,78,0 days 00:00:00.079493,0
+agenda/agenda,2, v,20,2,8,65,85,0 days 00:00:00.177736,0
+jopohl/urh,1,v,17,6,6,74,91,0 days 00:00:00.146803,0
+coil-kt/coil,1,,15,5,6,12,27,0 days 00:00:00.057441,0
+pre-commit/pre-commit,1,v,60,25,8,111,171,0 days 00:00:00.160691,0
+google/or-tools,1,v,32,7,8,3,35,0 days 00:00:00.581668,0
+devhubapp/devhub,2, v,55,25,3,61,116,0 days 00:00:00.180322,0
+symfony/http-foundation,1,v,26,4,20,464,490,0 days 00:00:00.496180,0
+NG-ZORRO/ng-zorro-antd,1,,41,28,5,65,106,0 days 00:00:00.248803,0
+tidwall/tile38,1,,27,6,7,59,86,0 days 00:00:00.174661,0
+hediet/vscode-drawio,1,v,10,4,2,13,23,0 days 00:00:00.027145,0
+OpenFeign/feign,3, release- v,72,12,8,54,126,0 days 00:00:00.192515,0
+symfony/event-dispatcher,1,v,26,4,17,436,462,0 days 00:00:00.445522,0
+VulcanJS/Vulcan,2, v,22,10,6,45,67,0 days 00:00:00.356665,0
+resilience4j/resilience4j,3, v. v,22,4,8,15,37,0 days 00:00:00.074644,0
+Koenkk/zigbee2mqtt,1,,28,16,5,33,61,0 days 00:00:00.207150,0
+happyfish100/fastdfs,1,V,16,5,4,0,16,0 days 00:00:00.023334,0
+electron/electron-packager,1,v,53,9,6,42,95,0 days 00:00:00.100811,0
+abpframework/abp,2, v,43,31,3,60,103,0 days 00:00:01.317890,0
+pypa/pip,1,,36,2,27,73,109,0 days 00:00:00.680163,0
+keybase/client,2, v,29,21,4,65,94,0 days 00:00:02.037272,0
+symfony/finder,1,v,26,4,16,440,466,0 days 00:00:00.441687,0
+dotnet/machinelearning,1,v,18,12,4,5,23,0 days 00:00:00.235727,0
+Stuk/jszip,1,v,19,5,7,14,33,0 days 00:00:00.052342,0
+sahat/satellizer,1,,14,7,4,41,55,0 days 00:00:00.104264,0
+ng-bootstrap/ng-bootstrap,1,,27,12,6,49,76,0 days 00:00:00.210415,0
+airbnb/epoxy,1,,41,4,4,22,63,0 days 00:00:00.041793,0
+firefly-iii/firefly-iii,1,,41,18,8,201,242,0 days 00:00:01.123079,0
+doitsujin/dxvk,1,v,40,30,5,32,72,0 days 00:00:00.223238,0
+grommet/grommet,2, v,41,18,7,76,117,0 days 00:00:00.538678,0
+Jguer/yay,1,v,49,19,9,26,75,0 days 00:00:00.121446,0
+JustArchiNET/ArchiSteamFarm,1,,167,83,9,431,598,0 days 00:00:00.935740,0
+qutebrowser/qutebrowser,1,v,32,4,16,49,81,0 days 00:00:01.253768,0
+mediaelement/mediaelement,1,,32,8,11,117,149,0 days 00:00:00.220285,0
+mjmlio/mjml,3, V v,25,8,10,50,75,0 days 00:00:00.142527,0
+scylladb/scylla,1,scylla-,33,11,10,130,163,0 days 00:00:01.932470,0
+google/cadvisor,2, v,45,19,15,71,116,0 days 00:00:00.177178,0
+zalmoxisus/redux-devtools-extension,2, v,27,15,2,43,70,0 days 00:00:00.058664,0
+grpc-ecosystem/grpc-gateway,1,v,28,7,7,43,71,0 days 00:00:00.107892,0
+fabric/fabric,1,,26,4,18,97,123,0 days 00:00:00.343854,0
+automerge/automerge,1,v,13,3,6,20,33,0 days 00:00:00.040787,0
+verdaccio/verdaccio,1,v,64,21,8,148,212,0 days 00:00:00.420283,0
+Tencent/APIJSON,1,,37,18,7,51,88,0 days 00:00:00.150928,0
+powerline/powerline,1,,13,3,7,10,23,0 days 00:00:00.142014,0
+authelia/authelia,1,v,55,33,5,114,169,0 days 00:00:00.208927,0
+getgrav/grav,1,,13,3,8,170,183,0 days 00:00:00.528471,0
+Budibase/budibase,1,v,10,5,2,479,489,0 days 00:00:01.376115,0
+RaRe-Technologies/gensim,1,,23,6,11,36,59,0 days 00:00:00.331092,0
+python/mypy,1,v,59,22,8,7,66,0 days 00:00:00.809741,0
+timescale/timescaledb,1,,28,7,8,33,61,0 days 00:00:00.240997,0
+flipped-aurora/gin-vue-admin,3,V v. v,7,2,2,21,28,0 days 00:00:00.107051,0
+mdx-js/mdx,2, v,26,8,2,140,166,0 days 00:00:00.174226,0
+txthinking/brook,1,v,43,9,4,0,43,0 days 00:00:00.050671,0
+mockito/mockito,1,v,58,16,6,409,467,0 days 00:00:00.534798,0
+xtermjs/xterm.js,1,,76,29,6,35,111,0 days 00:00:00.477956,0
+termux/termux-app,1,v,89,20,7,0,89,0 days 00:00:00.080531,0
+arduino/Arduino,1,,26,3,12,46,72,0 days 00:00:00.440053,0
+bcicen/ctop,2, v,5,2,2,11,16,0 days 00:00:00.035737,0
+WerWolv/ImHex,1,v,19,14,2,12,31,0 days 00:00:00.070408,0
+gionkunz/chartist-js,1,v,11,5,4,47,58,0 days 00:00:00.053941,0
+wechaty/wechaty,1,v,15,4,7,8,23,0 days 00:00:00.373346,0
+http-party/node-http-proxy,2, v,27,4,8,70,97,0 days 00:00:00.082700,0
+Semantic-Org/Semantic-UI-React,1,v,93,32,5,211,304,0 days 00:00:00.285664,0
+DIYgod/DPlayer,2, v,21,2,4,21,42,0 days 00:00:00.064959,0
+NodeBB/NodeBB,1,v,30,2,17,93,123,0 days 00:00:01.189167,0
+redux-form/redux-form,1,v,46,11,7,141,187,0 days 00:00:00.140583,0
+revel/revel,1,v,18,4,10,7,25,0 days 00:00:00.074752,0
+charmbracelet/bubbletea,1,v,20,4,3,27,47,0 days 00:00:00.040635,0
+moment/luxon,1,,37,2,4,69,106,0 days 00:00:00.071147,0
+showdownjs/showdown,2, v,14,3,5,42,56,0 days 00:00:00.046833,0
+thephpleague/flysystem,1,,13,2,4,175,188,0 days 00:00:00.164142,0
+aws/aws-cli,1,,46,18,9,1642,1688,0 days 00:00:03.689193,0
+OptimalBits/bull,2, v,49,7,10,84,133,0 days 00:00:00.298060,0
+keycloak/keycloak,1,,16,2,7,21,37,0 days 00:00:00.761266,0
+josdejong/mathjs,1,v,109,64,2,118,227,0 days 00:00:00.408471,0
+pyecharts/pyecharts,1,v,14,3,5,29,43,0 days 00:00:00.134835,0
+MaterialDesignInXAML/MaterialDesignInXamlToolkit,2, v,21,5,12,12,33,0 days 00:00:00.334370,0
+uuidjs/uuid,1,v,16,4,6,21,37,0 days 00:00:00.036218,0
+tensorflow/tensor2tensor,3, v. v,15,5,4,61,76,0 days 00:00:00.399957,0
+liriliri/eruda,1,v,15,2,5,40,55,0 days 00:00:00.048062,0
+OpenAPITools/openapi-generator,2, v,16,2,11,38,54,0 days 00:00:00.982266,0
+gaearon/react-hot-loader,2, v,25,7,4,107,132,0 days 00:00:00.241124,0
+11ty/eleventy,1,v,13,2,6,41,54,0 days 00:00:00.084103,0
+systemjs/systemjs,2, v,40,8,3,187,227,0 days 00:00:00.154884,0
+aquasecurity/trivy,1,v,28,13,2,59,87,0 days 00:00:00.203380,0
+rt2zz/redux-persist,1,v,36,4,4,76,112,0 days 00:00:00.059118,0
+visionmedia/supertest,2, v,29,2,9,29,58,0 days 00:00:00.036151,0
+lra/mackup,1,,8,4,3,53,61,0 days 00:00:00.099418,0
+oliver-moran/jimp,2, v,15,2,2,71,86,0 days 00:00:00.055801,0
+casbin/casbin,1,v,68,10,5,118,186,0 days 00:00:00.254058,0
+foambubble/foam,1,v,17,8,2,44,61,0 days 00:00:00.053251,0
+Miserlou/Zappa,2, v,50,30,3,71,121,0 days 00:00:00.143494,0
+carloscuesta/gitmoji,1,v,13,4,2,5,18,0 days 00:00:00.036162,0
+roots/sage,2, v,27,7,10,35,62,0 days 00:00:00.114700,0
+webpack-contrib/webpack-bundle-analyzer,1,v,32,6,6,34,66,0 days 00:00:00.041081,0
+aurelia/framework,1,,23,2,5,32,55,0 days 00:00:00.048307,0
+karma-runner/karma,2, v,35,8,10,198,233,0 days 00:00:00.296097,0
+ramsey/uuid,1,,26,4,12,37,63,0 days 00:00:00.063480,0
+thingsboard/thingsboard,1,v,15,2,7,33,48,0 days 00:00:00.387674,0
+ben-manes/caffeine,2, v,16,3,6,45,61,0 days 00:00:00.174749,0
+AdguardTeam/AdGuardHome,1,v,19,6,4,31,50,0 days 00:00:00.146946,0
+mikepenz/MaterialDrawer,1,v,35,9,7,166,201,0 days 00:00:00.163042,0
+LuckSiege/PictureSelector,2,v. v,12,5,5,91,103,0 days 00:00:00.312827,0
+microsoft/nni,1,v,27,9,2,16,43,0 days 00:00:00.287700,0
+apexcharts/apexcharts.js,2, v,32,9,3,54,86,0 days 00:00:00.103782,0
+nock/nock,2, v,125,15,5,181,306,0 days 00:00:00.214077,0
+rjsf-team/react-jsonschema-form,1,v,71,15,6,52,123,0 days 00:00:00.117317,0
+d2-projects/d2-admin,2, v,25,6,4,62,87,0 days 00:00:00.155462,0
+mifi/lossless-cut,1,v,70,29,8,67,137,0 days 00:00:00.105040,0
+sindresorhus/got,1,v,70,18,8,71,141,0 days 00:00:00.199084,0
+spicetify/spicetify-cli,2,v. v,23,9,4,52,75,0 days 00:00:00.048512,0
+rizinorg/cutter,1,v,14,6,5,16,30,0 days 00:00:00.116675,0
+video-dev/hls.js,1,v,16,2,9,185,201,0 days 00:00:00.629507,0
+bettercap/bettercap,1,v,33,21,5,10,43,0 days 00:00:00.111692,0
+hotwired/stimulus,1,v,12,5,4,14,26,0 days 00:00:00.055124,0
+graphile/postgraphile,1,v,35,3,7,60,95,0 days 00:00:00.145014,0
+slimphp/Slim,1,,40,6,21,55,95,0 days 00:00:00.245306,0
+wenzhixin/bootstrap-table,1,,18,3,9,39,57,0 days 00:00:00.382711,0
+cloudwu/skynet,1,v,15,7,6,18,33,0 days 00:00:00.112076,0
+conventional-changelog/commitlint,1,v,47,14,5,89,136,0 days 00:00:00.275722,0
+PHPOffice/PhpSpreadsheet,1,,24,6,7,10,34,0 days 00:00:00.313031,0
+pagehelper/Mybatis-PageHelper,1,v,18,5,6,42,60,0 days 00:00:00.038045,0
+micro/micro,2, v,62,36,2,37,99,0 days 00:00:00.251713,0
+davisking/dlib,1,v,55,12,13,0,55,0 days 00:00:00.390544,0
+argoproj/argo-workflows,2, v,23,7,9,102,125,0 days 00:00:00.248125,0
+frappe/erpnext,2, v,153,125,7,763,916,0 days 00:00:03.361902,0
+FriendsOfPHP/PHP-CS-Fixer,1,v,48,26,15,148,196,0 days 00:00:00.619410,0
+mail-in-a-box/mailinabox,1,v,45,13,11,0,45,0 days 00:00:00.214541,0
+ajv-validator/ajv,2, v,71,26,4,89,160,0 days 00:00:00.149088,0
+SFTtech/openage,1,v,5,2,2,4,9,0 days 00:00:00.266183,0
+allenai/allennlp,2, v,24,4,5,23,47,0 days 00:00:00.156394,0
+ansible/awx,1,,36,18,2,20,56,0 days 00:00:01.562929,0
+baidu/amis,1,,9,5,2,37,46,0 days 00:00:00.416707,0
+nats-io/nats-server,1,v,17,2,12,49,66,0 days 00:00:00.265730,0
+keeweb/keeweb,1,v,25,10,9,103,128,0 days 00:00:00.433612,0
+stylus/stylus,1,,53,28,10,115,168,0 days 00:00:00.247804,0
+jonas/tig,1,tig-,27,6,19,22,49,0 days 00:00:00.115754,0
+dgraph-io/badger,1,v,14,3,6,20,34,0 days 00:00:00.094650,0
+ent/ent,1,v,10,2,4,21,31,0 days 00:00:00.096338,0
+Kotlin/kotlinx.coroutines,1,,24,11,6,38,62,0 days 00:00:00.130156,0
+networkx/networkx,1,networkx-,37,7,25,10,47,0 days 00:00:00.432853,0
+wbkd/react-flow,2, v,56,27,2,118,174,0 days 00:00:00.202873,0
+GoogleChrome/workbox,1,v,24,9,7,38,62,0 days 00:00:00.098128,0
+summernote/summernote,1,v,8,2,2,52,60,0 days 00:00:00.274990,0
+javve/list.js,2, v,11,3,5,10,21,0 days 00:00:00.044584,0
+ionic-team/stencil,1,v,53,33,2,189,242,0 days 00:00:00.397632,0
+browserslist/browserslist,1,,49,10,5,119,168,0 days 00:00:00.098611,0
+Rapptz/discord.py,1,v,24,11,6,41,65,0 days 00:00:00.155336,0
+fengyuanchen/cropperjs,1,v,14,6,3,40,54,0 days 00:00:00.038755,0
+swaywm/sway,1,,22,5,8,7,29,0 days 00:00:00.469381,0
+lingochamp/FileDownloader,1,v,11,2,2,56,67,0 days 00:00:00.055671,0
+tymondesigns/jwt-auth,1,,6,2,2,29,35,0 days 00:00:00.067416,0
+polybar/polybar,1,,20,5,7,84,104,0 days 00:00:00.276756,0
+go-playground/validator,1,v,94,12,6,59,153,0 days 00:00:00.085229,0
+VSCodeVim/Vim,2, v,38,18,6,187,225,0 days 00:00:00.315968,0
+avwo/whistle,1,v,31,11,10,342,373,0 days 00:00:00.692063,0
+spatie/laravel-permission,1,,87,18,4,71,158,0 days 00:00:00.102027,0
+rqlite/rqlite,1,v,56,35,4,39,95,0 days 00:00:00.259728,0
+restify/node-restify,2, v,44,11,7,96,140,0 days 00:00:00.107403,0
+GoogleContainerTools/kaniko,1,v,33,14,4,4,37,0 days 00:00:00.090225,0
+thanos-io/thanos,1,v,26,7,2,17,43,0 days 00:00:00.147240,0
+akiran/react-slick,2, v,13,3,5,27,40,0 days 00:00:00.056539,0
+milvus-io/milvus,1,v,9,3,3,15,24,0 days 00:00:00.950139,0
+dbcli/pgcli,2, v,39,12,9,47,86,0 days 00:00:00.191274,0
+netbox-community/netbox,2, v,24,6,13,173,197,0 days 00:00:00.505969,0
+dbcli/mycli,1,v,26,8,9,20,46,0 days 00:00:00.082669,0
+luin/ioredis,2, v,54,9,4,132,186,0 days 00:00:00.229849,0
+styleguidist/react-styleguidist,2, v,47,16,3,215,262,0 days 00:00:00.170905,0
+TypeStrong/ts-node,1,v,52,3,7,83,135,0 days 00:00:00.073834,0
+redis/redis-py,2, v,15,2,9,49,64,0 days 00:00:00.105868,0
+okonet/lint-staged,2, v,44,3,3,145,189,0 days 00:00:00.094701,0
+aspnetboilerplate/aspnetboilerplate,3, v. v,91,42,5,125,216,0 days 00:00:00.467274,0
+reactstrap/reactstrap,2, v,61,12,6,54,115,0 days 00:00:00.079521,0
+PrismJS/prism,2, v,29,8,11,11,40,0 days 00:00:00.269565,0
+git-lfs/git-lfs,2, v,29,3,18,60,89,0 days 00:00:00.734822,0
+shipshapecode/shepherd,1,v,46,8,7,73,119,0 days 00:00:00.253575,0
+ant-design/ant-design-mobile,2, v,28,16,4,107,135,0 days 00:00:00.498420,0
+spencermountain/compromise,2, v,70,23,8,148,218,0 days 00:00:00.484173,0
+debug-js/debug,1,,22,2,6,47,69,0 days 00:00:00.048143,0
+plouc/nivo,1,v,67,26,7,45,112,0 days 00:00:00.100439,0
+pagekit/vue-resource,1,,12,2,3,41,53,0 days 00:00:00.038417,0
+jantimon/html-webpack-plugin,2, v,47,6,6,36,83,0 days 00:00:00.175665,0
+react-static/react-static,1,v,28,10,5,162,190,0 days 00:00:00.129154,0
+vercel/micro,2, v,21,9,3,34,55,0 days 00:00:00.038056,0
+mailhog/MailHog,2, v,10,3,2,16,26,0 days 00:00:00.019759,0
+SpacehuhnTech/esp8266_deauther,3, v. v,10,4,3,3,13,0 days 00:00:00.049804,0
+samuelcolvin/pydantic,2,V v,42,18,6,37,79,0 days 00:00:00.095507,0
+h2o/h2o,1,v,12,3,2,32,44,0 days 00:00:00.203668,0
+tinygo-org/tinygo,1,v,23,9,3,4,27,0 days 00:00:00.142748,0
+FredrikNoren/ungit,2, v,16,6,6,126,142,0 days 00:00:00.798326,0
+nhn/tui.calendar,1,v,21,6,2,42,63,0 days 00:00:00.106722,0
+typesense/typesense,2, v,16,4,5,8,24,0 days 00:00:00.075441,0
+dask/dask,1,,97,53,9,141,238,0 days 00:00:00.937646,0
+bitwarden/server,2, v,49,29,4,58,107,0 days 00:00:00.181685,0
+kubernetes-sigs/kind,2, v,14,2,6,10,24,0 days 00:00:00.182467,0
+zricethezav/gitleaks,1,v,60,8,4,62,122,0 days 00:00:00.072116,0
+w7corp/easywechat,1,,47,4,4,241,288,0 days 00:00:00.242286,0
+squidfunk/mkdocs-material,1,,52,21,4,192,244,0 days 00:00:00.380687,0
+frida/frida,1,,54,14,6,579,633,0 days 00:00:00.626404,0
+coryhouse/react-slingshot,2, v,8,2,2,7,15,0 days 00:00:00.041536,0
+vega/vega,1,v,45,19,13,73,118,0 days 00:00:00.461369,0
+immerjs/immer,2, v,35,14,2,94,129,0 days 00:00:00.246134,0
+tj/commander.js,2, v,50,9,12,38,88,0 days 00:00:00.074585,0
+jesseduffield/lazydocker,1,v,18,7,4,27,45,0 days 00:00:00.041631,0
+doczjs/docz,1,v,19,11,5,66,85,0 days 00:00:00.095123,0
+alibaba/nacos,2, v,16,9,6,15,31,0 days 00:00:00.333448,0
+labstack/echo,2, v,20,2,9,75,95,0 days 00:00:00.104088,0
+angular/components,1,,31,13,7,128,159,0 days 00:00:00.856342,0
+vuejs/devtools,1,v,10,3,4,36,46,0 days 00:00:00.094231,0
+halo-dev/halo,1,v,10,2,5,42,52,0 days 00:00:00.113671,0
+react-native-elements/react-native-elements,2, v,30,13,5,52,82,0 days 00:00:00.131053,0
+visgl/deck.gl,2, v,32,6,11,250,282,0 days 00:00:04.670191,0
+lovell/sharp,1,v,30,3,16,88,118,0 days 00:00:00.120823,0
+files-community/Files,1,v,23,18,4,38,61,0 days 00:00:00.316280,0
+seata/seata,3, V v,15,2,3,18,33,0 days 00:00:00.181627,0
+redux-saga/redux-saga,2, v,18,8,5,40,58,0 days 00:00:00.104324,0
+reduxjs/react-redux,1,v,26,10,4,59,85,0 days 00:00:00.196554,0
+sampotts/plyr,1,v,16,3,7,195,211,0 days 00:00:00.231259,0
+ramda/ramda,2, v,28,12,9,26,54,0 days 00:00:00.177523,0
+swagger-api/swagger-ui,3, v/ v,69,34,10,189,258,0 days 00:00:00.532861,0
+signalapp/Signal-Android,3, v. v,180,145,3,860,1040,0 days 00:00:01.769268,0
+guzzle/guzzle,2, v,37,14,13,96,133,0 days 00:00:00.247248,0
+fabricjs/fabric.js,2, v,34,2,11,69,103,0 days 00:00:00.231717,0
+helm/helm,2, v,32,5,12,68,100,0 days 00:00:00.586923,0
+github/hub,1,v,29,11,8,59,88,0 days 00:00:00.216974,0
+facebook/draft-js,2, v,11,6,3,16,27,0 days 00:00:00.062404,0
+feathericons/feather,1,v,39,6,2,12,51,0 days 00:00:00.189201,0
+httpie/httpie,1,,19,2,12,28,47,0 days 00:00:00.106224,0
+openfaas/faas,2, v,18,8,6,110,128,0 days 00:00:00.135335,0
+emberjs/ember.js,1,v,68,19,4,184,252,0 days 00:00:02.073068,0
+mochajs/mocha,2, v,65,26,14,110,175,0 days 00:00:00.218405,0
+usablica/intro.js,2, v,29,4,13,12,41,0 days 00:00:00.080982,0
+vercel/pkg,1,,15,5,4,42,57,0 days 00:00:00.067712,0
+rollup/rollup,1,v,169,49,3,411,580,0 days 00:00:00.953490,0
+paularmstrong/normalizr,2, v,16,3,4,18,34,0 days 00:00:00.039893,0
+docsifyjs/docsify,1,v,44,8,6,147,191,0 days 00:00:00.291152,0
+react-bootstrap/react-bootstrap,2, v,44,17,10,108,152,0 days 00:00:00.261932,0
+sirupsen/logrus,2, v,20,6,7,35,55,0 days 00:00:00.075105,0
+eslint/eslint,1,v,164,145,3,103,267,0 days 00:00:00.517582,0
+localForage/localForage,1,,19,4,4,43,62,0 days 00:00:00.076479,0
+michalsnik/aos,2, v,11,2,3,24,35,0 days 00:00:00.023084,0
+vuejs/vuepress,1,v,24,10,4,50,74,0 days 00:00:00.121716,0
+postcss/autoprefixer,1,,53,16,9,133,186,0 days 00:00:00.205569,0
+uglide/RedisDesktopManager,1,,33,14,4,38,71,0 days 00:00:00.136940,0
+petkaantonov/bluebird,1,v,24,6,7,115,139,0 days 00:00:00.172541,0
+python-poetry/poetry,1,,14,10,3,63,77,0 days 00:00:00.121797,0
+avajs/ava,1,v,54,21,4,23,77,0 days 00:00:00.112592,0
+necolas/react-native-web,1,,17,6,5,242,259,0 days 00:00:00.745563,0
+Seldaek/monolog,1,,36,7,18,26,62,0 days 00:00:00.144361,0
+ShareX/ShareX,1,v,50,24,11,22,72,0 days 00:00:00.489599,0
+electron-react-boilerplate/electron-react-boilerplate,1,v,32,5,7,31,63,0 days 00:00:00.078150,0
+validatorjs/validator.js,2, v,107,32,8,43,150,0 days 00:00:00.144382,0
+marmelab/react-admin,1,v,46,32,4,168,214,0 days 00:00:00.902150,0
+schollz/croc,1,v,31,10,5,106,137,0 days 00:00:00.305105,0
+parse-community/parse-server,1,,34,11,11,111,145,0 days 00:00:00.179291,0
+youzan/vant,1,v,33,13,6,377,410,0 days 00:00:00.984220,0
+apache/skywalking,1,v,20,4,6,11,31,0 days 00:00:00.397203,0
+celery/celery,2, v,22,3,17,143,165,0 days 00:00:00.715886,0
+TeamNewPipe/NewPipe,2, v,17,3,10,100,117,0 days 00:00:00.682444,0
+benweet/stackedit,1,v,23,7,3,104,127,0 days 00:00:00.118368,0
+felixrieseberg/windows95,1,v,11,2,5,3,14,0 days 00:00:00.016068,0
+alibaba/Sentinel,2, v,8,2,3,16,24,0 days 00:00:00.045291,0
+segmentio/nightmare,1,,21,4,3,67,88,0 days 00:00:00.074996,0
+afollestad/material-dialogs,3, v. v,20,6,3,98,118,0 days 00:00:00.575671,0
+jhipster/generator-jhipster,1,v,110,86,5,114,224,0 days 00:00:02.350792,0
+locustio/locust,2, v,27,7,10,56,83,0 days 00:00:00.183696,0
+osquery/osquery,2, v,39,11,12,80,119,0 days 00:00:00.473358,0
+winstonjs/winston,2, v,24,4,10,62,86,0 days 00:00:00.093292,0
+vuejs/vue-router,1,v,19,8,5,59,78,0 days 00:00:00.116191,0
+graphql/graphql-js,2, v,34,8,10,88,122,0 days 00:00:00.322065,0
+telegramdesktop/tdesktop,1,v,34,9,7,542,576,0 days 00:00:01.091799,0
+zhongyang219/TrafficMonitor,1,V,18,8,6,4,22,0 days 00:00:00.041012,0
+python-telegram-bot/python-telegram-bot,3, V v,49,19,6,39,88,0 days 00:00:00.110356,0
+reduxjs/reselect,1,v,11,5,4,14,25,0 days 00:00:00.037525,0
+sideway/joi,2, v,92,20,6,135,227,0 days 00:00:00.196850,0
+jumpserver/jumpserver,2, v,31,23,5,103,134,0 days 00:00:00.457807,0
+vnpy/vnpy,2, v,22,6,7,28,50,0 days 00:00:00.340617,0
+PyTorchLightning/pytorch-lightning,1,,16,2,4,98,114,0 days 00:00:00.413165,0
+vadimdemedes/ink,1,v,16,3,4,23,39,0 days 00:00:00.037665,0
+bazelbuild/bazel,1,,47,29,8,56,103,0 days 00:00:01.876034,0
+pbatard/rufus,1,v,42,8,15,28,70,0 days 00:00:00.117274,0
+mpv-player/mpv,1,v,34,10,8,46,80,0 days 00:00:02.699856,0
+urfave/cli,1,v,33,14,8,34,67,0 days 00:00:00.132813,0
+mingrammer/diagrams,1,v,20,9,3,16,36,0 days 00:00:00.033080,0
+recharts/recharts,1,v,26,10,4,93,119,0 days 00:00:00.118523,0
+Baseflow/PhotoView,2, v,8,2,2,12,20,0 days 00:00:00.030406,0
+OpenZeppelin/openzeppelin-contracts,1,v,30,9,5,22,52,0 days 00:00:00.155888,0
+websockets/ws,2, v,40,5,9,114,154,0 days 00:00:00.268515,0
+lensapp/lens,1,v,19,5,6,56,75,0 days 00:00:00.571105,0
+iawia002/lux,2, v,15,4,4,59,74,0 days 00:00:00.052688,0
+eggjs/egg,1,,70,26,2,43,113,0 days 00:00:00.077600,0
+wekan/wekan,2, v,610,257,2,27,637,0 days 00:00:01.033576,0
+valyala/fasthttp,1,v,43,9,3,3,46,0 days 00:00:00.081098,0
+quii/learn-go-with-tests,2, v,22,3,4,27,49,0 days 00:00:00.164749,0
+svg/svgo,2, v,20,7,10,66,86,0 days 00:00:00.070988,0
+react-dnd/react-dnd,2, v,45,8,8,100,145,0 days 00:00:00.184981,0
+arendst/Tasmota,1,v,35,2,5,58,93,0 days 00:00:00.889707,0
+NickeManarin/ScreenToGif,1,,37,9,7,43,80,0 days 00:00:00.079774,0
+pubkey/rxdb,1,,58,41,2,55,113,0 days 00:00:00.389385,0
+flameshot-org/flameshot,1,v,11,2,5,30,41,0 days 00:00:00.200625,0
+freqtrade/freqtrade,1,,44,35,2,14,58,0 days 00:00:00.936063,0
+SortableJS/Vue.Draggable,2,v. v,24,3,3,25,49,0 days 00:00:00.035225,0
+jsdom/jsdom,2, v,98,32,9,144,242,0 days 00:00:00.218553,0
+TanStack/table,1,v,36,4,3,86,122,0 days 00:00:00.120125,0
+mysqljs/mysql,1,v,28,5,9,26,54,0 days 00:00:00.120394,0
+BabylonJS/Babylon.js,2, v,36,10,14,36,72,0 days 00:00:02.181131,0
+linlinjava/litemall,1,v,19,10,2,3,22,0 days 00:00:00.073453,0
+ai/nanoid,1,,12,4,2,73,85,0 days 00:00:00.047029,0
+badges/shields,1,,8,2,4,3,11,0 days 00:00:00.203570,0
+cookiecutter/cookiecutter,1,,14,4,8,15,29,0 days 00:00:00.120082,0
+eclipse-theia/theia,2, v,43,37,2,33,76,0 days 00:00:00.376356,0
+restic/restic,1,v,13,2,7,18,31,0 days 00:00:00.361380,0
+facebook/fresco,1,v,35,14,13,12,47,0 days 00:00:00.288102,0
+less/less.js,1,v,26,5,10,42,68,0 days 00:00:00.164899,0
+brettwooldridge/HikariCP,1,HikariCP-,17,2,8,82,99,0 days 00:00:00.184187,0
+defunkt/jquery-pjax,2, v,12,4,2,15,27,0 days 00:00:00.030318,0
+zloirock/core-js,2, v,41,23,7,156,197,0 days 00:00:00.465828,0
+monicahq/monica,1,v,47,26,4,39,86,0 days 00:00:00.261141,0
+framework7io/framework7,1,v,43,18,9,172,215,0 days 00:00:00.511983,0
+handlebars-lang/handlebars.js,2, v,14,2,6,56,70,0 days 00:00:00.088609,0
+elastic/kibana,1,v,55,10,10,190,245,0 days 00:00:06.447563,0
+handsontable/handsontable,2, v,62,24,14,117,179,0 days 00:00:00.498573,0
+plotly/dash,1,v,42,25,3,33,75,0 days 00:00:00.286441,0
+dropzone/dropzone,1,v,32,5,5,83,115,0 days 00:00:00.082058,0
+grafana/k6,1,v,36,11,6,36,72,0 days 00:00:00.202892,0
+responsively-org/responsively-app,1,v,18,14,3,10,28,0 days 00:00:00.070823,0
+derailed/k9s,2, v,25,7,2,155,180,0 days 00:00:00.120562,0
+gchq/CyberChef,1,v,119,42,2,273,392,0 days 00:00:00.345384,0
+Tencent/tinker,1,v,7,2,2,46,53,0 days 00:00:00.055046,0
+nginx/nginx,1,release-,32,8,6,516,548,0 days 00:00:00.675936,0
+nfl/react-helmet,1,,15,3,4,18,33,0 days 00:00:00.024472,0
+hubotio/hubot,1,v,26,6,11,68,94,0 days 00:00:00.105076,0
+aFarkas/lazysizes,1,,21,7,5,45,66,0 days 00:00:00.049207,0
+sanic-org/sanic,2, v,21,2,13,49,70,0 days 00:00:00.130473,0
+matomo-org/matomo,1,,64,19,20,130,194,0 days 00:00:02.152338,0
+radareorg/radare2,2, release-,42,22,6,43,85,0 days 00:00:01.981601,0
+matryer/xbar,2, v,9,5,2,5,14,0 days 00:00:00.036148,0
+ionic-team/ionicons,2, v,21,3,8,51,72,0 days 00:00:00.043425,0
+v2fly/v2ray-core,1,v,185,108,4,217,402,0 days 00:00:00.585815,0
+notepad-plus-plus/notepad-plus-plus,2, v,42,7,11,159,201,0 days 00:00:00.371516,0
+visionmedia/superagent,2, v,50,14,9,84,134,0 days 00:00:00.124967,0
+trojan-gfw/trojan,1,v,24,8,4,19,43,0 days 00:00:00.033371,0
+grafana/loki,1,v,17,4,4,8,25,0 days 00:00:00.373757,0
+youzan/vant-weapp,1,v,16,6,4,91,107,0 days 00:00:00.125038,0
+filebrowser/filebrowser,1,v,34,10,4,62,96,0 days 00:00:00.112497,0
+knex/knex,2, v,25,2,16,146,171,0 days 00:00:00.165363,0
+cocos2d/cocos2d-x,1,cocos2d-x-,20,2,8,17,37,0 days 00:00:02.220694,0
+qbittorrent/qBittorrent,1,release-,24,4,16,145,169,0 days 00:00:00.926097,0
+jaegertracing/jaeger,1,v,40,24,3,13,53,0 days 00:00:00.304150,0
+oblador/react-native-vector-icons,1,v,37,3,6,42,79,0 days 00:00:00.048020,0
+briannesbitt/Carbon,1,,99,54,5,79,178,0 days 00:00:00.342460,0
+spotify/luigi,2, v,13,4,8,46,59,0 days 00:00:00.200408,0
+buger/goreplay,2, v,18,3,9,23,41,0 days 00:00:00.069651,0
+semantic-release/semantic-release,2, v,62,5,2,206,268,0 days 00:00:00.171851,0
+ustbhuangyi/better-scroll,3, v. v,17,6,4,41,58,0 days 00:00:00.102044,0
+nikic/PHP-Parser,1,v,24,5,9,41,65,0 days 00:00:00.082633,0
+motdotla/dotenv,1,v,33,4,6,26,59,0 days 00:00:00.039048,0
+infernojs/inferno,2, v,38,18,5,160,198,0 days 00:00:00.508872,0
+jasmine/jasmine,1,v,28,4,17,29,57,0 days 00:00:00.152640,0
+janl/mustache.js,2, v,20,3,8,23,43,0 days 00:00:00.051203,0
+wulkano/Kap,1,v,13,2,5,14,27,0 days 00:00:00.068419,0
+teambit/bit,1,v,18,6,5,121,139,0 days 00:00:00.403843,0
+auth0/node-jsonwebtoken,1,v,29,3,5,42,71,0 days 00:00:00.038574,0
+KaTeX/KaTeX,1,v,15,2,9,41,56,0 days 00:00:00.114609,0
+facebook/yoga,2, v,19,5,8,23,42,0 days 00:00:00.196284,0
+huiyadanli/RevokeMsgPatcher,1,,15,2,2,0,15,0 days 00:00:00.017560,0
+catchorg/Catch2,3,V v. v,24,6,6,62,86,0 days 00:00:00.199809,0
+bower/bower,2, v,18,8,4,83,101,0 days 00:00:00.133927,0
+icsharpcode/ILSpy,2, v,16,2,11,9,25,0 days 00:00:00.441598,0
+DapperLib/Dapper,1,,31,4,6,13,44,0 days 00:00:00.069216,0
+fullcalendar/fullcalendar,1,v,44,14,17,72,116,0 days 00:00:00.335665,0
+pouchdb/pouchdb,2, v,24,7,8,47,71,0 days 00:00:00.342620,0
+airbnb/react-sketchapp,2, v,20,9,5,27,47,0 days 00:00:00.046860,0
+flatpickr/flatpickr,2, v,23,3,4,121,144,0 days 00:00:00.149140,0
+ChainSafe/web3.js,2, v,25,15,5,54,79,0 days 00:00:00.176052,0
+kovidgoyal/kitty,1,v,25,8,9,58,83,0 days 00:00:00.675209,0
+Anuken/Mindustry,1,v,136,102,4,0,136,0 days 00:00:00.681893,0
+desktop/desktop,1,release-,22,6,8,136,158,0 days 00:00:01.508228,0
+nodemailer/nodemailer,1,v,47,6,7,170,217,0 days 00:00:00.254605,0
+riot/riot,1,v,44,6,7,155,199,0 days 00:00:00.272961,0
+gabime/spdlog,1,v,19,4,10,15,34,0 days 00:00:00.294321,0
+Tencent/ncnn,1,,32,9,3,0,32,0 days 00:00:00.234745,0
+pqrs-org/Karabiner-Elements,1,v,28,10,5,0,28,0 days 00:00:00.256620,0
+Tencent/vConsole,2, v,24,9,5,34,58,0 days 00:00:00.048339,0
+plotly/plotly.js,1,v,72,54,3,133,205,0 days 00:00:01.177274,0
+framer/motion,1,v,60,27,3,243,303,0 days 00:00:00.321171,0
+hashcat/hashcat,1,v,17,3,9,8,25,0 days 00:00:00.319812,0
+node-red/node-red,2, v,26,3,18,99,125,0 days 00:00:00.501914,0
+mkdocs/mkdocs,1,,20,6,9,27,47,0 days 00:00:00.106367,0
+joke2k/faker,1,v,95,3,3,138,233,0 days 00:00:00.236232,0
+chrislusf/seaweedfs,2, v,218,155,2,0,218,0 days 00:00:00.495979,0
+checkly/headless-recorder,1,v,8,3,2,10,18,0 days 00:00:00.021444,0
+erusev/parsedown,2, v,17,3,4,51,68,0 days 00:00:00.041648,0
+krisk/Fuse,2, v,25,7,5,50,75,0 days 00:00:00.046518,0
+fmtlib/fmt,2, v,23,2,13,16,39,0 days 00:00:00.398821,0
+jarun/nnn,1,v,34,10,4,2,36,0 days 00:00:00.251291,0
+barryvdh/laravel-debugbar,2,V v,24,5,6,99,123,0 days 00:00:00.105368,0
+iBotPeaches/Apktool,1,v,12,2,8,23,35,0 days 00:00:00.120234,0
+browserify/browserify,2, v,149,16,2,264,413,0 days 00:00:00.320205,0
+google/filament,1,v,23,13,5,70,93,0 days 00:00:00.249538,0
+micropython/micropython,1,v,19,4,10,31,50,0 days 00:00:00.763243,0
+dogecoin/dogecoin,2, v,17,3,10,64,81,0 days 00:00:00.897280,0
+be5invis/Iosevka,1,v,59,28,6,163,222,0 days 00:00:00.206306,0
+infinitered/ignite,2, v,52,14,2,94,146,0 days 00:00:00.137513,0
+RasaHQ/rasa,1,,33,15,7,233,266,0 days 00:00:01.647127,0
+bootstrap-vue/bootstrap-vue,2, v,47,32,2,66,113,0 days 00:00:00.427969,0
+uNetworking/uWebSockets,1,v,66,13,4,26,92,0 days 00:00:00.093497,0
+gpujs/gpu.js,1,,21,4,2,55,76,0 days 00:00:00.076549,0
+hapijs/hapi,2, v,129,66,6,194,323,0 days 00:00:00.476668,0
+koel/koel,1,v,18,6,6,38,56,0 days 00:00:00.098580,0
+containers/podman,1,v,21,5,4,95,116,0 days 00:00:01.196995,0
+docker-slim/docker-slim,1,,38,3,9,17,55,0 days 00:00:00.046463,0
+wting/autojump,1,release-v,31,2,5,22,53,0 days 00:00:00.193092,0
+infinitered/reactotron,1,v,46,22,3,40,86,0 days 00:00:00.092854,0
+markdown-it/markdown-it,1,,29,5,5,47,76,0 days 00:00:00.060133,0
+hashicorp/packer,2, v,21,5,15,82,103,0 days 00:00:01.048192,0
+vuejs/vue,2, v,15,4,7,145,160,0 days 00:00:00.273274,0
+facebook/react,2, v,36,7,14,58,94,0 days 00:00:00.850795,0
+twbs/bootstrap,1,v,23,3,15,36,59,0 days 00:00:01.067275,0
+facebook/react-native,2, v,67,51,8,144,211,0 days 00:00:01.463415,0
+d3/d3,1,v,91,26,7,197,288,0 days 00:00:00.504995,0
+axios/axios,2, v,27,8,8,30,57,0 days 00:00:00.076094,0
+vercel/next.js,2, v,33,8,7,122,155,0 days 00:00:00.929513,0
+electron/electron,1,v,113,60,16,595,708,0 days 00:00:07.031996,0
+mrdoob/three.js,1,r,132,97,5,0,132,0 days 00:00:02.420774,0
+microsoft/TypeScript,1,v,12,2,2,120,132,0 days 00:00:02.332963,0
+iluwatar/java-design-patterns,1,,19,3,13,0,19,0 days 00:00:00.227192,0
+microsoft/PowerToys,2, v,28,17,3,31,59,0 days 00:00:00.396664,0
+ant-design/ant-design,1,,79,64,4,329,408,0 days 00:00:01.343100,0
+nvbn/thefuck,1,,79,33,7,4,83,0 days 00:00:00.069765,0
+tensorflow/models,2,v. v,19,3,9,6,25,0 days 00:00:00.733005,0
+Genymobile/scrcpy,1,v,25,9,5,2,27,0 days 00:00:00.094855,0
+laravel/laravel,1,v,40,6,15,134,174,0 days 00:00:00.371060,0
+kubernetes/kubernetes,1,v,45,20,19,329,374,0 days 00:00:07.508168,0
+typicode/json-server,2, v,17,2,6,106,123,0 days 00:00:00.077991,0
+storybookjs/storybook,1,v,107,16,13,323,430,0 days 00:00:02.938590,0
+hakimel/reveal.js,1,,27,2,19,11,38,0 days 00:00:00.141572,0
+webpack/webpack,1,v,152,121,5,224,376,0 days 00:00:01.296339,0
+gin-gonic/gin,1,v,13,3,8,13,26,0 days 00:00:00.081416,0
+gohugoio/hugo,1,v,93,72,10,101,194,0 days 00:00:00.550130,0
+pallets/flask,1,,16,5,10,25,41,0 days 00:00:00.227915,0
+reduxjs/redux,1,v,26,11,5,42,68,0 days 00:00:00.163454,0
+sveltejs/svelte,1,v,134,87,2,244,378,0 days 00:00:00.438466,0
+tailwindlabs/tailwindcss,1,v,21,9,8,127,148,0 days 00:00:00.445005,0
+expressjs/express,1,,61,31,11,185,246,0 days 00:00:00.443878,0
+chartjs/Chart.js,2, v,21,7,10,31,52,0 days 00:00:00.224854,0
+fatedier/frp,1,v,42,16,11,30,72,0 days 00:00:00.058616,0
+socketio/socket.io,1,,30,2,12,118,148,0 days 00:00:00.127455,0
+adam-p/markdown-here,1,v,15,6,6,34,49,0 days 00:00:00.043724,0
+atom/atom,2, v,271,217,2,104,375,0 days 00:00:02.333079,0
+protocolbuffers/protobuf,1,v,29,3,13,46,75,0 days 00:00:00.469081,0
+shadowsocks/shadowsocks-windows,1,,13,3,7,49,62,0 days 00:00:00.084605,0
+coder/code-server,2, v,20,9,4,22,42,0 days 00:00:00.227376,0
+lodash/lodash,1,,48,35,3,59,107,0 days 00:00:00.589134,0
+h5bp/html5-boilerplate,2, v,19,2,12,10,29,0 days 00:00:00.112020,0
+elastic/elasticsearch,1,v,67,22,15,231,298,0 days 00:00:06.592067,0
+apache/echarts,1,,29,5,14,64,93,0 days 00:00:00.717150,0
+azl397985856/leetcode,2, v,35,15,3,5,40,0 days 00:00:00.073447,0
+ansible/ansible,2, v,26,4,13,174,200,0 days 00:00:03.920892,0
+psf/requests,2, v,43,11,22,101,144,0 days 00:00:00.400594,0
+grafana/grafana,2, v,46,7,9,181,227,0 days 00:00:02.489324,0
+nestjs/nest,2, v,33,18,5,167,200,0 days 00:00:00.924565,0
+moment/moment,1,,40,14,12,46,86,0 days 00:00:00.318702,0
+remix-run/react-router,1,v,39,17,10,76,115,0 days 00:00:00.445087,0
+ionic-team/ionic-framework,2, v,43,26,10,140,183,0 days 00:00:01.282837,0
+tiangolo/fastapi,2, v,77,36,3,52,129,0 days 00:00:00.120919,0
+junegunn/fzf,1,,27,8,13,76,103,0 days 00:00:00.124435,0
+strapi/strapi,1,v,16,7,2,79,95,0 days 00:00:01.089605,0
+prettier/prettier,2, v,39,19,8,71,110,0 days 00:00:00.438071,0
+juliangarnier/anime,2, v,8,2,5,6,14,0 days 00:00:00.039829,0
+prometheus/prometheus,2, v,67,32,5,79,146,0 days 00:00:00.560134,0
+ColorlibHQ/AdminLTE,2, v,13,2,5,47,60,0 days 00:00:00.159723,0
+babel/babel,1,v,90,55,8,606,696,0 days 00:00:01.568886,0
+caddyserver/caddy,1,v,14,2,10,49,63,0 days 00:00:00.354998,0
+nuxt/nuxt.js,1,v,30,12,7,112,142,0 days 00:00:00.363961,0
+TryGhost/Ghost,2, v,170,125,6,318,488,0 days 00:00:01.168817,0
+gogs/gogs,1,v,11,4,6,51,62,0 days 00:00:00.714781,0
+facebook/jest,2, v,68,38,10,143,211,0 days 00:00:00.380748,0
+v2ray/v2ray-core,1,v,168,95,3,182,350,0 days 00:00:00.591027,0
+iamkun/dayjs,1,v,11,3,4,99,110,0 days 00:00:00.419321,0
+Dogfalo/materialize,2, v,17,9,3,20,37,0 days 00:00:00.177694,0
+vercel/hyper,2, v,18,9,6,43,61,0 days 00:00:00.169607,0
+ocornut/imgui,1,v,72,41,5,2,74,0 days 00:00:00.415901,0
+impress/impress.js,1,,8,4,3,4,12,0 days 00:00:00.018965,0
+FiloSottile/mkcert,1,v,6,2,2,8,14,0 days 00:00:00.014298,0
+PhilJay/MPAndroidChart,1,v,8,2,4,33,41,0 days 00:00:00.084559,0
+hexojs/hexo,1,,38,13,11,101,139,0 days 00:00:00.172480,0
+vuetifyjs/vuetify,1,v,23,6,8,284,307,0 days 00:00:00.734833,0
+sahat/hackathon-starter,1,,8,2,4,6,14,0 days 00:00:00.355712,0
+videojs/video.js,2, v,70,26,13,220,290,0 days 00:00:00.379528,0
+rclone/rclone,1,v,69,15,10,21,90,0 days 00:00:00.317254,0
+airbnb/lottie-android,2,v. v,21,5,8,42,63,0 days 00:00:00.184361,0
+quilljs/quill,1,v,23,11,5,99,122,0 days 00:00:00.391816,0
+lerna/lerna,1,v,39,16,6,70,109,0 days 00:00:00.161327,0
+d2l-ai/d2l-zh,1,v,9,4,3,0,9,0 days 00:00:00.146374,0
+koajs/koa,1,,43,9,9,44,87,0 days 00:00:00.085841,0
+bumptech/glide,1,v,21,6,11,15,36,0 days 00:00:00.140909,0
+shadowsocks/shadowsocks-android,1,v,24,4,8,156,180,0 days 00:00:00.224648,0
+gulpjs/gulp,2, v,6,2,3,13,19,0 days 00:00:00.065511,0
+hashicorp/terraform,2, v,18,2,12,158,176,0 days 00:00:01.560350,0
+ant-design/ant-design-pro,2, v,18,4,6,12,30,0 days 00:00:00.098034,0
+immutable-js/immutable-js,2, v,16,8,3,39,55,0 days 00:00:00.081135,0
+photonstorm/phaser,2, v,39,20,10,59,98,0 days 00:00:00.853039,0
+XX-net/XX-Net,1,,51,17,3,285,336,0 days 00:00:00.345770,0
+nolimits4web/swiper,1,v,49,7,12,139,188,0 days 00:00:00.174173,0
+NervJS/taro,1,v,12,2,5,272,284,0 days 00:00:00.571753,0
+Blankj/AndroidUtilCode,1,,27,7,7,89,116,0 days 00:00:00.071758,0
+nativefier/nativefier,2, v,56,19,5,90,146,0 days 00:00:00.087061,0
+carbon-app/carbon,1,,24,5,3,194,218,0 days 00:00:00.140760,0
+nlohmann/json,2, v,15,2,8,36,51,0 days 00:00:00.204051,0
+istio/istio,1,,22,4,12,143,165,0 days 00:00:01.283543,0
+getsentry/sentry,2, v,102,81,9,294,396,0 days 00:00:02.937720,0
+microsoft/monaco-editor,2, v,28,6,8,36,64,0 days 00:00:00.132914,0
+streamich/react-use,1,v,134,35,2,117,251,0 days 00:00:00.206154,0
+certbot/certbot,1,v,68,54,2,31,99,0 days 00:00:00.598926,0
+date-fns/date-fns,2,v. v,77,25,7,42,119,0 days 00:00:00.285129,0
+react-boilerplate/react-boilerplate,1,v,17,5,5,13,30,0 days 00:00:00.076418,0
+beego/beego,1,v,16,3,10,24,40,0 days 00:00:00.187376,0
+jashkenas/backbone,2, v,10,2,7,22,32,0 days 00:00:00.267195,0
+nocodb/nocodb,2, v,9,5,2,86,95,0 days 00:00:00.146890,0
+mitmproxy/mitmproxy,2, v,30,4,17,35,65,0 days 00:00:00.508646,0
+openai/gym,2, v,15,5,2,34,49,0 days 00:00:00.078863,0
+vuejs/vuex,1,v,21,4,7,24,45,0 days 00:00:00.059858,0
+caolan/async,2, v,25,9,10,52,77,0 days 00:00:00.204278,0
+Dreamacro/clash,1,v,28,9,3,14,42,0 days 00:00:00.039788,0
+jesseduffield/lazygit,2, v,33,19,5,151,184,0 days 00:00:00.265913,0
+square/leakcanary,1,v,14,4,9,10,24,0 days 00:00:00.090201,0
+ReactiveX/rxjs,1,,19,6,6,45,64,0 days 00:00:00.318502,0
+atlassian/react-beautiful-dnd,2, v,24,5,4,46,70,0 days 00:00:00.069458,0
+standard/standard,1,v,66,16,8,87,153,0 days 00:00:00.174163,0
+apolloconfig/apollo,2, v,19,2,9,16,35,0 days 00:00:00.182717,0
+laravel/framework,2, v,163,143,12,630,793,0 days 00:00:02.237695,0
+airbnb/lottie-web,2,v. v,24,8,7,144,168,0 days 00:00:00.201005,0
+typicode/husky,1,v,34,8,9,88,122,0 days 00:00:00.105323,0
+aria2/aria2,1,release-,53,19,18,87,140,0 days 00:00:00.993577,0
+webtorrent/webtorrent,1,v,125,41,7,284,409,0 days 00:00:00.468169,0
+denysdovhan/wtfjs,1,v,23,3,4,16,39,0 days 00:00:00.029049,0
+sequelize/sequelize,2, v,137,36,9,334,471,0 days 00:00:01.163241,0
+docker/compose,2, v,41,12,15,67,108,0 days 00:00:00.856503,0
+request/request,1,v,73,27,5,71,144,0 days 00:00:00.181539,0
+github/fetch,1,v,21,6,7,19,40,0 days 00:00:00.036887,0
+select2/select2,1,,9,2,5,27,36,0 days 00:00:00.113524,0
+Modernizr/Modernizr,1,v,20,4,10,23,43,0 days 00:00:00.146499,0
+cheeriojs/cheerio,2, v,22,6,6,30,52,0 days 00:00:00.053021,0
+harness/drone,1,v,31,10,8,44,75,0 days 00:00:00.346828,0
+SortableJS/Sortable,1,,17,2,11,18,35,0 days 00:00:00.051408,0
+GitbookIO/gitbook,1,,22,13,2,68,90,0 days 00:00:00.150159,0
+GoogleChrome/lighthouse,2, v,56,39,4,42,98,0 days 00:00:00.234219,0
+YMFE/yapi,2, v,9,2,2,68,77,0 days 00:00:00.465000,0
+Binaryify/NeteaseCloudMusicApi,2, v,52,10,5,102,154,0 days 00:00:00.105905,0
+Automattic/mongoose,2, v,58,12,18,646,704,0 days 00:00:01.402601,0
+remy/nodemon,1,v,20,3,3,101,121,0 days 00:00:00.086869,0
+bvaughn/react-virtualized,2, v,71,33,3,129,200,0 days 00:00:00.208686,0
+ggreer/the_silver_searcher,1,,37,16,8,12,49,0 days 00:00:00.098286,0
+akveo/ngx-admin,1,v,19,2,6,8,27,0 days 00:00:00.065503,0
+CodeHubApp/CodeHub,1,,15,3,2,13,28,0 days 00:00:00.039367,0
+explosion/spaCy,2, v,28,14,11,72,100,0 days 00:00:00.881087,0
+pmndrs/react-spring,1,v,22,9,2,150,172,0 days 00:00:00.429208,0
+influxdata/influxdb,2, v,26,6,14,133,159,0 days 00:00:02.169615,0
